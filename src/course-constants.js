@@ -251,6 +251,50 @@ const TOURNAMENT_COURSES = [
   COURSES.YALE,
 ];
 
+const IAP_TO_EMOJI = {
+  eastlake: ':peach:',
+  kapalua: ':volcano:',
+  kiawah: ':desert_island:',
+  wolfcreek: ':wolf:',
+  olympiafields: ':national_park:',
+  pebblebeach: ':ocean:',
+  pinehurst2: ':evergreen_tree:',
+  standrewsold: ':european_castle:',
+  tpcsawgrass: ':carpentry_saw:',
+  tpcscottsdale: ':cactus:',
+  tpcsouthwind: ':wind_blowing_face:',
+  valhalla: ':eagle:',
+  yale: ':school:',
+  'credits-800': ':dollar:',
+  'credits-1800': ':moneybag:',
+  'credits-3800': ':money_mouth_face:',
+  'credits-6000': ':money_with_wings:',
+  'holiday-bundle-2022': ':shopping_bags:',
+  'five-course-bundle-may-2023': ':shopping_trolley:',
+};
+
+const IAP_TO_NAME = {
+  eastlake: 'East Lake',
+  kapalua: 'Kapalua Plantation',
+  kiawah: 'Kiawah Island',
+  wolfcreek: 'Wolf Creek',
+  olympiafields: 'Olympia Fields',
+  pebblebeach: 'Pebble Beach',
+  pinehurst2: 'Pinehurst No. 2',
+  standrewsold: 'Old Course at St Andrews',
+  tpcsawgrass: 'TPC Sawgrass',
+  tpcscottsdale: 'TPC Scottsdale',
+  tpcsouthwind: 'TPC Southwind',
+  valhalla: 'Valhalla',
+  yale: 'Yale',
+  'credits-800': '800 Credits',
+  'credits-1800': '1800 Credits',
+  'credits-3800': '3800 Credits',
+  'credits-6000': '6000 Credits',
+  'holiday-bundle-2022': 'Four Course Bundle (December 2022)',
+  'five-course-bundle-may-2023': 'Five Course Bundle (May 2023)',
+};
+
 // Validate that all the constants have been updated properly
 Object.values(COURSES).forEach((courseName) => {
   const minMultiplayerVersion = COURSE_MULTIPLAYER_MIN_VERSIONS.get(courseName);
@@ -309,4 +353,6 @@ module.exports = {
   COURSES_WITH_REVENUE_SHARES,
   COURSES_WITH_ROUND_COMPLETE_REVENUE_SHARES,
   TOURNAMENT_COURSES,
+  IAP_TO_EMOJI,
+  IAP_TO_NAME,
 }
