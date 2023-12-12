@@ -23,6 +23,7 @@ const {
   TOURNAMENT_COURSES, IAP_TO_EMOJI, IAP_TO_NAME,
 } = require('./course-constants');
 const { getAdjustedPar } = require('./get-adjusted-par');
+const strokesGainedValues = require('./strokes-gained-values');
 
 module.exports = {
   COURSES,
@@ -42,6 +43,7 @@ module.exports = {
   TOURNAMENT_COURSES,
   IAP_TO_EMOJI,
   IAP_TO_NAME,
+  strokesGainedValues,
   convertLieType,
   calculateEffectiveDistance,
   calculateEffectiveDistanceIndex,
