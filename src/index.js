@@ -20,7 +20,7 @@ const {
   BATTLE_MULTIPLE_BOT_ENABLED_COURSES,
   COURSES_WITH_REVENUE_SHARES,
   COURSES_WITH_ROUND_COMPLETE_REVENUE_SHARES,
-  TOURNAMENT_COURSES,
+  TOURNAMENT_COURSES, IAP_TO_EMOJI, IAP_TO_NAME,
 } = require('./course-constants');
 const { getAdjustedPar } = require('./get-adjusted-par');
 
@@ -40,6 +40,8 @@ module.exports = {
   COURSES_WITH_REVENUE_SHARES,
   COURSES_WITH_ROUND_COMPLETE_REVENUE_SHARES,
   TOURNAMENT_COURSES,
+  IAP_TO_EMOJI,
+  IAP_TO_NAME,
   convertLieType,
   calculateEffectiveDistance,
   calculateEffectiveDistanceIndex,
