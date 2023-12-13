@@ -241,7 +241,6 @@ const calculateStrokesGainedForRound = ({
               start_or_end: 'end',
               coordinates: endPosition,
               round_id: roundId,
-              round_url: `${API_HOST}/web-users/round-json/${roundId}`,
               game_version: version,
               timestamp: new Date(),
             }
