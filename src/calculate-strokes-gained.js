@@ -2,7 +2,7 @@ const strokesGainedValues = require('./strokes-gained-values');
 
 const METERS_TO_FEET = 3.28084;
 
-const convertLieType = ({lieType, distanceToHole}) => {
+const convertLieType = ({ lieType, distanceToHole }) => {
   let effectiveLieType = lieType;
 
   if (lieType === 'concrete' || lieType === 'wood') {
@@ -29,7 +29,7 @@ const convertLieType = ({lieType, distanceToHole}) => {
   return effectiveLieType;
 };
 
-const calculateEffectiveDistance = ({effectiveLieType, distanceToHole}) => {
+const calculateEffectiveDistance = ({ effectiveLieType, distanceToHole }) => {
   if (!effectiveLieType) {
     return 0;
   }
@@ -40,9 +40,9 @@ const calculateEffectiveDistance = ({effectiveLieType, distanceToHole}) => {
 };
 
 const calculateEffectiveDistanceIndex = ({
-                                           effectiveLieType,
-                                           effectiveDistance,
-                                         }) => {
+  effectiveLieType,
+  effectiveDistance,
+}) => {
   // If effectiveDistance is zero, then the final strokes gained value we should use
   // is zero. Return -1 for index so it will be undefined and we can use zero as a fallback
   if (effectiveDistance === 0) return -1;
@@ -92,6 +92,13 @@ const calculateStrokesGainedForShot = ({
   let endExpectedStrokesByDistance =
     strokesGainedValues[difficulty][greenSpeed][endEffectiveLie];
 
+  if (
+    startExpectedStrokesByDistance == null ||
+    (endExpectedStrokesByDistance == null && endEffectiveDistance !== 0)
+  ) {
+    return null;
+  }
+
   const startExpectedStrokes =
     startExpectedStrokesByDistance[startEffectiveDistanceIndex];
   const endExpectedStrokes =
@@ -106,21 +113,19 @@ const calculateStrokesGainedForShot = ({
     // where someone hit their next shot from if they hit this shot out of bounds
     // or in the water. Normally we would calculate strokes gained off of their
     // new shot location, but we can't do that here.
-    return Math.round(
-        1000 *
-        (startExpectedStrokes -
-          endExpectedStrokes - 1)
-      ) / 1000;
+    return (
+      Math.round(1000 * (startExpectedStrokes - endExpectedStrokes - 1)) / 1000
+    );
   }
 };
 
 const calculateStrokesGainedForRound = ({
-                                  roundJson,
-                                  roundType,
-                                  version,
-                                  roundId,
-                                  greenSpeedOverride,
-                                }) => {
+  roundJson,
+  roundType,
+  version,
+  roundId,
+  greenSpeedOverride,
+}) => {
   const settingStrokesGainedValues =
     strokesGainedValues[roundJson.difficulty][
       greenSpeedOverride
@@ -128,7 +133,7 @@ const calculateStrokesGainedForRound = ({
         : roundJson.greenSpeeds === 'slow'
           ? 'medium'
           : roundJson.greenSpeeds
-      ];
+    ];
 
   const holes = roundJson.holes;
 
@@ -212,18 +217,17 @@ const calculateStrokesGainedForRound = ({
         // If greenSpeedOverride is present, then we are just trying to find the best shot
         // We don't need to trigger bad lie type saves again
         if (startEffectiveLie != null && greenSpeedOverride == null) {
-          badLies.push(
-            {
-              course: roundJson.course,
-              hole_number: hole.hole,
-              stroke_number: stroke,
-              lie_type: startEffectiveLie,
-              start_or_end: 'start',
-              coordinates: startPosition,
-              round_id: roundId,
-              game_version: version,
-              timestamp: new Date(),
-            });
+          badLies.push({
+            course: roundJson.course,
+            hole_number: hole.hole,
+            stroke_number: stroke,
+            lie_type: startEffectiveLie,
+            start_or_end: 'start',
+            coordinates: startPosition,
+            round_id: roundId,
+            game_version: version,
+            timestamp: new Date(),
+          });
         }
         startExpectedStrokesByDistance = [];
       }
@@ -232,19 +236,17 @@ const calculateStrokesGainedForRound = ({
         // If greenSpeedOverride is present, then we are just trying to find the best shot
         // We don't need to trigger bad lie type saves again
         if (endEffectiveLie != null && greenSpeedOverride == null) {
-          badLies.push(
-            {
-              course: roundJson.course,
-              hole_number: hole.hole,
-              stroke_number: stroke,
-              lie_type: endEffectiveLie,
-              start_or_end: 'end',
-              coordinates: endPosition,
-              round_id: roundId,
-              game_version: version,
-              timestamp: new Date(),
-            }
-          );
+          badLies.push({
+            course: roundJson.course,
+            hole_number: hole.hole,
+            stroke_number: stroke,
+            lie_type: endEffectiveLie,
+            start_or_end: 'end',
+            coordinates: endPosition,
+            round_id: roundId,
+            game_version: version,
+            timestamp: new Date(),
+          });
         }
         endExpectedStrokesByDistance = [];
       }
@@ -284,9 +286,9 @@ const calculateStrokesGainedForRound = ({
       const strokesGained =
         Math.round(
           1000 *
-          (startExpectedStrokes -
-            endExpectedStrokes -
-            (nextShotStrokes - startStrokes))
+            (startExpectedStrokes -
+              endExpectedStrokes -
+              (nextShotStrokes - startStrokes))
         ) / 1000;
 
       const strokesGainedMetadata = {
@@ -355,7 +357,7 @@ const calculateStrokesGainedForRound = ({
           strokesGainedApproachTheGreen +
           strokesGainedAroundTheGreen +
           strokesGainedPutting) *
-        1000
+          1000
       ) / 1000,
     badLies,
   };
