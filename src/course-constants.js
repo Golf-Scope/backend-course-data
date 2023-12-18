@@ -95,7 +95,7 @@ const COURSE_HOLE_HANDICAPS = {
     5, 15, 11, 17, 3, 9, 7, 1, 13, 4, 18, 10, 6, 14, 2, 8, 12, 16,
   ],
   [COURSES.KAPALUA]: [
-    1, 3, 5, 7, 9, 11, 13, 15, 17, 2, 4, 6, 8, 10, 12, 14, 16, 18,
+    5, 7, 9, 11, 3, 15, 13, 17, 1, 18, 12, 16, 6, 2, 4, 10, 8, 14,
   ],
   [COURSES.KIAWAH]: [
     9, 1, 13, 3, 17, 7, 11, 15, 5, 2, 10, 4, 6, 14, 16, 8, 18, 12,
@@ -301,7 +301,9 @@ const IAP_TO_NAME = {
 Object.values(COURSES).forEach((courseName) => {
   const minMultiplayerVersion = COURSE_MULTIPLAYER_MIN_VERSIONS.get(courseName);
   if (!minMultiplayerVersion) {
-    throw new Error(`Min multiplayer version not specified for course: ${courseName}`);
+    throw new Error(
+      `Min multiplayer version not specified for course: ${courseName}`
+    );
   }
 
   const displayName = COURSE_DISPLAY_NAMES[courseName];
@@ -315,7 +317,8 @@ Object.values(COURSES).forEach((courseName) => {
   // - min bot saving version: n/a, we don't save shot metadata in Topgolf
   if (courseName === COURSES.TOPGOLF) return;
 
-  const minBotSavingVersion = COURSE_SAVE_REPLAY_DATA_MIN_VERSIONS.get(courseName);
+  const minBotSavingVersion =
+    COURSE_SAVE_REPLAY_DATA_MIN_VERSIONS.get(courseName);
   if (!minBotSavingVersion) {
     throw new Error(
       `Min save replay data version not specified for course: ${courseName}`
@@ -357,4 +360,4 @@ module.exports = {
   TOURNAMENT_COURSES,
   IAP_TO_EMOJI,
   IAP_TO_NAME,
-}
+};
