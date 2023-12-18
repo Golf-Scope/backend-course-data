@@ -155,7 +155,7 @@ const ADJUSTED_PAR_MODIFIERS = {
   },
   [COURSES.EAST_LAKE]: {
     'front 9': { // par 35
-      BASE: 37.5, // +0.5
+      BASE: 35.5, // +0.5
       GREEN_SPEED: {
         medium: -1.0,
         fast: 0,
