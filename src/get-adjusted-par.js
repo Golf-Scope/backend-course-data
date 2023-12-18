@@ -4,10 +4,9 @@ const {
 
 const ADJUSTED_PAR_MODIFIERS = {
   [COURSES.ALPINE]: {
-    'front 9': {
-      BASE: 33.3, // -1.7
+    'front 9': { // par 35
+      BASE: 32.8, // -2.2
       GREEN_SPEED: {
-        slow: -2.2,
         medium: -1,
         fast: 0,
         veryfast: 1.5,
@@ -29,10 +28,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 2,
       },
     },
-    'back 9': {
-      BASE: 33.8, // -2.2
+    'back 9': { // par 36
+      BASE: 34.2, // -1.8
       GREEN_SPEED: {
-        slow: -2.2,
         medium: -1,
         fast: 0,
         veryfast: 1.5,
@@ -56,10 +54,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.CASTLE_LINKS]: {
-    'front 9': {
-      BASE: 35.2, // -0.8
+    'front 9': { // par 36
+      BASE: 34.8, // -1.2
       GREEN_SPEED: {
-        slow: -2.2,
         medium: -1.4,
         fast: 0,
         veryfast: 1.6,
@@ -81,10 +78,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 1.3,
       },
     },
-    'back 9': {
-      BASE: 34.6, // -1.4
+    'back 9': { // par 36
+      BASE: 36.6, // +0.6
       GREEN_SPEED: {
-        slow: -2.2,
         medium: -1.4,
         fast: 0,
         veryfast: 1.6,
@@ -108,10 +104,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.CLIFFS]: {
-    'front 9': {
-      BASE: 33.4, // -1.6
+    'front 9': { // par 35
+      BASE: 34.0, // -1.0
       GREEN_SPEED: {
-        slow: -2.1,
         medium: -1.2,
         fast: 0,
         veryfast: 1.9,
@@ -133,10 +128,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 2.4,
       },
     },
-    'back 9': {
-      BASE: 32.9, // -3.1
+    'back 9': { // par 36
+      BASE: 33.6, // -2.4
       GREEN_SPEED: {
-        slow: -2.1,
         medium: -1.2,
         fast: 0,
         veryfast: 1.9,
@@ -160,10 +154,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.EAST_LAKE]: {
-    'front 9': {
-      BASE: 37.1, // +2.1
+    'front 9': { // par 35
+      BASE: 37.5, // +0.5
       GREEN_SPEED: {
-        slow: -1.6,
         medium: -1.0,
         fast: 0,
         veryfast: 1.6,
@@ -185,10 +178,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 2.0,
       },
     },
-    'back 9': {
-      BASE: 35.3, // +0.3
+    'back 9': { // par 35
+      BASE: 35.4, // +0.4
       GREEN_SPEED: {
-        slow: -1.6,
         medium: -1.0,
         fast: 0,
         veryfast: 1.6,
@@ -212,62 +204,59 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.KAPALUA]: {
-    'front 9': {
-      BASE: 34.0, // -2.0
+    'front 9': { // par 36
+      BASE: 35.6, // -0.4
       GREEN_SPEED: {
-        slow: -1.5,
-        medium: -0.9,
+        medium: -1.0,
         fast: 0,
-        veryfast: 1.1,
-        pro: 2.3,
+        veryfast: 1.4,
+        pro: 2.7,
       },
       PIN: {
-        easy: -0.6,
+        easy: -0.4,
         medium: 0,
-        hard: 0.8,
+        hard: 0.7,
       },
       TEE: {
-        front: -2.8,
+        front: -1.7,
         middle: 0,
-        back: 2.0,
+        back: 1.5,
       },
       WIND: {
         low: 0,
-        moderate: 1.5,
-        high: 2.3,
+        moderate: 0.5,
+        high: 1.6,
       },
     },
-    'back 9': {
-      BASE: 35.0, // -2.0
+    'back 9': { // par 37
+      BASE: 35.8, // -1.2
       GREEN_SPEED: {
-        slow: -1.5,
-        medium: -0.9,
+        medium: -1.0,
         fast: 0,
-        veryfast: 1.1,
-        pro: 2.3,
+        veryfast: 1.4,
+        pro: 2.7,
       },
       PIN: {
-        easy: -0.6,
+        easy: -0.4,
         medium: 0,
-        hard: 0.8,
+        hard: 0.7,
       },
       TEE: {
-        front: -2.8,
+        front: -1.7,
         middle: 0,
-        back: 2.0,
+        back: 1.5,
       },
       WIND: {
         low: 0,
-        moderate: 1.5,
-        high: 2.3,
+        moderate: 0.5,
+        high: 1.6,
       },
     },
   },
   [COURSES.KIAWAH]: {
-    'front 9': {
-      BASE: 33.9, // -2.1
+    'front 9': { // par 36
+      BASE: 33.8, // -2.2
       GREEN_SPEED: {
-        slow: -2,
         medium: -1.3,
         fast: 0,
         veryfast: 1.5,
@@ -289,10 +278,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 2.5,
       },
     },
-    'back 9': {
-      BASE: 35.1, // -0.9
+    'back 9': { // par 36
+      BASE: 36.1, // +0.1
       GREEN_SPEED: {
-        slow: -2,
         medium: -1.3,
         fast: 0,
         veryfast: 1.5,
@@ -316,10 +304,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.OLYMPIA_FIELDS]: {
-    'front 9': {
-      BASE: 35.8, // -0.2
+    'front 9': { // par 35
+      BASE: 35.0, // +0.0
       GREEN_SPEED: {
-        slow: -2.0,
         medium: -0.9,
         fast: 0,
         veryfast: 1.7,
@@ -341,10 +328,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 1.7,
       },
     },
-    'back 9': {
-      BASE: 36.5, // +0.5
+    'back 9': { // par 35
+      BASE: 37.2, // +2.2
       GREEN_SPEED: {
-        slow: -2.0,
         medium: -0.9,
         fast: 0,
         veryfast: 1.7,
@@ -368,10 +354,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.PEBBLE_BEACH]: {
-    'front 9': {
-      BASE: 34.1, // -1.9
+    'front 9': { // par 36
+      BASE: 35.3, // -0.7
       GREEN_SPEED: {
-        slow: -1.7,
         medium: -0.8,
         fast: 0,
         veryfast: 1.4,
@@ -393,10 +378,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 2.3,
       },
     },
-    'back 9': {
-      BASE: 34.5, // -1.5
+    'back 9': { // par 36
+      BASE: 36.3, // +0.3
       GREEN_SPEED: {
-        slow: -1.7,
         medium: -0.8,
         fast: 0,
         veryfast: 1.4,
@@ -420,10 +404,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.PINEHURST_2]: {
-    'front 9': {
-      BASE: 35.8, // -0.2
+    'front 9': { // par 36
+      BASE: 36.2, // +0.2
       GREEN_SPEED: {
-        slow: -2,
         medium: -1.1,
         fast: 0,
         veryfast: 1.7,
@@ -445,10 +428,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 1.5,
       },
     },
-    'back 9': {
-      BASE: 33.9, // -1.1
+    'back 9': { // par 36
+      BASE: 35.5, // -0.5
       GREEN_SPEED: {
-        slow: -2,
         medium: -1.1,
         fast: 0,
         veryfast: 1.7,
@@ -472,10 +454,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.ST_ANDREWS_OLD]: {
-    'front 9': {
-      BASE: 34.1, // -1.9
+    'front 9': { // par 36
+      BASE: 35.1, // -0.9
       GREEN_SPEED: {
-        slow: -1.5,
         medium: -1.0,
         fast: 0,
         veryfast: 1.1,
@@ -497,10 +478,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 1.4,
       },
     },
-    'back 9': {
-      BASE: 33.4, // -2.6
+    'back 9': { // par 36
+      BASE: 34.7, // -1.3
       GREEN_SPEED: {
-        slow: -1.5,
         medium: -1.0,
         fast: 0,
         veryfast: 1.1,
@@ -524,10 +504,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.TPC_SAWGRASS]: {
-    'front 9': {
-      BASE: 34.5, // -1.5
+    'front 9': { // par 36
+      BASE: 34.7, // -1.3
       GREEN_SPEED: {
-        slow: -1.5,
         medium: -0.7,
         fast: 0,
         veryfast: 1.4,
@@ -549,10 +528,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 2.2,
       },
     },
-    'back 9': {
-      BASE: 35.8, // -0.2
+    'back 9': { // par 36
+      BASE: 36.7, // +0.7
       GREEN_SPEED: {
-        slow: -1.5,
         medium: -0.7,
         fast: 0,
         veryfast: 1.4,
@@ -576,10 +554,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.TPC_SCOTTSDALE]: {
-    'front 9': {
-      BASE: 33.8, // -1.2
+    'front 9': { // par 35
+      BASE: 33.6, // -1.4
       GREEN_SPEED: {
-        slow: -2.0,
         medium: -1.4,
         fast: 0,
         veryfast: 1.3,
@@ -601,10 +578,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 1.7,
       },
     },
-    'back 9': {
-      BASE: 35.1, // -0.9
+    'back 9': { // par 36
+      BASE: 35.0, // -1.0
       GREEN_SPEED: {
-        slow: -2.0,
         medium: -1.4,
         fast: 0,
         veryfast: 1.3,
@@ -628,10 +604,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.TPC_SOUTHWIND]: {
-    'front 9': {
-      BASE: 35.7, // -0.3
+    'front 9': { // par 36
+      BASE: 34.7, // -1.3
       GREEN_SPEED: {
-        slow: -0.9,
         medium: -0.7,
         fast: 0,
         veryfast: 1.3,
@@ -653,10 +628,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 1.5,
       },
     },
-    'back 9': {
-      BASE: 35.9, // +0.9
+    'back 9': { // par 35
+      BASE: 36.1, // +1.1
       GREEN_SPEED: {
-        slow: -0.9,
         medium: -0.7,
         fast: 0,
         veryfast: 1.4,
@@ -680,10 +654,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.VALHALLA]: {
-    'front 9': {
-      BASE: 33.4, // -2.6
+    'front 9': { // par 36
+      BASE: 34.0, // -2.0
       GREEN_SPEED: {
-        slow: -1.5,
         medium: -0.9,
         fast: 0,
         veryfast: 1.1,
@@ -705,10 +678,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 2.3,
       },
     },
-    'back 9': {
-      BASE: 34.9, // -1.1
+    'back 9': { // par 36
+      BASE: 35.8, // -0.2
       GREEN_SPEED: {
-        slow: -1.5,
         medium: -0.9,
         fast: 0,
         veryfast: 1.1,
@@ -732,10 +704,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.WOLF_CREEK]: {
-    'front 9': {
-      BASE: 32.2, // -3.8
+    'front 9': { // par 36
+      BASE: 33.6, // -2.4
       GREEN_SPEED: {
-        slow: -2.4,
         medium: -1.2,
         fast: 0,
         veryfast: 2.5,
@@ -757,10 +728,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 2.5,
       },
     },
-    'back 9': {
-      BASE: 32.3, // -3.7
+    'back 9': { // par 36
+      BASE: 33.1, // -2.9
       GREEN_SPEED: {
-        slow: -2.4,
         medium: -1.2,
         fast: 0,
         veryfast: 2.5,
@@ -784,10 +754,9 @@ const ADJUSTED_PAR_MODIFIERS = {
     },
   },
   [COURSES.YALE]: {
-    'front 9': {
-      BASE: 32.4, // -1.6
+    'front 9': { // par 34
+      BASE: 33.6, // -0.4
       GREEN_SPEED: {
-        slow: -2.2,
         medium: -0.9,
         fast: 0,
         veryfast: 1.3,
@@ -809,10 +778,9 @@ const ADJUSTED_PAR_MODIFIERS = {
         high: 1.0,
       },
     },
-    'back 9': {
-      BASE: 34.2, // -1.8
+    'back 9': { // par 36
+      BASE: 34.8, // -1.2
       GREEN_SPEED: {
-        slow: -2.2,
         medium: -0.9,
         fast: 0,
         veryfast: 1.3,
@@ -847,7 +815,7 @@ const getAdjustedPar = ({ course, type, tee, wind, pin, greenSpeed }) => {
           adjustedParModifiers.TEE[tee] +
           adjustedParModifiers.PIN[pin] +
           adjustedParModifiers.WIND[wind] +
-          adjustedParModifiers.GREEN_SPEED[greenSpeed])
+          adjustedParModifiers.GREEN_SPEED[greenSpeed === 'slow' ? 'medium' : greenSpeed])
     ) / 10
   );
 };
