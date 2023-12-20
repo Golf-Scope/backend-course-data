@@ -453,6 +453,56 @@ const ADJUSTED_PAR_MODIFIERS = {
       },
     },
   },
+  [COURSES.RIVIERA]: {
+    'front 9': { // par 35
+      BASE: 34.0, // -1.0
+      GREEN_SPEED: {
+        medium: -1.3,
+        fast: 0,
+        veryfast: 1.5,
+        pro: 3,
+      },
+      PIN: {
+        easy: -0.1,
+        medium: 0,
+        hard: 1.1,
+      },
+      TEE: {
+        front: -2.5,
+        middle: 0,
+        back: 2.3,
+      },
+      WIND: {
+        low: 0,
+        moderate: 1.2,
+        high: 2.5,
+      },
+    },
+    'back 9': { // par 36
+      BASE: 35.0, // -1.0
+      GREEN_SPEED: {
+        medium: -1.3,
+        fast: 0,
+        veryfast: 1.5,
+        pro: 3,
+      },
+      PIN: {
+        easy: -0.1,
+        medium: 0,
+        hard: 1.1,
+      },
+      TEE: {
+        front: -2.5,
+        middle: 0,
+        back: 2.3,
+      },
+      WIND: {
+        low: 0,
+        moderate: 1.2,
+        high: 2.5,
+      },
+    },
+  },
   [COURSES.ST_ANDREWS_OLD]: {
     'front 9': { // par 36
       BASE: 35.1, // -0.9
