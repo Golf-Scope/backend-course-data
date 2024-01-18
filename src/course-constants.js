@@ -1,13 +1,17 @@
 const COURSES = {
   ALPINE: 'alpine',
+  BAY_HILL: 'bayhill',
   CASTLE_LINKS: 'castle links',
   EAST_LAKE: 'eastlake',
   CLIFFS: 'cliffs',
+  HARBOUR_TOWN: 'harbourtown',
   KAPALUA: 'kapalua',
   KIAWAH: 'kiawah',
+  MUIRFIELD_VILLAGE: 'muirfieldvillage',
   OLYMPIA_FIELDS: 'olympiafields',
   PEBBLE_BEACH: 'pebblebeach',
   PINEHURST_2: 'pinehurst2',
+  QUAIL_HOLLOW: 'quailhollow',
   RIVIERA: 'riviera',
   ST_ANDREWS_OLD: 'standrewsold',
   TPC_SAWGRASS: 'tpcsawgrass',
@@ -21,14 +25,18 @@ const COURSES = {
 
 const COURSE_DISPLAY_NAMES = {
   [COURSES.ALPINE]: 'Alpine',
+  [COURSES.BAY_HILL]: 'Bay Hill',
   [COURSES.CASTLE_LINKS]: 'Castle Links',
   [COURSES.CLIFFS]: 'Cliffs',
   [COURSES.EAST_LAKE]: 'East Lake',
+  [COURSES.HARBOUR_TOWN]: 'Harbour Town',
   [COURSES.KAPALUA]: 'Kapalua',
   [COURSES.KIAWAH]: 'Kiawah',
+  [COURSES.MUIRFIELD_VILLAGE]: 'Muirfield Village',
   [COURSES.OLYMPIA_FIELDS]: 'Olympia Fields',
   [COURSES.PEBBLE_BEACH]: 'Pebble Beach',
   [COURSES.PINEHURST_2]: 'Pinehurst No. 2',
+  [COURSES.QUAIL_HOLLOW]: 'Quail Hollow',
   [COURSES.RIVIERA]: 'Riviera',
   [COURSES.ST_ANDREWS_OLD]: 'St Andrews',
   [COURSES.TPC_SAWGRASS]: 'TPC Sawgrass',
@@ -42,13 +50,20 @@ const COURSE_DISPLAY_NAMES = {
 
 const COURSE_HOLE_PARS = {
   [COURSES.ALPINE]: [4, 3, 4, 5, 3, 4, 4, 4, 4, 5, 4, 3, 4, 3, 4, 5, 4, 4],
+  [COURSES.BAY_HILL]: [4, 3, 4, 5, 4, 5, 3, 4, 4, 4, 4, 5, 4, 3, 4, 5, 3, 4],
   [COURSES.CASTLE_LINKS]: [
     4, 5, 3, 4, 4, 4, 3, 4, 5, 4, 4, 5, 4, 3, 4, 4, 3, 5,
   ],
   [COURSES.CLIFFS]: [4, 5, 4, 3, 4, 4, 4, 3, 4, 4, 4, 4, 3, 5, 3, 4, 5, 4],
   [COURSES.EAST_LAKE]: [4, 3, 4, 4, 4, 5, 4, 4, 3, 4, 3, 4, 4, 4, 3, 4, 4, 5],
+  [COURSES.HARBOUR_TOWN]: [
+    4, 5, 4, 3, 5, 4, 3, 4, 4, 4, 4, 4, 4, 3, 5, 4, 3, 4,
+  ],
   [COURSES.KAPALUA]: [4, 3, 4, 4, 5, 4, 4, 3, 5, 4, 3, 4, 4, 4, 5, 4, 4, 5],
   [COURSES.KIAWAH]: [4, 5, 4, 4, 3, 4, 5, 3, 4, 4, 5, 4, 4, 3, 4, 5, 3, 4],
+  [COURSES.MUIRFIELD_VILLAGE]: [
+    4, 4, 4, 3, 5, 4, 5, 3, 4, 4, 5, 3, 4, 4, 5, 3, 4, 4,
+  ],
   [COURSES.OLYMPIA_FIELDS]: [
     5, 4, 4, 4, 4, 3, 4, 3, 4, 4, 4, 4, 3, 4, 5, 3, 4, 4,
   ],
@@ -56,6 +71,9 @@ const COURSE_HOLE_PARS = {
     4, 5, 4, 4, 3, 5, 3, 4, 4, 4, 4, 3, 4, 5, 4, 4, 3, 5,
   ],
   [COURSES.PINEHURST_2]: [4, 4, 4, 4, 5, 3, 4, 5, 3, 5, 4, 4, 4, 4, 3, 5, 3, 4],
+  [COURSES.QUAIL_HOLLOW]: [
+    5, 4, 4, 3, 4, 3, 5, 4, 4, 5, 4, 4, 3, 4, 5, 4, 3, 4,
+  ],
   [COURSES.RIVIERA]: [5, 4, 4, 3, 4, 3, 4, 4, 4, 4, 5, 4, 4, 3, 4, 3, 5, 4],
   [COURSES.ST_ANDREWS_OLD]: [
     4, 4, 4, 4, 5, 4, 4, 3, 4, 4, 3, 4, 4, 5, 4, 4, 4, 4,
@@ -88,6 +106,9 @@ const COURSE_HOLE_HANDICAPS = {
   [COURSES.ALPINE]: [
     5, 15, 13, 1, 3, 7, 9, 11, 17, 6, 18, 14, 8, 16, 12, 10, 4, 2,
   ],
+  [COURSES.BAY_HILL]: [
+    1, 3, 5, 7, 9, 11, 13, 15, 17, 2, 4, 6, 8, 10, 12, 14, 16, 18,
+  ],
   [COURSES.CASTLE_LINKS]: [
     5, 3, 7, 1, 17, 11, 15, 13, 9, 18, 4, 16, 14, 12, 10, 8, 6, 2,
   ],
@@ -97,11 +118,17 @@ const COURSE_HOLE_HANDICAPS = {
   [COURSES.EAST_LAKE]: [
     5, 15, 11, 17, 3, 9, 7, 1, 13, 4, 18, 10, 6, 14, 2, 8, 12, 16,
   ],
+  [COURSES.HARBOUR_TOWN]: [
+    1, 3, 5, 7, 9, 11, 13, 15, 17, 2, 4, 6, 8, 10, 12, 14, 16, 18,
+  ],
   [COURSES.KAPALUA]: [
     5, 7, 9, 11, 3, 15, 13, 17, 1, 18, 12, 16, 6, 2, 4, 10, 8, 14,
   ],
   [COURSES.KIAWAH]: [
     9, 1, 13, 3, 17, 7, 11, 15, 5, 2, 10, 4, 6, 14, 16, 8, 18, 12,
+  ],
+  [COURSES.MUIRFIELD_VILLAGE]: [
+    1, 3, 5, 7, 9, 11, 13, 15, 17, 2, 4, 6, 8, 10, 12, 14, 16, 18,
   ],
   [COURSES.OLYMPIA_FIELDS]: [
     6, 10, 2, 4, 14, 18, 12, 16, 8, 11, 3, 13, 17, 15, 1, 9, 5, 7,
@@ -111,6 +138,9 @@ const COURSE_HOLE_HANDICAPS = {
   ],
   [COURSES.PINEHURST_2]: [
     5, 1, 9, 15, 3, 13, 7, 11, 17, 2, 8, 4, 6, 12, 18, 10, 16, 14,
+  ],
+  [COURSES.QUAIL_HOLLOW]: [
+    1, 3, 5, 7, 9, 11, 13, 15, 17, 2, 4, 6, 8, 10, 12, 14, 16, 18,
   ],
   [COURSES.RIVIERA]: [
     1, 3, 5, 7, 9, 11, 13, 15, 17, 2, 4, 6, 8, 10, 12, 14, 16, 18,
@@ -139,12 +169,16 @@ const COURSE_HOLE_HANDICAPS = {
 };
 
 const PURCHASABLE_COURSES_TO_OCULUS_SKU = new Map([
+  [COURSES.BAY_HILL, 'bayhill'],
   [COURSES.EAST_LAKE, 'eastlake'],
+  [COURSES.HARBOUR_TOWN, 'harbourtown'],
   [COURSES.KAPALUA, 'kapalua'],
   [COURSES.KIAWAH, 'kiawah'],
+  [COURSES.MUIRFIELD_VILLAGE, 'muirfieldvillage'],
   [COURSES.OLYMPIA_FIELDS, 'olympiafields'],
   [COURSES.PEBBLE_BEACH, 'pebblebeach'],
   [COURSES.PINEHURST_2, 'pinehurst2'],
+  [COURSES.QUAIL_HOLLOW, 'quailhollow'],
   [COURSES.RIVIERA, 'riviera'],
   [COURSES.ST_ANDREWS_OLD, 'standrewsold'],
   [COURSES.TPC_SAWGRASS, 'tpcsawgrass'],
@@ -165,14 +199,18 @@ const FREE_COURSES = Object.values(COURSES).filter(
 
 const COURSE_MULTIPLAYER_MIN_VERSIONS = new Map([
   [COURSES.ALPINE, 693],
+  [COURSES.BAY_HILL, 1000],
   [COURSES.CASTLE_LINKS, 709],
   [COURSES.CLIFFS, 601],
   [COURSES.EAST_LAKE, 739],
+  [COURSES.HARBOUR_TOWN, 1000],
   [COURSES.KAPALUA, 745],
   [COURSES.KIAWAH, 705],
+  [COURSES.MUIRFIELD_VILLAGE, 1000],
   [COURSES.OLYMPIA_FIELDS, 738],
   [COURSES.PEBBLE_BEACH, 723],
   [COURSES.PINEHURST_2, 716],
+  [COURSES.QUAIL_HOLLOW, 1000],
   [COURSES.RIVIERA, 747],
   [COURSES.ST_ANDREWS_OLD, 742],
   [COURSES.TPC_SAWGRASS, 730],
@@ -186,15 +224,19 @@ const COURSE_MULTIPLAYER_MIN_VERSIONS = new Map([
 
 const COURSE_SAVE_REPLAY_DATA_MIN_VERSIONS = new Map([
   [COURSES.ALPINE, 731],
+  [COURSES.BAY_HILL, 1000],
   [COURSES.CASTLE_LINKS, 731],
   [COURSES.CLIFFS, 731],
   [COURSES.EAST_LAKE, 739.0],
+  [COURSES.HARBOUR_TOWN, 1000],
   [COURSES.KAPALUA, 745.08],
   [COURSES.KIAWAH, 731],
+  [COURSES.MUIRFIELD_VILLAGE, 1000],
   [COURSES.OLYMPIA_FIELDS, 738.4],
-  [COURSES.RIVIERA, 1000],
   [COURSES.PEBBLE_BEACH, 731],
   [COURSES.PINEHURST_2, 731],
+  [COURSES.QUAIL_HOLLOW, 1000],
+  [COURSES.RIVIERA, 1000],
   [COURSES.ST_ANDREWS_OLD, 743],
   [COURSES.TPC_SAWGRASS, 731],
   [COURSES.TPC_SCOTTSDALE, 731],
@@ -243,39 +285,24 @@ const COURSES_WITH_ROUND_COMPLETE_REVENUE_SHARES = [
   COURSES.KIAWAH,
 ];
 
-const TOURNAMENT_COURSES = [
-  COURSES.ALPINE,
-  COURSES.CASTLE_LINKS,
-  COURSES.CLIFFS,
-  COURSES.EAST_LAKE,
-  COURSES.KAPALUA,
-  COURSES.KIAWAH,
-  COURSES.OLYMPIA_FIELDS,
-  COURSES.PEBBLE_BEACH,
-  COURSES.PINEHURST_2,
-  COURSES.ST_ANDREWS_OLD,
-  COURSES.TPC_SAWGRASS,
-  COURSES.TPC_SCOTTSDALE,
-  COURSES.TPC_SOUTHWIND,
-  COURSES.VALHALLA,
-  COURSES.WOLF_CREEK,
-  COURSES.YALE,
-];
-
 const IAP_TO_EMOJI = {
+  bayhill: ':umbrella_on_ground:',
   eastlake: ':peach:',
+  harbourtown: ':flashlight:',
   kapalua: ':volcano:',
   kiawah: ':desert_island:',
-  wolfcreek: ':wolf:',
+  muirfieldvillage: ':chestnut:',
   olympiafields: ':national_park:',
   pebblebeach: ':ocean:',
   pinehurst2: ':evergreen_tree:',
+  quailhollow: ':feather:',
   riviera: ':film_projector:',
   standrewsold: ':european_castle:',
   tpcsawgrass: ':carpentry_saw:',
   tpcscottsdale: ':cactus:',
   tpcsouthwind: ':wind_blowing_face:',
   valhalla: ':eagle:',
+  wolfcreek: ':wolf:',
   yale: ':school:',
   'credits-800': ':dollar:',
   'credits-1800': ':moneybag:',
@@ -286,19 +313,23 @@ const IAP_TO_EMOJI = {
 };
 
 const IAP_TO_NAME = {
+  bayhill: 'Bay Hill',
   eastlake: 'East Lake',
+  harbourtown: 'Harbour Town',
   kapalua: 'Kapalua Plantation',
   kiawah: 'Kiawah Island',
-  wolfcreek: 'Wolf Creek',
+  muirfieldvillage: 'Muirfield Village',
   olympiafields: 'Olympia Fields',
   pebblebeach: 'Pebble Beach',
   pinehurst2: 'Pinehurst No. 2',
+  quailhollow: 'Quail Hollow',
   riviera: 'Riviera',
   standrewsold: 'Old Course at St Andrews',
   tpcsawgrass: 'TPC Sawgrass',
   tpcscottsdale: 'TPC Scottsdale',
   tpcsouthwind: 'TPC Southwind',
   valhalla: 'Valhalla',
+  wolfcreek: 'Wolf Creek',
   yale: 'Yale',
   'credits-800': '800 Credits',
   'credits-1800': '1800 Credits',
