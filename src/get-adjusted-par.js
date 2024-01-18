@@ -53,6 +53,56 @@ const ADJUSTED_PAR_MODIFIERS = {
       },
     },
   },
+  [COURSES.BAY_HILL]: {
+    'front 9': { // par 36
+      BASE: 35.0, // -1.0
+      GREEN_SPEED: {
+        medium: -0.9,
+        fast: 0,
+        veryfast: 1.1,
+        pro: 2.3,
+      },
+      PIN: {
+        easy: -0.6,
+        medium: 0,
+        hard: 0.8,
+      },
+      TEE: {
+        front: -2.8,
+        middle: 0,
+        back: 2.0,
+      },
+      WIND: {
+        low: 0,
+        moderate: 1.5,
+        high: 2.3,
+      },
+    },
+    'back 9': { // par 36
+      BASE: 35.0, // -1.0
+      GREEN_SPEED: {
+        medium: -0.9,
+        fast: 0,
+        veryfast: 1.1,
+        pro: 2.3,
+      },
+      PIN: {
+        easy: -0.6,
+        medium: 0,
+        hard: 0.8,
+      },
+      TEE: {
+        front: -2.8,
+        middle: 0,
+        back: 2.0,
+      },
+      WIND: {
+        low: 0,
+        moderate: 1.5,
+        high: 2.3,
+      },
+    },
+  },
   [COURSES.CASTLE_LINKS]: {
     'front 9': { // par 36
       BASE: 34.8, // -1.2
@@ -203,6 +253,56 @@ const ADJUSTED_PAR_MODIFIERS = {
       },
     },
   },
+  [COURSES.HARBOUR_TOWN]: {
+    'front 9': { // par 36
+      BASE: 35.0, // -1.0
+      GREEN_SPEED: {
+        medium: -0.9,
+        fast: 0,
+        veryfast: 1.1,
+        pro: 2.3,
+      },
+      PIN: {
+        easy: -0.6,
+        medium: 0,
+        hard: 0.8,
+      },
+      TEE: {
+        front: -2.8,
+        middle: 0,
+        back: 2.0,
+      },
+      WIND: {
+        low: 0,
+        moderate: 1.5,
+        high: 2.3,
+      },
+    },
+    'back 9': { // par 35
+      BASE: 34.0, // -1.0
+      GREEN_SPEED: {
+        medium: -0.9,
+        fast: 0,
+        veryfast: 1.1,
+        pro: 2.3,
+      },
+      PIN: {
+        easy: -0.6,
+        medium: 0,
+        hard: 0.8,
+      },
+      TEE: {
+        front: -2.8,
+        middle: 0,
+        back: 2.0,
+      },
+      WIND: {
+        low: 0,
+        moderate: 1.5,
+        high: 2.3,
+      },
+    },
+  },
   [COURSES.KAPALUA]: {
     'front 9': { // par 36
       BASE: 35.6, // -0.4
@@ -300,6 +400,56 @@ const ADJUSTED_PAR_MODIFIERS = {
         low: 0,
         moderate: 1.2,
         high: 2.5,
+      },
+    },
+  },
+  [COURSES.MUIRFIELD_VILLAGE]: {
+    'front 9': { // par 36
+      BASE: 35.0, // -1.0
+      GREEN_SPEED: {
+        medium: -0.9,
+        fast: 0,
+        veryfast: 1.1,
+        pro: 2.3,
+      },
+      PIN: {
+        easy: -0.6,
+        medium: 0,
+        hard: 0.8,
+      },
+      TEE: {
+        front: -2.8,
+        middle: 0,
+        back: 2.0,
+      },
+      WIND: {
+        low: 0,
+        moderate: 1.5,
+        high: 2.3,
+      },
+    },
+    'back 9': { // par 36
+      BASE: 35.0, // -1.0
+      GREEN_SPEED: {
+        medium: -0.9,
+        fast: 0,
+        veryfast: 1.1,
+        pro: 2.3,
+      },
+      PIN: {
+        easy: -0.6,
+        medium: 0,
+        hard: 0.8,
+      },
+      TEE: {
+        front: -2.8,
+        middle: 0,
+        back: 2.0,
+      },
+      WIND: {
+        low: 0,
+        moderate: 1.5,
+        high: 2.3,
       },
     },
   },
@@ -450,6 +600,56 @@ const ADJUSTED_PAR_MODIFIERS = {
         low: 0,
         moderate: 0.8,
         high: 1.5,
+      },
+    },
+  },
+  [COURSES.QUAIL_HOLLOW]: {
+    'front 9': { // par 36
+      BASE: 35.0, // -1.0
+      GREEN_SPEED: {
+        medium: -0.9,
+        fast: 0,
+        veryfast: 1.1,
+        pro: 2.3,
+      },
+      PIN: {
+        easy: -0.6,
+        medium: 0,
+        hard: 0.8,
+      },
+      TEE: {
+        front: -2.8,
+        middle: 0,
+        back: 2.0,
+      },
+      WIND: {
+        low: 0,
+        moderate: 1.5,
+        high: 2.3,
+      },
+    },
+    'back 9': { // par 36
+      BASE: 35.0, // -1.0
+      GREEN_SPEED: {
+        medium: -0.9,
+        fast: 0,
+        veryfast: 1.1,
+        pro: 2.3,
+      },
+      PIN: {
+        easy: -0.6,
+        medium: 0,
+        hard: 0.8,
+      },
+      TEE: {
+        front: -2.8,
+        middle: 0,
+        back: 2.0,
+      },
+      WIND: {
+        low: 0,
+        moderate: 1.5,
+        high: 2.3,
       },
     },
   },
