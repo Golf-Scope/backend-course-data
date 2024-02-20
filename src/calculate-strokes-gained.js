@@ -16,6 +16,7 @@ const convertLieType = ({ lieType, distanceToHole }) => {
   if (
     lieType === 'tee' ||
     lieType === 'collar' ||
+    lieType === 'fringe' ||
     lieType === 'fairway (1)' ||
     lieType === 'fairway (2)' ||
     (lieType === 'green' && distanceToHole * METERS_TO_FEET > 99)
