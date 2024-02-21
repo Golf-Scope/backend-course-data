@@ -123,6 +123,7 @@ const calculateStrokesGainedForRound = ({
   version,
   roundId,
   greenSpeedOverride,
+  lieTypeOverrides = {},
 }) => {
   const settingStrokesGainedValues =
     strokesGainedValues[roundJson.difficulty][
@@ -179,14 +180,21 @@ const calculateStrokesGainedForRound = ({
         endPosition = hole.shots[shotIndex].endPosition;
       }
 
-      const startEffectiveLie = convertLieType({
+      let startEffectiveLie = convertLieType({
         lieType: startLie,
         distanceToHole: startDistance,
       });
-      const endEffectiveLie = convertLieType({
+      let endEffectiveLie = convertLieType({
         lieType: endLie,
         distanceToHole: endDistance,
       });
+
+      if (lieTypeOverrides.hasOwnProperty(startEffectiveLie)) {
+        startEffectiveLie = lieTypeOverrides[startEffectiveLie];
+      }
+      if (lieTypeOverrides.hasOwnProperty(endEffectiveLie)) {
+        endEffectiveLie = lieTypeOverrides[endEffectiveLie];
+      }
 
       const startEffectiveDistance = calculateEffectiveDistance({
         effectiveLieType: startEffectiveLie,
