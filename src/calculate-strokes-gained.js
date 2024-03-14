@@ -5,7 +5,7 @@ const METERS_TO_FEET = 3.28084;
 const convertLieType = ({ lieType, distanceToHole }) => {
   let effectiveLieType = lieType;
 
-  if (lieType === 'concrete' || lieType === 'wood' || lieType === 'ob') {
+  if (lieType === 'concrete' || lieType === 'wood' || lieType === 'bridge' || lieType === 'ob') {
     effectiveLieType = 'rough';
   }
 
