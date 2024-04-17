@@ -14,6 +14,7 @@ const convertLieType = ({ lieType, distanceToHole }) => {
   }
 
   if (
+    lieType === '' ||
     lieType === 'tee' ||
     lieType === 'collar' ||
     lieType === 'fringe' ||
