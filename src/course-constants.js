@@ -47,7 +47,7 @@ const COURSE_HOLE_PARS = {
   ],
   [COURSES.PINEHURST_2]: [4, 4, 4, 4, 5, 3, 4, 5, 3, 5, 4, 4, 4, 4, 3, 5, 3, 4],
   [COURSES.QUAIL_HOLLOW]: [
-    5, 4, 4, 3, 4, 3, 5, 4, 4, 5, 4, 4, 3, 4, 5, 4, 3, 4,
+    4, 4, 4, 3, 4, 3, 5, 4, 4, 5, 4, 4, 3, 4, 5, 4, 3, 4,
   ],
   [COURSES.RIVIERA]: [5, 4, 4, 3, 4, 3, 4, 4, 4, 4, 5, 4, 4, 3, 4, 3, 5, 4],
   [COURSES.ST_ANDREWS_OLD]: [
