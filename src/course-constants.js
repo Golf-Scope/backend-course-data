@@ -1,6 +1,7 @@
 const COURSES = {
   ALPINE: 'alpine',
   BAY_HILL: 'bayhill',
+  BUTLER_PITCH_PUTT: 'butlerpitchputt',
   CASTLE_LINKS: 'castle links',
   EAST_LAKE: 'eastlake',
   CLIFFS: 'cliffs',
@@ -14,6 +15,7 @@ const COURSES = {
   QUAIL_HOLLOW: 'quailhollow',
   RIVIERA: 'riviera',
   ST_ANDREWS_OLD: 'standrewsold',
+  ST_ANDREWS_OLD_REVERSED: 'standrewsoldreversed',
   TPC_SAWGRASS: 'tpcsawgrass',
   TPC_SCOTTSDALE: 'tpcscottsdale',
   TPC_SOUTHWIND: 'tpcsouthwind',
@@ -26,6 +28,7 @@ const COURSES = {
 const COURSE_HOLE_PARS = {
   [COURSES.ALPINE]: [4, 3, 4, 5, 3, 4, 4, 4, 4, 5, 4, 3, 4, 3, 4, 5, 4, 4],
   [COURSES.BAY_HILL]: [4, 3, 4, 5, 4, 5, 3, 4, 4, 4, 4, 5, 4, 3, 4, 5, 3, 4],
+  [COURSES.BUTLER_PITCH_PUTT]: [3, 3, 3, 3, 3, 3, 3, 3, 3],
   [COURSES.CASTLE_LINKS]: [
     4, 5, 3, 4, 4, 4, 3, 4, 5, 4, 4, 5, 4, 3, 4, 4, 3, 5,
   ],
@@ -53,6 +56,9 @@ const COURSE_HOLE_PARS = {
   [COURSES.ST_ANDREWS_OLD]: [
     4, 4, 4, 4, 5, 4, 4, 3, 4, 4, 3, 4, 4, 5, 4, 4, 4, 4,
   ],
+  [COURSES.ST_ANDREWS_OLD_REVERSED]: [
+    4, 4, 4, 4, 5, 4, 4, 3, 4, 4, 3, 4, 4, 5, 4, 4, 4, 4,
+  ],
   [COURSES.TPC_SAWGRASS]: [
     4, 5, 3, 4, 4, 4, 4, 3, 5, 4, 5, 4, 3, 4, 4, 5, 3, 4,
   ],
@@ -71,9 +77,9 @@ const COURSE_MODE_PARS = {};
 
 for (const [course, holePars] of Object.entries(COURSE_HOLE_PARS)) {
   COURSE_MODE_PARS[course] = {
-    '18 holes': holePars.reduce((a, b) => a + b),
-    'front 9': holePars.slice(0, 9).reduce((a, b) => a + b),
-    'back 9': holePars.slice(9, 18).reduce((a, b) => a + b),
+    '18 holes': holePars.reduce((a, b) => a + b, 0),
+    'front 9': holePars.slice(0, 9).reduce((a, b) => a + b, 0),
+    'back 9': holePars.slice(9, 18).reduce((a, b) => a + b, 0),
   };
 }
 
