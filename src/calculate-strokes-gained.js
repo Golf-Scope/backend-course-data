@@ -2,6 +2,13 @@ const strokesGainedValues = require('./strokes-gained-values');
 
 const METERS_TO_FEET = 3.28084;
 
+const STROKES_GAINED_CATEGORIES = {
+  OFF_THE_TEE: 'off the tee',
+  APPROACH_THE_GREEN: 'approach the green',
+  AROUND_THE_GREEN: 'around the green',
+  PUTTING: 'putting',
+}
+
 const convertLieType = ({ lieType, distanceToHole }) => {
   let effectiveLieType = lieType;
 
@@ -317,33 +324,33 @@ const calculateStrokesGainedForRound = ({
         if (hole.par === 4 || hole.par === 5) {
           strokesGainedOffTheTee += strokesGained;
           strokesGainedByShot[holeIndex].push({
-            category: 'off the tee',
+            category: STROKES_GAINED_CATEGORIES.OFF_THE_TEE,
             ...strokesGainedMetadata,
           });
         } else {
           strokesGainedApproachTheGreen += strokesGained;
           strokesGainedByShot[holeIndex].push({
-            category: 'approach the green',
+            category: STROKES_GAINED_CATEGORIES.APPROACH_THE_GREEN,
             ...strokesGainedMetadata,
           });
         }
       } else if (startEffectiveLie === 'green') {
         strokesGainedPutting += strokesGained;
         strokesGainedByShot[holeIndex].push({
-          category: 'putting',
+          category: STROKES_GAINED_CATEGORIES.PUTTING,
           ...strokesGainedMetadata,
         });
       } else if (startDistance <= 45.7) {
         // Inside 50 yards
         strokesGainedAroundTheGreen += strokesGained;
         strokesGainedByShot[holeIndex].push({
-          category: 'around the green',
+          category: STROKES_GAINED_CATEGORIES.AROUND_THE_GREEN,
           ...strokesGainedMetadata,
         });
       } else {
         strokesGainedApproachTheGreen += strokesGained;
         strokesGainedByShot[holeIndex].push({
-          category: 'approach the green',
+          category: STROKES_GAINED_CATEGORIES.APPROACH_THE_GREEN,
           ...strokesGainedMetadata,
         });
       }
@@ -376,4 +383,5 @@ module.exports = {
   calculateStrokesGainedForRound,
   calculateStrokesGainedForShot,
   convertLieType,
+  STROKES_GAINED_CATEGORIES,
 };
