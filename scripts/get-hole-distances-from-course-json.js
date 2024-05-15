@@ -1,4 +1,4 @@
-// `cd scripts && node process-course-json.js`
+// `cd scripts && node get-hole-distances-from-course-json.js`
 
 const { COURSES } = require('../src');
 const { readdir, readFile, writeFile } = require('node:fs/promises');
@@ -6,7 +6,7 @@ const { resolve } = require('node:path');
 
 const RAW_COURSE_JSON_DIR = './data/raw-course-json';
 
-const processCourseJson = async () => {
+const getHoleDistancesFromCourseJson = async () => {
   const rawCourseJsonFiles = await readdir(RAW_COURSE_JSON_DIR);
 
   const courseHoleDistances = {};
@@ -48,7 +48,7 @@ const processCourseJson = async () => {
   await writeFile('../src/course-hole-distances.js', data);
 };
 
-processCourseJson()
+getHoleDistancesFromCourseJson()
   .then(() => {
     console.log('DONE!');
   })
