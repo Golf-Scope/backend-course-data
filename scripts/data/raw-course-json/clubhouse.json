@@ -1,0 +1,16 @@
+{
+  "id": "clubhouse",
+  "name": "Clubhouse",
+  "fullName": "Clubhouse",
+  "sku": null,
+  "par": "",
+  "buyCourseDescription": null,
+  "price": null,
+  "onSaleFrom": null,
+  "isFirm": false,
+  "holes": [],
+  "courseImage": "images/course-clubhouse.avif",
+  "courseBuyImage": "images/course-clubhouse.avif",
+  "courseLogo": null,
+  "status": "free"
+}
