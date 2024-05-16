@@ -1231,7 +1231,6 @@ module.exports = {
       },
     },
   },
-  clubhouse: {},
   eastlake: {
     1: {
       front: {
