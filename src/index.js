@@ -32,7 +32,7 @@ const getHoleDistanceTeeToPin = ({ course, hole, tee, pin }) => {
 
   const holeDistance = courseHoleDistances[course][hole - 1][`${tee}_${pin}`];
 
-  if (!holeDistance) {
+  if (holeDistance == null) {
     throw new Error(
       `No hole distance found for ${course} hole ${hole} ${tee} ${pin}`
     );
