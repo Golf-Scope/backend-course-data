@@ -2,7 +2,6 @@
 
 const { readdir, readFile, writeFile } = require('node:fs/promises');
 const { resolve } = require('node:path');
-const courseHoleDistances = require('../src/course-hole-distances');
 
 const COURSE_JSON_DIR = './data/course-json';
 
