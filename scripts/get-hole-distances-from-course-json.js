@@ -1,18 +1,17 @@
 // `cd scripts && node get-hole-distances-from-course-json.js`
 
-const { COURSES } = require('../src');
 const { readdir, readFile, writeFile } = require('node:fs/promises');
 const { resolve } = require('node:path');
 
-const RAW_COURSE_JSON_DIR = './data/raw-course-json';
+const COURSE_JSON_DIR = './data/course-json';
 
 const getHoleDistancesFromCourseJson = async () => {
-  const rawCourseJsonFiles = await readdir(RAW_COURSE_JSON_DIR);
+  const courseJsonFiles = await readdir(COURSE_JSON_DIR);
 
   const courseHoleDistances = {};
 
-  for (const rawCourseJsonFile of rawCourseJsonFiles) {
-    const filePath = resolve(`${RAW_COURSE_JSON_DIR}/${rawCourseJsonFile}`);
+  for (const courseJsonFile of courseJsonFiles) {
+    const filePath = resolve(`${COURSE_JSON_DIR}/${courseJsonFile}`);
     const contents = await readFile(filePath, { encoding: 'utf8' });
     const { id: courseId, holes } = JSON.parse(contents);
 
