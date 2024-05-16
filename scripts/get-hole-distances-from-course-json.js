@@ -28,7 +28,7 @@ const getHoleDistancesFromCourseJson = async () => {
 
   await writeFile(
     '../src/course-hole-distances.js',
-    `module.exports = ${JSON.stringify(courseHoleDistances)}`
+    `module.exports = ${JSON.stringify(courseHoleDistances, null, 2)}`
   );
 };
 
