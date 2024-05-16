@@ -30,7 +30,15 @@ const getHoleDistanceTeeToPin = ({ course, hole, tee, pin }) => {
     throw new Error('Hole must be integer between 1 and 18');
   }
 
-  return courseHoleDistances[course][hole - 1][`${tee}_${pin}`];
+  const holeDistance = courseHoleDistances[course][hole - 1][`${tee}_${pin}`];
+
+  if (!holeDistance) {
+    throw new Error(
+      `No hole distance found for ${course} hole ${hole} ${tee} ${pin}`
+    );
+  }
+
+  return holeDistance;
 };
 
 module.exports = {
