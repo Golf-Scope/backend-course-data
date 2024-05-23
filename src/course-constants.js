@@ -8,6 +8,7 @@ const COURSES = {
   HARBOUR_TOWN: 'harbourtown',
   KAPALUA: 'kapalua',
   KIAWAH: 'kiawah',
+  MAGNOLIA_PINES: 'magnoliapines',
   MUIRFIELD_VILLAGE: 'muirfieldvillage',
   OLYMPIA_FIELDS: 'olympiafields',
   PEBBLE_BEACH: 'pebblebeach',
@@ -39,6 +40,9 @@ const COURSE_HOLE_PARS = {
   ],
   [COURSES.KAPALUA]: [4, 3, 4, 4, 5, 4, 4, 3, 5, 4, 3, 4, 4, 4, 5, 4, 4, 5],
   [COURSES.KIAWAH]: [4, 5, 4, 4, 3, 4, 5, 3, 4, 4, 5, 4, 4, 3, 4, 5, 3, 4],
+  [COURSES.MAGNOLIA_PINES]: [
+    4, 5, 4, 3, 4, 3, 4, 5, 4, 4, 4, 3, 5, 4, 5, 3, 4, 4,
+  ],
   [COURSES.MUIRFIELD_VILLAGE]: [
     4, 4, 4, 3, 5, 4, 5, 3, 4, 4, 5, 3, 4, 4, 5, 3, 4, 4,
   ],
