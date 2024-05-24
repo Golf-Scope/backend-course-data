@@ -3,7 +3,7 @@
   "name": "Muirfield Village",
   "fullName": "Muirfield Village",
   "actionId": 29,
-  "sku": null,
+  "sku": "muirfieldvillage",
   "par": "72",
   "buyCourseDescription": "Forged from the mind of a legend, Muirfield Village's championship pedigree speaks for itself. Designed by Jack Nicklaus and continually refined over the years, the challenging course plays host to the PGA TOUR’s prestigious Memorial Tournament presented by Workday. Demanding yet fair, the layout rewards precise shot-making and strategic thinking. Playing at Muirfield Village is more than just golf; it's an opportunity to engage with a course that embodies the spirit and history of the game.",
   "price": "$9.99",
@@ -263,9 +263,9 @@
       "description": "Test description"
     }
   ],
-  "courseImage": "images/course-kapalua.avif",
-  "courseBuyImage": "images/course-kapalua.avif",
-  "courseLogo": "images/logo-kapalua-white.avif",
-  "courseLogoHorizontal": "images/logo-kapalua-white.avif",
-  "status": "free"
+  "courseImage": "images/course-muirfield.avif",
+  "courseBuyImage": "images/course-muirfield.avif",
+  "courseLogo": "images/logo-muirfield-white.avif",
+  "courseLogoHorizontal": "images/logo-muirfield-white.avif",
+  "status": "paid"
 }
