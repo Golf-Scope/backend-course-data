@@ -85,6 +85,30 @@ const getHoleDistanceTeeToPin = ({ course, hole, tee, pin }) => {
   return getHorizontalDistanceFromCoordinates(x1, x2, z1, z2);
 };
 
+const getTotalDistanceForRound = ({ course, roundType, tee, pin }) => {
+  if (!['18 holes', 'front 9', 'back 9'].includes(roundType)) {
+    throw new Error('Round type must be one of 18 holes, front 9, back 9');
+  }
+
+  const FRONT_NINE = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const BACK_NINE = [10, 11, 12, 13, 14, 15, 16, 17, 18];
+
+  const holes =
+    roundType === 'front 9'
+      ? FRONT_NINE
+      : roundType === 'back 9'
+        ? BACK_NINE
+        : [...FRONT_NINE, ...BACK_NINE];
+
+  let totalDistance = 0;
+  holes.forEach((h) => {
+    const holeDistance = getHoleDistanceTeeToPin({ course, hole: h, tee, pin });
+    totalDistance += holeDistance;
+  });
+
+  return totalDistance;
+};
+
 module.exports = {
   COURSES,
   COURSE_HOLE_PARS,
@@ -99,4 +123,5 @@ module.exports = {
   getTeeCoordinates,
   getHorizontalDistanceFromCoordinates,
   getTotalDistanceFromCoordinates,
+  getTotalDistanceForRound,
 };
