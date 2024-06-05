@@ -1,0 +1,703 @@
+{
+  "id": "olympiafields",
+  "name": "Olympia Fields",
+  "fullName": "Olympia Fields Country Club",
+  "actionId": 19,
+  "sku": "olympiafields",
+  "par": "70",
+  "buyCourseDescription": "History awaits at Olympia Fields Country Club. The \"Host of Champions\" is one of only eight courses that have hosted the US Open, PGA Championship, US Amateur, and US Senior Open. Conceived in 1914, this gargantuan retreat in the woods below Chicago was the 'world's largest private golf club' and a classic example of Golden Age design. The PGA TOUR returns to Olympia Fields in August '23 for the BMW Championship.",
+  "price": "$9.99",
+  "onSaleFrom": null,
+  "isFirm": false,
+  "holes": [
+    {
+      "hole": 1,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [
+          329.793,
+          10.647,
+          707.787
+        ],
+        "medium": [
+          328.513,
+          10.384,
+          694.597
+        ],
+        "hard": [
+          339.003,
+          10.429,
+          696.777
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          171.723,
+          15.587,
+          284.857
+        ],
+        "middle": [
+          171.723,
+          15.587,
+          284.857
+        ],
+        "back": [
+          171.723,
+          15.587,
+          284.857
+        ]
+      }
+    },
+    {
+      "hole": 2,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          670.358,
+          9.01,
+          875.672
+        ],
+        "medium": [
+          682.478,
+          9.258,
+          878.482
+        ],
+        "hard": [
+          675.118,
+          9.279,
+          866.901
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          378.918,
+          8.789,
+          821.221
+        ],
+        "middle": [
+          378.918,
+          8.789,
+          821.221
+        ],
+        "back": [
+          378.918,
+          8.789,
+          821.221
+        ]
+      }
+    },
+    {
+      "hole": 3,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          971.004,
+          7.25,
+          865.854
+        ],
+        "medium": [
+          962.434,
+          6.824,
+          873.354
+        ],
+        "hard": [
+          961.824,
+          7.137,
+          860.914
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          675.894,
+          8.272,
+          936.474
+        ],
+        "middle": [
+          675.894,
+          8.272,
+          936.474
+        ],
+        "back": [
+          675.894,
+          8.272,
+          936.474
+        ]
+      }
+    },
+    {
+      "hole": 4,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          982.425,
+          9.622,
+          578.864
+        ],
+        "medium": [
+          991.855,
+          9.292,
+          584.754
+        ],
+        "hard": [
+          982.395,
+          9.536,
+          589.464
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          1043.405,
+          4.438,
+          865.594
+        ],
+        "middle": [
+          1043.405,
+          4.438,
+          865.594
+        ],
+        "back": [
+          1043.405,
+          4.438,
+          865.594
+        ]
+      }
+    },
+    {
+      "hole": 5,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          989.269,
+          8.392,
+          812.385
+        ],
+        "medium": [
+          994.24,
+          8.378,
+          820.185
+        ],
+        "hard": [
+          980.019,
+          8.436,
+          818.065
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          959.319,
+          9.858,
+          603.395
+        ],
+        "middle": [
+          959.319,
+          9.858,
+          603.395
+        ],
+        "back": [
+          959.319,
+          9.858,
+          603.395
+        ]
+      }
+    },
+    {
+      "hole": 6,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [
+          797.02,
+          3.346,
+          842.555
+        ],
+        "medium": [
+          804.14,
+          3.288,
+          845.385
+        ],
+        "hard": [
+          786.42,
+          3.545,
+          834.525
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          901.66,
+          3.614,
+          822.775
+        ],
+        "middle": [
+          901.66,
+          3.614,
+          822.775
+        ],
+        "back": [
+          901.66,
+          3.614,
+          822.775
+        ]
+      }
+    },
+    {
+      "hole": 7,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          551.64,
+          7.721,
+          723.494
+        ],
+        "medium": [
+          541.68,
+          7.834,
+          721.654
+        ],
+        "hard": [
+          556.25,
+          7.54,
+          741.094
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          822.92,
+          3.279,
+          789.274
+        ],
+        "middle": [
+          822.92,
+          3.279,
+          789.274
+        ],
+        "back": [
+          822.92,
+          3.279,
+          789.274
+        ]
+      }
+    },
+    {
+      "hole": 8,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [
+          399.879,
+          9.026,
+          739.838
+        ],
+        "medium": [
+          404.439,
+          8.988,
+          731.908
+        ],
+        "hard": [
+          387.279,
+          9.66,
+          725.358
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          513.469,
+          6.77,
+          795.758
+        ],
+        "middle": [
+          513.469,
+          6.77,
+          795.758
+        ],
+        "back": [
+          513.469,
+          6.77,
+          795.758
+        ]
+      }
+    },
+    {
+      "hole": 9,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          223.488,
+          9.641,
+          305.393
+        ],
+        "medium": [
+          229.868,
+          9.462,
+          306.343
+        ],
+        "hard": [
+          228.788,
+          9.728,
+          295.003
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          372.568,
+          9.017,
+          654.333
+        ],
+        "middle": [
+          372.568,
+          9.017,
+          654.333
+        ],
+        "back": [
+          372.568,
+          9.017,
+          654.333
+        ]
+      }
+    },
+    {
+      "hole": 10,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          420.748,
+          8.431,
+          647.525
+        ],
+        "medium": [
+          412.588,
+          8.353,
+          640.485
+        ],
+        "hard": [
+          427.698,
+          8.078,
+          639.205
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          328.948,
+          7.984,
+          339.105
+        ],
+        "middle": [
+          328.948,
+          7.984,
+          339.105
+        ],
+        "back": [
+          328.948,
+          7.984,
+          339.105
+        ]
+      }
+    },
+    {
+      "hole": 11,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          718.133,
+          7.244,
+          709.498
+        ],
+        "medium": [
+          719.153,
+          7.36,
+          700.328
+        ],
+        "hard": [
+          710.483,
+          6.772,
+          719.428
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          452.563,
+          8.16,
+          667.948
+        ],
+        "middle": [
+          452.563,
+          8.16,
+          667.948
+        ],
+        "back": [
+          452.563,
+          8.16,
+          667.948
+        ]
+      }
+    },
+    {
+      "hole": 12,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          639.274,
+          5.116,
+          425.046
+        ],
+        "medium": [
+          644.144,
+          5.129,
+          415.626
+        ],
+        "hard": [
+          630.574,
+          5.422,
+          421.496
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          768.924,
+          3.943,
+          721.106
+        ],
+        "middle": [
+          768.924,
+          3.943,
+          721.106
+        ],
+        "back": [
+          768.924,
+          3.943,
+          721.106
+        ]
+      }
+    },
+    {
+      "hole": 13,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [
+          715.984,
+          11.023,
+          363.105
+        ],
+        "medium": [
+          710.604,
+          11.055,
+          369.295
+        ],
+        "hard": [
+          705.454,
+          10.595,
+          354.165
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          610.744,
+          8.332,
+          400.405
+        ],
+        "middle": [
+          610.744,
+          8.332,
+          400.405
+        ],
+        "back": [
+          610.744,
+          8.332,
+          400.405
+        ]
+      }
+    },
+    {
+      "hole": 14,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          894.099,
+          7.313,
+          741.099
+        ],
+        "medium": [
+          896.189,
+          7.65,
+          750.229
+        ],
+        "hard": [
+          907.579,
+          7.791,
+          740.859
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          778.149,
+          3.937,
+          474.769
+        ],
+        "middle": [
+          778.149,
+          3.937,
+          474.769
+        ],
+        "back": [
+          778.149,
+          3.937,
+          474.769
+        ]
+      }
+    },
+    {
+      "hole": 15,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [
+          743.075,
+          12.707,
+          309.813
+        ],
+        "medium": [
+          732.675,
+          13.025,
+          301.523
+        ],
+        "hard": [
+          731.275,
+          12.61,
+          312.743
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          916.435,
+          8.398,
+          673.453
+        ],
+        "middle": [
+          916.435,
+          8.398,
+          673.453
+        ],
+        "back": [
+          916.435,
+          8.398,
+          673.453
+        ]
+      }
+    },
+    {
+      "hole": 16,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [
+          574.864,
+          5.391,
+          366.544
+        ],
+        "medium": [
+          578.044,
+          5.363,
+          375.554
+        ],
+        "hard": [
+          587.944,
+          5.073,
+          365.564
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          673.974,
+          10.935,
+          300.484
+        ],
+        "middle": [
+          673.974,
+          10.935,
+          300.484
+        ],
+        "back": [
+          673.974,
+          10.935,
+          300.484
+        ]
+      }
+    },
+    {
+      "hole": 17,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          703.788,
+          7.441,
+          625.97
+        ],
+        "medium": [
+          700.499,
+          7.459,
+          619.28
+        ],
+        "hard": [
+          697.529,
+          7.584,
+          634.76
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          533.708,
+          4.54,
+          419.41
+        ],
+        "middle": [
+          533.708,
+          4.54,
+          419.41
+        ],
+        "back": [
+          533.708,
+          4.54,
+          419.41
+        ]
+      }
+    },
+    {
+      "hole": 18,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [
+          394.854,
+          7.593,
+          329.363
+        ],
+        "medium": [
+          385.594,
+          7.465,
+          336.443
+        ],
+        "hard": [
+          389.254,
+          8.026,
+          319.453
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          576.754,
+          4.814,
+          596.333
+        ],
+        "middle": [
+          576.754,
+          4.814,
+          596.333
+        ],
+        "back": [
+          576.754,
+          4.814,
+          596.333
+        ]
+      }
+    }
+  ],
+  "courseImage": "images/course-olympia-fields.avif",
+  "courseBuyImage": "images/course-olympia-fields.avif",
+  "courseLogo": "images/logo-olympia.avif",
+  "courseLogoHorizontal": "images/logo-olympia-locked.avif",
+  "status": "paid"
+}
