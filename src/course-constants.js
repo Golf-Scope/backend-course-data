@@ -3,19 +3,25 @@ const COURSES = {
   BAY_HILL: 'bayhill',
   BUTLER_PITCH_PUTT: 'butlerpitchputt',
   CASTLE_LINKS: 'castle links',
+  CASTLE_PINES: 'castlepines',
   EAST_LAKE: 'eastlake',
   CLIFFS: 'cliffs',
   HARBOUR_TOWN: 'harbourtown',
   KAPALUA: 'kapalua',
   KIAWAH: 'kiawah',
+  MAGNOLIA_PINES: 'magnoliapines',
   MUIRFIELD_VILLAGE: 'muirfieldvillage',
   OLYMPIA_FIELDS: 'olympiafields',
   PEBBLE_BEACH: 'pebblebeach',
   PINEHURST_2: 'pinehurst2',
   QUAIL_HOLLOW: 'quailhollow',
   RIVIERA: 'riviera',
+  SPYGLASS_HILL: 'spyglasshill',
   ST_ANDREWS_OLD: 'standrewsold',
   ST_ANDREWS_OLD_REVERSED: 'standrewsoldreversed',
+  SWEETENS_COVE: 'sweetenscove',
+  TORREY_PINES_NORTH: 'torreypinesnorth',
+  TORREY_PINES_SOUTH: 'torreypinessouth',
   TPC_SAWGRASS: 'tpcsawgrass',
   TPC_SCOTTSDALE: 'tpcscottsdale',
   TPC_SOUTHWIND: 'tpcsouthwind',
@@ -32,6 +38,9 @@ const COURSE_HOLE_PARS = {
   [COURSES.CASTLE_LINKS]: [
     4, 5, 3, 4, 4, 4, 3, 4, 5, 4, 4, 5, 4, 3, 4, 4, 3, 5,
   ],
+  [COURSES.CASTLE_PINES]: [
+    5, 4, 4, 3, 4, 4, 3, 5, 4, 4, 3, 4, 4, 5, 4, 3, 5, 4,
+  ],
   [COURSES.CLIFFS]: [4, 5, 4, 3, 4, 4, 4, 3, 4, 4, 4, 4, 3, 5, 3, 4, 5, 4],
   [COURSES.EAST_LAKE]: [4, 3, 4, 4, 4, 5, 4, 4, 3, 4, 3, 4, 4, 4, 3, 4, 4, 5],
   [COURSES.HARBOUR_TOWN]: [
@@ -39,6 +48,9 @@ const COURSE_HOLE_PARS = {
   ],
   [COURSES.KAPALUA]: [4, 3, 4, 4, 5, 4, 4, 3, 5, 4, 3, 4, 4, 4, 5, 4, 4, 5],
   [COURSES.KIAWAH]: [4, 5, 4, 4, 3, 4, 5, 3, 4, 4, 5, 4, 4, 3, 4, 5, 3, 4],
+  [COURSES.MAGNOLIA_PINES]: [
+    4, 5, 4, 3, 4, 3, 4, 5, 4, 4, 4, 3, 5, 4, 5, 3, 4, 4,
+  ],
   [COURSES.MUIRFIELD_VILLAGE]: [
     4, 4, 4, 3, 5, 4, 5, 3, 4, 4, 5, 3, 4, 4, 5, 3, 4, 4,
   ],
@@ -53,11 +65,23 @@ const COURSE_HOLE_PARS = {
     4, 4, 4, 3, 4, 3, 5, 4, 4, 5, 4, 4, 3, 4, 5, 4, 3, 4,
   ],
   [COURSES.RIVIERA]: [5, 4, 4, 3, 4, 3, 4, 4, 4, 4, 5, 4, 4, 3, 4, 3, 5, 4],
+  [COURSES.SPYGLASS_HILL]: [
+    5, 4, 3, 4, 3, 4, 5, 4, 4, 4, 5, 3, 4, 5, 3, 4, 4, 4,
+  ],
   [COURSES.ST_ANDREWS_OLD]: [
     4, 4, 4, 4, 5, 4, 4, 3, 4, 4, 3, 4, 4, 5, 4, 4, 4, 4,
   ],
   [COURSES.ST_ANDREWS_OLD_REVERSED]: [
     4, 4, 4, 4, 5, 4, 4, 3, 4, 4, 3, 4, 4, 5, 4, 4, 4, 4,
+  ],
+  [COURSES.SWEETENS_COVE]: [
+    5, 4, 5, 3, 4, 4, 4, 4, 3, 5, 4, 5, 3, 4, 4, 4, 4, 3,
+  ],
+  [COURSES.TORREY_PINES_NORTH]: [
+    4, 4, 3, 4, 5, 4, 4, 3, 5, 5, 4, 3, 4, 4, 3, 4, 5, 4,
+  ],
+  [COURSES.TORREY_PINES_SOUTH]: [
+    4, 4, 3, 4, 4, 5, 4, 3, 5, 4, 3, 4, 5, 4, 4, 3, 4, 5,
   ],
   [COURSES.TPC_SAWGRASS]: [
     4, 5, 3, 4, 4, 4, 4, 3, 5, 4, 5, 4, 3, 4, 4, 5, 3, 4,
