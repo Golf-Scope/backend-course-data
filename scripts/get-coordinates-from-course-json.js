@@ -3,7 +3,7 @@
 const { readdir, readFile, writeFile } = require('node:fs/promises');
 const { resolve } = require('node:path');
 
-const COURSE_JSON_DIR = './data/course-json-2';
+const COURSE_JSON_DIR = './data/course-json';
 
 const getCoordinatesFromCourseJson = async () => {
   const courseJsonFiles = await readdir(COURSE_JSON_DIR);
