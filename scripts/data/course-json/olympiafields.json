@@ -2,6 +2,7 @@
   "id": "olympiafields",
   "name": "Olympia Fields",
   "fullName": "Olympia Fields Country Club",
+  "actionId": 19,
   "sku": "olympiafields",
   "par": "70",
   "buyCourseDescription": "History awaits at Olympia Fields Country Club. The \"Host of Champions\" is one of only eight courses that have hosted the US Open, PGA Championship, US Amateur, and US Senior Open. Conceived in 1914, this gargantuan retreat in the woods below Chicago was the 'world's largest private golf club' and a classic example of Golden Age design. The PGA TOUR returns to Olympia Fields in August '23 for the BMW Championship.",
@@ -12,254 +13,686 @@
     {
       "hole": 1,
       "par": 5,
-      "front_easy": 451.504058837891,
-      "front_medium": 438.713989257813,
-      "front_hard": 444.590454101563,
-      "middle_easy": 509.510498046875,
-      "middle_medium": 496.948211669922,
-      "middle_hard": 503.333923339844,
-      "back_easy": 573.196044921875,
-      "back_medium": 560.7294921875,
-      "back_hard": 567.291442871094,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          329.793,
+          10.647,
+          707.787
+        ],
+        "medium": [
+          328.513,
+          10.384,
+          694.597
+        ],
+        "hard": [
+          339.003,
+          10.429,
+          696.777
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          171.723,
+          15.587,
+          284.857
+        ],
+        "middle": [
+          171.723,
+          15.587,
+          284.857
+        ],
+        "back": [
+          171.723,
+          15.587,
+          284.857
+        ]
+      }
     },
     {
       "hole": 2,
       "par": 4,
-      "front_easy": 296.482849121094,
-      "front_medium": 308.913238525391,
-      "front_hard": 299.701629638672,
-      "middle_easy": 365.111297607422,
-      "middle_medium": 377.488342285156,
-      "middle_hard": 366.891204833984,
-      "back_easy": 401.12890625,
-      "back_medium": 413.413208007813,
-      "back_hard": 402.325500488281,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          670.358,
+          9.01,
+          875.672
+        ],
+        "medium": [
+          682.478,
+          9.258,
+          878.482
+        ],
+        "hard": [
+          675.118,
+          9.279,
+          866.901
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          378.918,
+          8.789,
+          821.221
+        ],
+        "middle": [
+          378.918,
+          8.789,
+          821.221
+        ],
+        "back": [
+          378.918,
+          8.789,
+          821.221
+        ]
+      }
     },
     {
       "hole": 3,
       "par": 4,
-      "front_easy": 303.442077636719,
-      "front_medium": 293.409759521484,
-      "front_hard": 295.745269775391,
-      "middle_easy": 369.368560791016,
-      "middle_medium": 359.738830566406,
-      "middle_hard": 361.174774169922,
-      "back_easy": 418.494506835938,
-      "back_medium": 408.978240966797,
-      "back_hard": 410.170989990234,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          971.004,
+          7.25,
+          865.854
+        ],
+        "medium": [
+          962.434,
+          6.824,
+          873.354
+        ],
+        "hard": [
+          961.824,
+          7.137,
+          860.914
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          675.894,
+          8.272,
+          936.474
+        ],
+        "middle": [
+          675.894,
+          8.272,
+          936.474
+        ],
+        "back": [
+          675.894,
+          8.272,
+          936.474
+        ]
+      }
     },
     {
       "hole": 4,
       "par": 4,
-      "front_easy": 293.142761230469,
-      "front_medium": 285.532012939453,
-      "front_hard": 282.789733886719,
-      "middle_easy": 341.3935546875,
-      "middle_medium": 334.304931640625,
-      "middle_hard": 330.913848876953,
-      "back_easy": 365.023651123047,
-      "back_medium": 358.043090820313,
-      "back_hard": 354.523284912109,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          982.425,
+          9.622,
+          578.864
+        ],
+        "medium": [
+          991.855,
+          9.292,
+          584.754
+        ],
+        "hard": [
+          982.395,
+          9.536,
+          589.464
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          1043.405,
+          4.438,
+          865.594
+        ],
+        "middle": [
+          1043.405,
+          4.438,
+          865.594
+        ],
+        "back": [
+          1043.405,
+          4.438,
+          865.594
+        ]
+      }
     },
     {
       "hole": 5,
       "par": 4,
-      "front_easy": 211.125122070313,
-      "front_medium": 219.584396362305,
-      "front_hard": 215.66569519043,
-      "middle_easy": 303.753662109375,
-      "middle_medium": 312.311584472656,
-      "middle_hard": 307.925842285156,
-      "back_easy": 370.197662353516,
-      "back_medium": 378.738525390625,
-      "back_hard": 374.379089355469,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          989.269,
+          8.392,
+          812.385
+        ],
+        "medium": [
+          994.24,
+          8.378,
+          820.185
+        ],
+        "hard": [
+          980.019,
+          8.436,
+          818.065
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          959.319,
+          9.858,
+          603.395
+        ],
+        "middle": [
+          959.319,
+          9.858,
+          603.395
+        ],
+        "back": [
+          959.319,
+          9.858,
+          603.395
+        ]
+      }
     },
     {
       "hole": 6,
       "par": 3,
-      "front_easy": 106.493103027344,
-      "front_medium": 100.10676574707,
-      "front_hard": 115.837463378906,
-      "middle_easy": 143.700134277344,
-      "middle_medium": 136.909393310547,
-      "middle_hard": 153.790618896484,
-      "back_easy": 166.147811889648,
-      "back_medium": 159.30647277832,
-      "back_hard": 176.309494018555,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          797.02,
+          3.346,
+          842.555
+        ],
+        "medium": [
+          804.14,
+          3.288,
+          845.385
+        ],
+        "hard": [
+          786.42,
+          3.545,
+          834.525
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          901.66,
+          3.614,
+          822.775
+        ],
+        "middle": [
+          901.66,
+          3.614,
+          822.775
+        ],
+        "back": [
+          901.66,
+          3.614,
+          822.775
+        ]
+      }
     },
     {
       "hole": 7,
       "par": 4,
-      "front_easy": 279.141296386719,
-      "front_medium": 289.254913330078,
-      "front_hard": 270.987487792969,
-      "middle_easy": 353.308410644531,
-      "middle_medium": 363.431243896484,
-      "middle_hard": 346.545715332031,
-      "back_easy": 382.549072265625,
-      "back_medium": 392.668212890625,
-      "back_hard": 375.917205810547,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          551.64,
+          7.721,
+          723.494
+        ],
+        "medium": [
+          541.68,
+          7.834,
+          721.654
+        ],
+        "hard": [
+          556.25,
+          7.54,
+          741.094
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          822.92,
+          3.279,
+          789.274
+        ],
+        "middle": [
+          822.92,
+          3.279,
+          789.274
+        ],
+        "back": [
+          822.92,
+          3.279,
+          789.274
+        ]
+      }
     },
     {
       "hole": 8,
       "par": 3,
-      "front_easy": 126.608551025391,
-      "front_medium": 126.350120544434,
-      "front_hard": 144.499404907227,
-      "middle_easy": 201.625701904297,
-      "middle_medium": 200.311416625977,
-      "middle_hard": 218.668380737305,
-      "back_easy": 247.201629638672,
-      "back_medium": 245.870819091797,
-      "back_hard": 264.23095703125,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          399.879,
+          9.026,
+          739.838
+        ],
+        "medium": [
+          404.439,
+          8.988,
+          731.908
+        ],
+        "hard": [
+          387.279,
+          9.66,
+          725.358
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          513.469,
+          6.77,
+          795.758
+        ],
+        "middle": [
+          513.469,
+          6.77,
+          795.758
+        ],
+        "back": [
+          513.469,
+          6.77,
+          795.758
+        ]
+      }
     },
     {
       "hole": 9,
       "par": 4,
-      "front_easy": 379.452178955078,
-      "front_medium": 376.112121582031,
-      "front_hard": 387.028076171875,
-      "middle_easy": 400.403381347656,
-      "middle_medium": 397.104431152344,
-      "middle_hard": 408.042144775391,
-      "back_easy": 426.158996582031,
-      "back_medium": 423.117553710938,
-      "back_hard": 434.186767578125,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          223.488,
+          9.641,
+          305.393
+        ],
+        "medium": [
+          229.868,
+          9.462,
+          306.343
+        ],
+        "hard": [
+          228.788,
+          9.728,
+          295.003
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          372.568,
+          9.017,
+          654.333
+        ],
+        "middle": [
+          372.568,
+          9.017,
+          654.333
+        ],
+        "back": [
+          372.568,
+          9.017,
+          654.333
+        ]
+      }
     },
     {
       "hole": 10,
       "par": 4,
-      "front_easy": 321.792083740234,
-      "front_medium": 312.770751953125,
-      "front_hard": 315.929718017578,
-      "middle_easy": 371.864532470703,
-      "middle_medium": 362.615417480469,
-      "middle_hard": 366.338562011719,
-      "back_easy": 404.039825439453,
-      "back_medium": 394.605743408203,
-      "back_hard": 398.821105957031,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          420.748,
+          8.431,
+          647.525
+        ],
+        "medium": [
+          412.588,
+          8.353,
+          640.485
+        ],
+        "hard": [
+          427.698,
+          8.078,
+          639.205
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          328.948,
+          7.984,
+          339.105
+        ],
+        "middle": [
+          328.948,
+          7.984,
+          339.105
+        ],
+        "back": [
+          328.948,
+          7.984,
+          339.105
+        ]
+      }
     },
     {
       "hole": 11,
       "par": 4,
-      "front_easy": 268.800659179688,
-      "front_medium": 268.549194335938,
-      "front_hard": 263.007415771484,
-      "middle_easy": 313.688629150391,
-      "middle_medium": 314.183288574219,
-      "middle_hard": 306.949005126953,
-      "back_easy": 342.086517333984,
-      "back_medium": 342.730010986328,
-      "back_hard": 335.147399902344,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          718.133,
+          7.244,
+          709.498
+        ],
+        "medium": [
+          719.153,
+          7.36,
+          700.328
+        ],
+        "hard": [
+          710.483,
+          6.772,
+          719.428
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          452.563,
+          8.16,
+          667.948
+        ],
+        "middle": [
+          452.563,
+          8.16,
+          667.948
+        ],
+        "back": [
+          452.563,
+          8.16,
+          667.948
+        ]
+      }
     },
     {
       "hole": 12,
       "par": 4,
-      "front_easy": 323.203765869141,
-      "front_medium": 329.981964111328,
-      "front_hard": 330.010437011719,
-      "middle_easy": 335.770538330078,
-      "middle_medium": 342.532928466797,
-      "middle_hard": 342.584411621094,
-      "back_easy": 343.781677246094,
-      "back_medium": 350.576751708984,
-      "back_hard": 350.566314697266,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          639.274,
+          5.116,
+          425.046
+        ],
+        "medium": [
+          644.144,
+          5.129,
+          415.626
+        ],
+        "hard": [
+          630.574,
+          5.422,
+          421.496
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          768.924,
+          3.943,
+          721.106
+        ],
+        "middle": [
+          768.924,
+          3.943,
+          721.106
+        ],
+        "back": [
+          768.924,
+          3.943,
+          721.106
+        ]
+      }
     },
     {
       "hole": 13,
       "par": 3,
-      "front_easy": 111.654579162598,
-      "front_medium": 104.593727111816,
-      "front_hard": 105.395088195801,
-      "middle_easy": 132.98942565918,
-      "middle_medium": 125.831085205078,
-      "middle_hard": 126.869186401367,
-      "back_easy": 150.636795043945,
-      "back_medium": 143.404266357422,
-      "back_hard": 144.655990600586,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          715.984,
+          11.023,
+          363.105
+        ],
+        "medium": [
+          710.604,
+          11.055,
+          369.295
+        ],
+        "hard": [
+          705.454,
+          10.595,
+          354.165
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          610.744,
+          8.332,
+          400.405
+        ],
+        "middle": [
+          610.744,
+          8.332,
+          400.405
+        ],
+        "back": [
+          610.744,
+          8.332,
+          400.405
+        ]
+      }
     },
     {
       "hole": 14,
       "par": 4,
-      "front_easy": 290.475616455078,
-      "front_medium": 299.685943603516,
-      "front_hard": 295.898681640625,
-      "middle_easy": 374.761352539063,
-      "middle_medium": 384.019012451172,
-      "middle_hard": 379.738616943359,
-      "back_easy": 406.756378173828,
-      "back_medium": 416.011779785156,
-      "back_hard": 411.735687255859,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          894.099,
+          7.313,
+          741.099
+        ],
+        "medium": [
+          896.189,
+          7.65,
+          750.229
+        ],
+        "hard": [
+          907.579,
+          7.791,
+          740.859
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          778.149,
+          3.937,
+          474.769
+        ],
+        "middle": [
+          778.149,
+          3.937,
+          474.769
+        ],
+        "back": [
+          778.149,
+          3.937,
+          474.769
+        ]
+      }
     },
     {
       "hole": 15,
       "par": 5,
-      "front_easy": 402.849548339844,
-      "front_medium": 414.848968505859,
-      "front_hard": 405.457641601563,
-      "middle_easy": 488.578643798828,
-      "middle_medium": 500.495697021484,
-      "middle_hard": 491.000823974609,
-      "back_easy": 536.100952148438,
-      "back_medium": 547.917297363281,
-      "back_hard": 538.314758300781,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          743.075,
+          12.707,
+          309.813
+        ],
+        "medium": [
+          732.675,
+          13.025,
+          301.523
+        ],
+        "hard": [
+          731.275,
+          12.61,
+          312.743
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          916.435,
+          8.398,
+          673.453
+        ],
+        "middle": [
+          916.435,
+          8.398,
+          673.453
+        ],
+        "back": [
+          916.435,
+          8.398,
+          673.453
+        ]
+      }
     },
     {
       "hole": 16,
       "par": 3,
-      "front_easy": 119.107986450195,
-      "front_medium": 121.811614990234,
-      "front_hard": 107.872955322266,
-      "middle_easy": 165.021621704102,
-      "middle_medium": 167.518432617188,
-      "middle_hard": 153.646560668945,
-      "back_easy": 196.342391967773,
-      "back_medium": 198.77880859375,
-      "back_hard": 184.931045532227,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          574.864,
+          5.391,
+          366.544
+        ],
+        "medium": [
+          578.044,
+          5.363,
+          375.554
+        ],
+        "hard": [
+          587.944,
+          5.073,
+          365.564
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          673.974,
+          10.935,
+          300.484
+        ],
+        "middle": [
+          673.974,
+          10.935,
+          300.484
+        ],
+        "back": [
+          673.974,
+          10.935,
+          300.484
+        ]
+      }
     },
     {
       "hole": 17,
       "par": 4,
-      "front_easy": 267.570983886719,
-      "front_medium": 260.32080078125,
-      "front_hard": 270.578308105469,
-      "middle_easy": 342.282867431641,
-      "middle_medium": 334.997711181641,
-      "middle_hard": 345.453948974609,
-      "back_easy": 415.563903808594,
-      "back_medium": 408.380981445313,
-      "back_hard": 418.11669921875,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          703.788,
+          7.441,
+          625.97
+        ],
+        "medium": [
+          700.499,
+          7.459,
+          619.28
+        ],
+        "hard": [
+          697.529,
+          7.584,
+          634.76
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          533.708,
+          4.54,
+          419.41
+        ],
+        "middle": [
+          533.708,
+          4.54,
+          419.41
+        ],
+        "back": [
+          533.708,
+          4.54,
+          419.41
+        ]
+      }
     },
     {
       "hole": 18,
       "par": 4,
-      "front_easy": 323.048858642578,
-      "front_medium": 322.621978759766,
-      "front_hard": 334.393127441406,
-      "middle_easy": 399.215057373047,
-      "middle_medium": 399.845367431641,
-      "middle_hard": 410.423095703125,
-      "back_easy": 447.71484375,
-      "back_medium": 448.719055175781,
-      "back_hard": 458.849761962891,
-      "description": "Test description"
+      "pinCoordinates": {
+        "easy": [
+          394.854,
+          7.593,
+          329.363
+        ],
+        "medium": [
+          385.594,
+          7.465,
+          336.443
+        ],
+        "hard": [
+          389.254,
+          8.026,
+          319.453
+        ]
+      },
+      "teeCoordinates": {
+        "front": [
+          576.754,
+          4.814,
+          596.333
+        ],
+        "middle": [
+          576.754,
+          4.814,
+          596.333
+        ],
+        "back": [
+          576.754,
+          4.814,
+          596.333
+        ]
+      }
     }
   ],
   "courseImage": "images/course-olympia-fields.avif",

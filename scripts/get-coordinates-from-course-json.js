@@ -1,37 +1,34 @@
-// `cd scripts && node get-hole-distances-from-course-json.js`
+// `cd scripts && node get-coordinates-from-course-json.js`
 
 const { readdir, readFile, writeFile } = require('node:fs/promises');
 const { resolve } = require('node:path');
 
 const COURSE_JSON_DIR = './data/course-json';
 
-const getHoleDistancesFromCourseJson = async () => {
+const getCoordinatesFromCourseJson = async () => {
   const courseJsonFiles = await readdir(COURSE_JSON_DIR);
 
-  const courseHoleDistances = {};
+  const courseHoleCoordinates = {};
 
   for (const courseJsonFile of courseJsonFiles) {
     const filePath = resolve(`${COURSE_JSON_DIR}/${courseJsonFile}`);
     const contents = await readFile(filePath, { encoding: 'utf8' });
     const { id: courseId, holes } = JSON.parse(contents);
 
-    courseHoleDistances[courseId] = [];
+    courseHoleCoordinates[courseId] = [];
 
     holes.forEach((h) => {
-      delete h.hole;
-      delete h.par;
-      delete h.description;
-      courseHoleDistances[courseId].push(h);
+      courseHoleCoordinates[courseId].push(h);
     });
   }
 
   await writeFile(
-    '../src/course-hole-distances.js',
-    `module.exports = ${JSON.stringify(courseHoleDistances, null, 2)}`
+    '../src/course-hole-coordinates.js',
+    `module.exports = ${JSON.stringify(courseHoleCoordinates, null, 2)}`
   );
 };
 
-getHoleDistancesFromCourseJson()
+getCoordinatesFromCourseJson()
   .then(() => {
     console.log('DONE!');
   })
