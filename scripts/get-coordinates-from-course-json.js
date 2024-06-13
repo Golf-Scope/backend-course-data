@@ -2,7 +2,7 @@
 
 const { readdir, readFile, writeFile } = require('node:fs/promises');
 const { resolve } = require('node:path');
-const { COURSES } = require('../src/course-constants');
+const { COURSES, COURSE_HOLE_PARS } = require('../src/course-constants');
 const { getTotalDistanceForRound } = require('../src');
 
 const COURSE_JSON_DIR = './data/course-json';
@@ -49,6 +49,14 @@ const getCoordinatesFromCourseJson = async () => {
             })
         ) / 100,
     });
+
+    const actualHolePars = COURSE_HOLE_PARS[course];
+    const courseJsonHolePars = courseHoleCoordinates[course].map((h) => h.par);
+    if (actualHolePars.join('') !== courseJsonHolePars.join('')) {
+      console.log(`Hole pars for ${course} do NOT match!!!`);
+    } else {
+      console.log(`Hole pars for ${course} match.`);
+    }
   }
 
   console.log('Course distances (in meters):');
