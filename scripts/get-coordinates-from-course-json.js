@@ -37,7 +37,7 @@ const getCoordinatesFromCourseJson = async () => {
 
     courseDistanceChecksums.push({
       course,
-      lengthInMeters:
+      lengthInYards:
         Math.round(
           100 *
             getTotalDistanceForRound({
@@ -46,7 +46,8 @@ const getCoordinatesFromCourseJson = async () => {
                 course === COURSES.BUTLER_PITCH_PUTT ? 'front 9' : '18 holes',
               tee: 'back',
               pin: 'hard',
-            })
+            }) *
+            1.09361
         ) / 100,
     });
 
@@ -59,9 +60,9 @@ const getCoordinatesFromCourseJson = async () => {
     }
   }
 
-  console.log('Course distances (in meters):');
+  console.log('Course distances (in yards):');
   courseDistanceChecksums.forEach((c) => {
-    console.log(`${c.course}: ${c.lengthInMeters}`);
+    console.log(`${c.course}: ${c.lengthInYards}`);
   });
 };
 

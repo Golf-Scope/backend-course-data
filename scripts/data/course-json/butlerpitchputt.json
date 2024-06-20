@@ -3,9 +3,9 @@
   "name": "Butler Pitch & Putt",
   "fullName": "Butler Pitch & Putt",
   "actionId": 31,
-  "sku": null,
+  "sku": "butlerpitchputt",
   "par": "27",
-  "buyCourseDescription": "Steeped in golf history, Quail Hollow Club plays host to the PGA TOUR’s Wells Fargo Championship and soon, the 2025 PGA Championship.  Quail Hollow Club also features “The Green Mile”, the three-hole finishing stretch that has become known as one of the most challenging finishes on the PGA TOUR.",
+  "buyCourseDescription": "Butler Pitch and Putt is a historic 9-hole, par-3 golf course which has been a cultural staple in downtown Austin, Texas since 1949. With holes ranging from 60 to 105 yards, Butler operates on a first-come, first-play basis—no tee times, just drop a ball into the chute to claim your spot. Home of the Tito's Shorties Classic and supporting partner of Save Muny and Youth On Course, Butler Pitch and Putt truly embodies the spirit of making golf accessible and enjoyable for all.",
   "price": "$4.99",
   "onSaleFrom": null,
   "isFirm": false,
@@ -19,8 +19,8 @@
         "hard": [764.569, 7.34, 700.121]
       },
       "teeCoordinates": {
-        "front": [770.872, 7.113, 706.703],
-        "middle": [788.388, 13.421, 755.223],
+        "front": [770.172, 12.898, 754.764],
+        "middle": [788.517, 13.421, 755.559],
         "back": [827.046, 12.465, 733.299]
       }
     },
@@ -28,12 +28,12 @@
       "hole": 2,
       "par": 3,
       "pinCoordinates": {
-        "easy": [730.786, 9.435, 695.838],
-        "medium": [722.896, 10.037, 686.518],
-        "hard": [727.426, 9.957, 680.468]
+        "easy": [730.786, 9.496, 695.838],
+        "medium": [722.896, 9.938, 686.518],
+        "hard": [727.426, 10.163, 680.468]
       },
       "teeCoordinates": {
-        "front": [757.287, 8.366, 731.63],
+        "front": [757.288, 8.366, 731.63],
         "middle": [757.724, 10.176, 742.268],
         "back": [770.154, 12.898, 754.777]
       }
@@ -63,7 +63,7 @@
       "teeCoordinates": {
         "front": [685.796, 8.535, 597.938],
         "middle": [682.632, 9.572, 585.274],
-        "back": [680.53, 9.666, 582.105]
+        "back": [680.79, 9.666, 582.759]
       }
     },
     {
@@ -77,7 +77,7 @@
       "teeCoordinates": {
         "front": [770.582, 7.926, 629.805],
         "middle": [777.581, 11.925, 655.044],
-        "back": [784.599, 11.966, 664.227]
+        "back": [784.598, 11.966, 664.227]
       }
     },
     {
@@ -90,8 +90,8 @@
       },
       "teeCoordinates": {
         "front": [719.266, 8.236, 582.2],
-        "middle": [716.011, 8.412, 575.053],
-        "back": [688.077, 8.794, 579.927]
+        "middle": [716.01, 8.412, 575.053],
+        "back": [688.259, 8.794, 580.077]
       }
     },
     {
@@ -103,7 +103,7 @@
         "hard": [807.013, 8.608, 729.143]
       },
       "teeCoordinates": {
-        "front": [767.207, 7.574, 675.926],
+        "front": [767.206, 7.574, 675.927],
         "middle": [760.891, 10.965, 650.576],
         "back": [752.763, 10.874, 646.213]
       }
@@ -114,7 +114,7 @@
       "pinCoordinates": {
         "easy": [851.596, 8.577, 837.449],
         "medium": [859.798, 8.446, 847.117],
-        "hard": [842.918, 8.907, 852.547]
+        "hard": [846.188, 8.907, 851.337]
       },
       "teeCoordinates": {
         "front": [828.248, 11.691, 778.674],
@@ -131,15 +131,15 @@
         "hard": [811.686, 9.751, 796.071]
       },
       "teeCoordinates": {
-        "front": [811.825, 9.096, 852.45],
-        "middle": [820.477, 9.615, 870.567],
+        "front": [811.824, 9.096, 852.45],
+        "middle": [820.478, 9.615, 870.567],
         "back": [871.319, 8.809, 850.988]
       }
     }
   ],
-  "courseImage": "images/course-quailhollow.avif",
-  "courseBuyImage": "images/course-quailhollow.avif",
-  "courseLogo": "images/logo-quailhollow-white.avif",
-  "courseLogoHorizontal": "images/logo-quailhollowwhite.avif",
-  "status": "free"
+  "courseImage": "images/course-butlerpitchputt.avif",
+  "courseBuyImage": "images/course-butlerpitchputt.avif",
+  "courseLogo": "images/logo-butlerpitchputt.avif",
+  "courseLogoHorizontal": "images/logo-butlerpitchputt.avif",
+  "status": "paid"
 }
