@@ -24,14 +24,20 @@ const getCoordinatesFromCourseJson = async () => {
     });
   }
 
-  await writeFile(
-    '../src/course-hole-coordinates.js',
-    `module.exports = ${JSON.stringify(courseHoleCoordinates, null, 2)}`
-  );
-
   const courseDistanceChecksums = [];
   for (const course of Object.values(COURSES)) {
     if (!courseHoleCoordinates[course]) {
+      if (course !== COURSES.TOPGOLF) {
+        // Valhalla hole coordinates will work fine as a placeholder even for a nine-hole course.
+        // We want to be sure that the function to get course distances will not bomb for any unreleased courses that
+        // do not yet have json files.
+        console.log(
+          '\nMissing json for course:',
+          course,
+          '- using valhalla hole coordinates as a placeholder'
+        );
+        courseHoleCoordinates[course] = courseHoleCoordinates[COURSES.VALHALLA];
+      }
       continue;
     }
 
@@ -55,12 +61,15 @@ const getCoordinatesFromCourseJson = async () => {
     const courseJsonHolePars = courseHoleCoordinates[course].map((h) => h.par);
     if (actualHolePars.join('') !== courseJsonHolePars.join('')) {
       console.log(`Hole pars for ${course} do NOT match!!!`);
-    } else {
-      console.log(`Hole pars for ${course} match.`);
     }
   }
 
-  console.log('Course distances (in yards):');
+  await writeFile(
+    '../src/course-hole-coordinates.js',
+    `module.exports = ${JSON.stringify(courseHoleCoordinates, null, 2)}`
+  );
+
+  console.log('\nCourse distances (in yards):\n');
   courseDistanceChecksums.forEach((c) => {
     console.log(`${c.course}: ${c.lengthInYards}`);
   });
@@ -68,6 +77,6 @@ const getCoordinatesFromCourseJson = async () => {
 
 getCoordinatesFromCourseJson()
   .then(() => {
-    console.log('DONE!');
+    console.log('\nDONE!');
   })
   .catch((e) => console.error(e));
