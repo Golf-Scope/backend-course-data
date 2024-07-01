@@ -3,7 +3,6 @@ const {
   calculateStrokesGainedForShot,
   convertLieType,
   calculateEffectiveDistance,
-  calculateEffectiveDistanceIndex,
 } = require('./calculate-strokes-gained');
 const {
   COURSES,
@@ -116,7 +115,6 @@ module.exports = {
   strokesGainedValues,
   convertLieType,
   calculateEffectiveDistance,
-  calculateEffectiveDistanceIndex,
   calculateStrokesGainedForRound,
   calculateStrokesGainedForShot,
   getHoleDistanceTeeToPin,
