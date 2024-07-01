@@ -436,7 +436,6 @@ const calculateStrokesGainedForRound = ({
 };
 
 module.exports = {
-  calculateEffectiveDistance,
   calculateStrokesGainedForRound,
   calculateStrokesGainedForShot,
   convertLieType,
