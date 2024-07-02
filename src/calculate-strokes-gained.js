@@ -67,7 +67,7 @@ const getExpectedStrokes = ({ difficulty, greenSpeed, lieType, distance }) => {
 
   if (lieType === 'first cut') {
     // Treat first cut just like rough up until 70 yards and then like 2/3rds rough, 1/3rd fairway
-    if (distance < 70) {
+    if (distance <= 70) {
       return _getExpectedStrokes({
         difficulty,
         greenSpeed,
@@ -133,9 +133,10 @@ const calculateEffectiveDistance = ({ effectiveLieType, distanceToHole }) => {
     return 0;
   }
 
+  // Green strokes gained data is in terms of feet, not meters
   return effectiveLieType === 'green'
-    ? Math.ceil(distanceToHole * METERS_TO_FEET)
-    : 10 * Math.ceil(distanceToHole / 10);
+    ? distanceToHole * METERS_TO_FEET
+    : distanceToHole;
 };
 
 const calculateStrokesGainedForShot = ({
@@ -338,8 +339,8 @@ const calculateStrokesGainedForRound = ({
           startDistance,
           endDistance,
           distance,
-          startExpectedStrokes,
-          endExpectedStrokes,
+          startExpectedStrokes: Math.round(startExpectedStrokes * 1000) / 1000,
+          endExpectedStrokes: Math.round(endExpectedStrokes * 1000) / 1000,
           stroke,
           club,
           hole: holeIndex + (roundType === 'back 9' ? 10 : 1),
@@ -371,8 +372,8 @@ const calculateStrokesGainedForRound = ({
         distance,
         stroke,
         strokesGained,
-        startExpectedStrokes,
-        endExpectedStrokes,
+        startExpectedStrokes: Math.round(startExpectedStrokes * 1000) / 1000,
+        endExpectedStrokes: Math.round(endExpectedStrokes * 1000) / 1000,
         club,
         includesPenaltyStroke,
         hole: holeIndex + (roundType === 'back 9' ? 10 : 1),
