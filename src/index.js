@@ -2,15 +2,12 @@ const {
   calculateStrokesGainedForRound,
   calculateStrokesGainedForShot,
   convertLieType,
-  calculateEffectiveDistance,
-  calculateEffectiveDistanceIndex,
 } = require('./calculate-strokes-gained');
 const {
   COURSES,
   COURSE_HOLE_PARS,
   COURSE_MODE_PARS,
 } = require('./course-constants');
-const strokesGainedValues = require('./strokes-gained-values');
 const courseHoleCoordinates = require('./course-hole-coordinates');
 
 const getHorizontalDistanceFromCoordinates = (x1, x2, z1, z2) => {
@@ -113,10 +110,7 @@ module.exports = {
   COURSES,
   COURSE_HOLE_PARS,
   COURSE_MODE_PARS,
-  strokesGainedValues,
   convertLieType,
-  calculateEffectiveDistance,
-  calculateEffectiveDistanceIndex,
   calculateStrokesGainedForRound,
   calculateStrokesGainedForShot,
   getHoleDistanceTeeToPin,
