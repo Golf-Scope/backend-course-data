@@ -2,6 +2,7 @@ const {
   calculateStrokesGainedForRound,
   calculateStrokesGainedForShot,
   convertLieType,
+  STROKES_GAINED_CATEGORIES,
 } = require('./calculate-strokes-gained');
 const {
   COURSES,
@@ -110,6 +111,7 @@ module.exports = {
   COURSES,
   COURSE_HOLE_PARS,
   COURSE_MODE_PARS,
+  STROKES_GAINED_CATEGORIES,
   convertLieType,
   calculateStrokesGainedForRound,
   calculateStrokesGainedForShot,
