@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "husky",
+    "prettier": "prettier --write '**/*.js' '**/*.json'",
     "test": "NODE_ENV=test jest --runInBand"
   },
   "devDependencies": {
@@ -19,6 +20,9 @@
   "lint-staged": {
     "*.js": [
       "eslint",
+      "prettier --write"
+    ],
+    "*.json": [
       "prettier --write"
     ]
   },
