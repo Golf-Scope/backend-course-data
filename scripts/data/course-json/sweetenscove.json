@@ -1,0 +1,271 @@
+{
+  "id": "sweetenscove",
+  "name": "Sweetens Cove",
+  "fullName": "Sweetens Cove",
+  "actionId": 32,
+  "sku": "sweetenscove",
+  "par": "72",
+  "buyCourseDescription": "Beautiful. Strategic. Fun. Sweetens Cove, a masterpiece crafted by visionary designers Rob Collins and Tad King, epitomizes the essence of modern golf. Nestled in the foothills of Appalachia, just 30 minutes from Chattanooga, Tennessee, its unique nine-hole, 18-pin routing ensures endless variety and challenge for each hole. There’s no lavish clubhouse or driving range—just a trailer, a few carts, and a playground for golfers to unleash their imagination and creativity.",
+  "price": "$6.99",
+  "onSaleFrom": null,
+  "isFirm": false,
+  "holes": [
+    {
+      "hole": 1,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [-178.711, 3.622, -170.609],
+        "medium": [-183.371, 3.603, -175.139],
+        "hard": [-175.671, 3.689, -177.119]
+      },
+      "teeCoordinates": {
+        "front": [203.438, 8.175, -321.02],
+        "middle": [226.984, 9.208, -340.207],
+        "back": [314.169, 11.822, -341.889]
+      }
+    },
+    {
+      "hole": 2,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [-141.814, 3.133, 179.328],
+        "medium": [-143.934, 3.936, 199.378],
+        "hard": [-150.224, 4.023, 191.518]
+      },
+      "teeCoordinates": {
+        "front": [-191.416, 2.284, -63.263],
+        "middle": [-192.771, 2.639, -106.87],
+        "back": [-169.818, 3.78, -127.822]
+      }
+    },
+    {
+      "hole": 3,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [304.737, 4.302, 266.917],
+        "medium": [312.938, 4.413, 263.763],
+        "hard": [305.116, 4.452, 258.148]
+      },
+      "teeCoordinates": {
+        "front": [-39.259, 3.602, 246.969],
+        "middle": [-127.078, 3.917, 223.557],
+        "back": [-163.331, 3.599, 219.86]
+      }
+    },
+    {
+      "hole": 4,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [169.022, 2.809, 109.969],
+        "medium": [172.203, 2.784, 98.159],
+        "hard": [166.872, 3.662, 83.583]
+      },
+      "teeCoordinates": {
+        "front": [208.182, 3.256, 179.865],
+        "middle": [240.456, 3.899, 188.26],
+        "back": [257.294, 3.899, 186.057]
+      }
+    },
+    {
+      "hole": 5,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [-54.189, 4.633, 151.166],
+        "medium": [-66.477, 5.068, 149.685],
+        "hard": [-76.158, 4.875, 146.337]
+      },
+      "teeCoordinates": {
+        "front": [132.251, 3.562, 162.653],
+        "middle": [172.559, 4.066, 191.964],
+        "back": [203.206, 3.256, 179.229]
+      }
+    },
+    {
+      "hole": 6,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [248.492, 2.454, 12.857],
+        "medium": [251.286, 2.3, 23.074],
+        "hard": [253.028, 2.255, 27.674]
+      },
+      "teeCoordinates": {
+        "front": [-4.499, 2.674, 32.681],
+        "middle": [-66.927, 2.81, 48.135],
+        "back": [-103.798, 4.464, 93.705]
+      }
+    },
+    {
+      "hole": 7,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [-8.188, 2.92, -23.287],
+        "medium": [-17.658, 2.907, -20.387],
+        "hard": [-18.62, 2.955, -28.942]
+      },
+      "teeCoordinates": {
+        "front": [197.884, 2.031, -87.114],
+        "middle": [230.71, 2.118, -124.223],
+        "back": [263.05, 2.118, -107.498]
+      }
+    },
+    {
+      "hole": 8,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [158.757, 2.82, -186.688],
+        "medium": [162.537, 2.826, -192.317],
+        "hard": [152.796, 2.62, -192.845]
+      },
+      "teeCoordinates": {
+        "front": [-102.502, 2.591, -93.358],
+        "middle": [-110.846, 2.591, -81.233],
+        "back": [-123.742, 2.634, -48.732]
+      }
+    },
+    {
+      "hole": 9,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [269.793, 5.746, -311.965],
+        "medium": [267.716, 5.8, -316.579],
+        "hard": [275.768, 5.825, -316.714]
+      },
+      "teeCoordinates": {
+        "front": [209.408, 2.433, -229.312],
+        "middle": [178.742, 2.433, -226.108],
+        "back": [236.387, 2.613, -194.232]
+      }
+    },
+    {
+      "hole": 10,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [-174.344, 3.505, -155.646],
+        "medium": [-183.268, 3.305, -159.399],
+        "hard": [-184.567, 3.208, -153.478]
+      },
+      "teeCoordinates": {
+        "front": [203.438, 8.175, -321.02],
+        "middle": [226.984, 9.208, -340.207],
+        "back": [313.841, 11.822, -344.309]
+      }
+    },
+    {
+      "hole": 11,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [-137.341, 3.827, 191.87],
+        "medium": [-134.532, 3.866, 188.032],
+        "hard": [-134.375, 3.904, 195.244]
+      },
+      "teeCoordinates": {
+        "front": [-191.416, 2.284, -63.263],
+        "middle": [-192.771, 2.639, -106.87],
+        "back": [-169.818, 3.779, -127.822]
+      }
+    },
+    {
+      "hole": 12,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [311.743, 3.344, 231.162],
+        "medium": [312.523, 3.939, 251.362],
+        "hard": [319.001, 4.224, 245.923]
+      },
+      "teeCoordinates": {
+        "front": [-37.903, 3.602, 247.357],
+        "middle": [-127.078, 3.917, 223.557],
+        "back": [-163.473, 3.604, 219.201]
+      }
+    },
+    {
+      "hole": 13,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [138.392, 3.349, 91.974],
+        "medium": [139.89, 2.97, 77.289],
+        "hard": [128.254, 3.375, 62.423]
+      },
+      "teeCoordinates": {
+        "front": [208.182, 3.256, 179.865],
+        "middle": [240.456, 3.899, 188.26],
+        "back": [257.294, 3.899, 186.057]
+      }
+    },
+    {
+      "hole": 14,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [-73.077, 4.498, 135.069],
+        "medium": [-79.317, 4.463, 137.159],
+        "hard": [-70.217, 4.435, 130.059]
+      },
+      "teeCoordinates": {
+        "front": [132.251, 3.562, 162.653],
+        "middle": [172.559, 4.066, 191.964],
+        "back": [203.206, 3.256, 179.229]
+      }
+    },
+    {
+      "hole": 15,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [264.711, 2.864, 12.46],
+        "medium": [271.622, 3.062, 8.975],
+        "hard": [267.963, 3.374, 0.11]
+      },
+      "teeCoordinates": {
+        "front": [-4.499, 2.674, 32.681],
+        "middle": [-66.927, 2.81, 48.135],
+        "back": [-103.798, 4.464, 93.705]
+      }
+    },
+    {
+      "hole": 16,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [-13.852, 3.065, -27.177],
+        "medium": [-0.642, 2.911, -26.027],
+        "hard": [-6.202, 2.924, -31.867]
+      },
+      "teeCoordinates": {
+        "front": [197.884, 2.031, -87.114],
+        "middle": [230.71, 2.118, -124.223],
+        "back": [263.05, 2.118, -107.498]
+      }
+    },
+    {
+      "hole": 17,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [187.66, 3.089, -175.68],
+        "medium": [185.129, 3.158, -170.603],
+        "hard": [190.55, 3.182, -167.893]
+      },
+      "teeCoordinates": {
+        "front": [-102.502, 2.591, -93.358],
+        "middle": [-110.846, 2.591, -81.233],
+        "back": [-123.742, 2.634, -48.732]
+      }
+    },
+    {
+      "hole": 18,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [252.534, 6.526, -315.765],
+        "medium": [256.728, 6.592, -323.386],
+        "hard": [256.683, 6.487, -319.167]
+      },
+      "teeCoordinates": {
+        "front": [209.408, 2.433, -229.312],
+        "middle": [235.891, 2.613, -198.009],
+        "back": [236.387, 2.613, -194.232]
+      }
+    }
+  ],
+  "courseImage": "images/course-sweetens.avif",
+  "courseBuyImage": "images/course-sweetens.avif",
+  "courseLogo": null,
+  "courseLogoHorizontal": null,
+  "status": "paid"
+}
