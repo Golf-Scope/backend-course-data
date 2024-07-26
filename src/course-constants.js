@@ -4,7 +4,10 @@ const COURSES = {
   BUTLER_PITCH_PUTT: 'butlerpitchputt',
   CASTLE_LINKS: 'castle links',
   CASTLE_PINES: 'castlepines',
+  // The 2023 version of eastlake before it was redesigned
   EAST_LAKE: 'eastlake',
+  // The 2024 version of eastlake after it was redesigned
+  EAST_LAKE_2024: 'eastlake2024',
   CLIFFS: 'cliffs',
   HARBOUR_TOWN: 'harbourtown',
   KAPALUA: 'kapalua',
@@ -43,6 +46,9 @@ const COURSE_HOLE_PARS = {
   ],
   [COURSES.CLIFFS]: [4, 5, 4, 3, 4, 4, 4, 3, 4, 4, 4, 4, 3, 5, 3, 4, 5, 4],
   [COURSES.EAST_LAKE]: [4, 3, 4, 4, 4, 5, 4, 4, 3, 4, 3, 4, 4, 4, 3, 4, 4, 5],
+  [COURSES.EAST_LAKE_2024]: [
+    4, 3, 4, 4, 4, 5, 4, 4, 3, 4, 3, 4, 4, 4, 3, 4, 4, 5,
+  ],
   [COURSES.HARBOUR_TOWN]: [
     4, 5, 4, 3, 5, 4, 3, 4, 4, 4, 4, 4, 4, 3, 5, 4, 3, 4,
   ],
