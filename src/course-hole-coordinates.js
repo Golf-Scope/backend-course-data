@@ -1836,7 +1836,7 @@ module.exports = {
     },
     {
       hole: 14,
-      par: 4,
+      par: 5,
       pinCoordinates: {
         easy: [610.964, 29.537, 536.038],
         medium: [624.724, 29.777, 534.318],
