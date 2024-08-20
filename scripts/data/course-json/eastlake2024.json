@@ -6,7 +6,7 @@
   "video": null,
   "actionId": 37,
   "sku": null,
-  "par": "70",
+  "par": "71",
   "buyCourseDescription": "The new-look East Lake Golf Club will make its first public appearance at the 2024 TOUR Championship. Led by Andrew Green - coined as \"golf's new hottest architect\" by Golf Digest - the project began immediately following the 2023 TOUR Championship with the goal of restoring the iconic property to its early 20th century roots. The most notable changes to the course are reflected in the topography, greens and bunkers to allow the course to play both firmer and faster. Streams and ponds were also a primary focus to bring back the native habitat and have water play as a more punishing hazard.",
   "price": "$9.99",
   "onSaleFrom": null,
@@ -200,7 +200,7 @@
     },
     {
       "hole": 14,
-      "par": 4,
+      "par": 5,
       "pinCoordinates": {
         "easy": [610.964, 29.537, 536.038],
         "medium": [624.724, 29.777, 534.318],
