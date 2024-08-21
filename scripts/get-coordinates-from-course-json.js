@@ -36,7 +36,9 @@ const getCoordinatesFromCourseJson = async () => {
           course,
           '- using valhalla hole coordinates as a placeholder'
         );
-        courseHoleCoordinates[course] = courseHoleCoordinates[COURSES.VALHALLA];
+        courseHoleCoordinates[course] = courseHoleCoordinates[
+          COURSES.VALHALLA
+        ].slice(0, COURSE_HOLE_PARS[course].length);
       }
       continue;
     }
@@ -49,7 +51,7 @@ const getCoordinatesFromCourseJson = async () => {
             getTotalDistanceForRound({
               course,
               roundType:
-                course === COURSES.BUTLER_PITCH_PUTT ? 'front 9' : '18 holes',
+                COURSE_HOLE_PARS[course].length === 9 ? 'front 9' : '18 holes',
               tee: 'back',
               pin: 'hard',
             }) *

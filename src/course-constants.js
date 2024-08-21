@@ -12,6 +12,7 @@ const COURSES = {
   HARBOUR_TOWN: 'harbourtown',
   KAPALUA: 'kapalua',
   KIAWAH: 'kiawah',
+  LOFOTEN: 'lofoten',
   MAGNOLIA_PINES: 'magnoliapines',
   MUIRFIELD_VILLAGE: 'muirfieldvillage',
   OLYMPIA_FIELDS: 'olympiafields',
@@ -23,6 +24,8 @@ const COURSES = {
   ST_ANDREWS_OLD: 'standrewsold',
   ST_ANDREWS_OLD_REVERSED: 'standrewsoldreversed',
   SWEETENS_COVE: 'sweetenscove',
+  THE_HAY: 'thehay',
+  THE_HAY_PUTTING: 'thehayputting',
   TORREY_PINES_NORTH: 'torreypinesnorth',
   TORREY_PINES_SOUTH: 'torreypinessouth',
   TPC_SAWGRASS: 'tpcsawgrass',
@@ -54,6 +57,7 @@ const COURSE_HOLE_PARS = {
   ],
   [COURSES.KAPALUA]: [4, 3, 4, 4, 5, 4, 4, 3, 5, 4, 3, 4, 4, 4, 5, 4, 4, 5],
   [COURSES.KIAWAH]: [4, 5, 4, 4, 3, 4, 5, 3, 4, 4, 5, 4, 4, 3, 4, 5, 3, 4],
+  [COURSES.LOFOTEN]: [4, 3, 4, 4, 5, 4, 3, 5, 4, 4, 4, 3, 5, 4, 4, 4, 3, 4],
   [COURSES.MAGNOLIA_PINES]: [
     4, 5, 4, 3, 4, 3, 4, 5, 4, 4, 4, 3, 5, 4, 5, 3, 4, 4,
   ],
@@ -82,6 +86,10 @@ const COURSE_HOLE_PARS = {
   ],
   [COURSES.SWEETENS_COVE]: [
     5, 4, 5, 3, 4, 4, 4, 4, 3, 5, 4, 5, 3, 4, 4, 4, 4, 3,
+  ],
+  [COURSES.THE_HAY]: [3, 3, 3, 3, 3, 3, 3, 3, 3],
+  [COURSES.THE_HAY_PUTTING]: [
+    3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
   ],
   [COURSES.TORREY_PINES_NORTH]: [
     4, 4, 3, 4, 5, 4, 4, 3, 5, 5, 4, 3, 4, 4, 3, 4, 5, 4,
