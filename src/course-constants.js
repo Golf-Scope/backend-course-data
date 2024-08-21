@@ -37,6 +37,8 @@ const COURSES = {
   TOPGOLF: 'topgolf',
 };
 
+const PUTTING_COURSES = [COURSES.THE_HAY_PUTTING];
+
 const COURSE_HOLE_PARS = {
   [COURSES.ALPINE]: [4, 3, 4, 5, 3, 4, 4, 4, 4, 5, 4, 3, 4, 3, 4, 5, 4, 4],
   [COURSES.BAY_HILL]: [4, 3, 4, 5, 4, 5, 3, 4, 4, 4, 4, 5, 4, 3, 4, 5, 3, 4],
@@ -123,6 +125,7 @@ for (const [course, holePars] of Object.entries(COURSE_HOLE_PARS)) {
 
 module.exports = {
   COURSES,
+  PUTTING_COURSES,
   COURSE_HOLE_PARS,
   COURSE_MODE_PARS,
 };
