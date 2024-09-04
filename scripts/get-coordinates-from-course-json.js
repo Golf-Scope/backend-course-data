@@ -1,4 +1,4 @@
-// `cd scripts && node get-coordinates-from-course-json.js`
+// `pushd scripts && node get-coordinates-from-course-json.js && popd`
 
 const { readdir, readFile, writeFile } = require('node:fs/promises');
 const { resolve } = require('node:path');

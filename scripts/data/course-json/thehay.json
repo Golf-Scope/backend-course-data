@@ -1,0 +1,146 @@
+{
+  "id": "thehay",
+  "name": "The Hay",
+  "fullName": "The Hay",
+  "type": "standard",
+  "elevation": 0,
+  "video": null,
+  "actionId": 38,
+  "sku": null,
+  "buyCourseDescription": null,
+  "price": "$5.99",
+  "onSaleFrom": null,
+  "isFirm": false,
+  "additionalCourses": ["thehayputting"],
+  "courseImage": "images/courses/overview/alpine.avif",
+  "courseBuyImage": "images/courses/overview/alpine.avif",
+  "courseLogo": null,
+  "holes": [
+    {
+      "hole": 1,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [288.409, 23.491, 324.111],
+        "medium": [289.169, 23.594, 310.451],
+        "hard": [284.609, 23.507, 313.501]
+      },
+      "teeCoordinates": {
+        "front": [284.573, 25.434, 353.651],
+        "middle": [265.474, 25.64, 365.423],
+        "back": [264.874, 25.664, 366.684]
+      }
+    },
+    {
+      "hole": 2,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [293.086, 16.215, 216.098],
+        "medium": [287.586, 16.216, 212.108],
+        "hard": [296.666, 16.152, 221.638]
+      },
+      "teeCoordinates": {
+        "front": [297.879, 21.179, 281.276],
+        "middle": [306.837, 24.08, 300.75],
+        "back": [308.822, 24.674, 313.891]
+      }
+    },
+    {
+      "hole": 3,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [257.116, 9.466, 132.518],
+        "medium": [260.196, 9.915, 143.288],
+        "hard": [265.236, 10.001, 139.218]
+      },
+      "teeCoordinates": {
+        "front": [299.276, 13.739, 178.657],
+        "middle": [303.856, 15.013, 191.667],
+        "back": [305.836, 15.126, 194.468]
+      }
+    },
+    {
+      "hole": 4,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [243.747, 15.225, 183.594],
+        "medium": [238.357, 15.231, 183.774],
+        "hard": [237.597, 15.283, 178.934]
+      },
+      "teeCoordinates": {
+        "front": [242.865, 11.148, 140.824],
+        "middle": [243.01, 11.122, 139.74],
+        "back": [244.456, 9.204, 126.51]
+      }
+    },
+    {
+      "hole": 5,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [251.187, 17.813, 221.046],
+        "medium": [255.877, 17.332, 221.666],
+        "hard": [250.067, 17.831, 212.966]
+      },
+      "teeCoordinates": {
+        "front": [268.998, 13.875, 174.091],
+        "middle": [269.491, 13.87, 173.492],
+        "back": [269.8, 13.866, 172.771]
+      }
+    },
+    {
+      "hole": 6,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [192.98, 22.996, 277.858],
+        "medium": [185.87, 22.999, 277.298],
+        "hard": [180.66, 22.947, 270.748]
+      },
+      "teeCoordinates": {
+        "front": [231.941, 19.904, 237.834],
+        "middle": [232.099, 19.686, 226.954],
+        "back": [232.887, 19.645, 225.771]
+      }
+    },
+    {
+      "hole": 7,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [216.163, 24.234, 307.844],
+        "medium": [208.213, 23.746, 306.873],
+        "hard": [215.883, 24.076, 295.253]
+      },
+      "teeCoordinates": {
+        "front": [171.412, 23.21, 294.726],
+        "middle": [160.694, 22.955, 288.063],
+        "back": [159.332, 22.937, 287.618]
+      }
+    },
+    {
+      "hole": 8,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [246.708, 20.565, 251.847],
+        "medium": [252.908, 20.503, 246.557],
+        "hard": [259.458, 20.525, 245.337]
+      },
+      "teeCoordinates": {
+        "front": [229.812, 24.649, 317.173],
+        "middle": [228.9, 24.94, 330.557],
+        "back": [228.595, 24.952, 332.078]
+      }
+    },
+    {
+      "hole": 9,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [258.401, 23.282, 322.726],
+        "medium": [261.916, 23.695, 330.681],
+        "hard": [252.256, 23.716, 322.691]
+      },
+      "teeCoordinates": {
+        "front": [282.19, 20.72, 264.857],
+        "middle": [275.498, 19.407, 240.645],
+        "back": [275.68, 19.374, 239.428]
+      }
+    }
+  ]
+}
