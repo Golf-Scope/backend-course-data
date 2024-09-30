@@ -2,6 +2,7 @@ const COURSES = {
   ALPINE: 'alpine',
   BAY_HILL: 'bayhill',
   BUTLER_PITCH_PUTT: 'butlerpitchputt',
+  CANYONS: 'canyons',
   CASTLE_LINKS: 'castle links',
   CASTLE_PINES: 'castlepines',
   // The 2023 version of eastlake before it was redesigned
@@ -49,6 +50,7 @@ const COURSE_HOLE_PARS = {
   [COURSES.CASTLE_PINES]: [
     5, 4, 4, 3, 4, 4, 3, 5, 4, 4, 3, 4, 4, 5, 4, 3, 5, 4,
   ],
+  [COURSES.CANYONS]: [4, 3, 5, 4, 4, 3, 5, 4, 4, 5, 3, 4, 4, 4, 5, 3, 4, 4],
   [COURSES.CLIFFS]: [4, 5, 4, 3, 4, 4, 4, 3, 4, 4, 4, 4, 3, 5, 3, 4, 5, 4],
   [COURSES.EAST_LAKE]: [4, 3, 4, 4, 4, 5, 4, 4, 3, 4, 3, 4, 4, 4, 3, 4, 4, 5],
   [COURSES.EAST_LAKE_2024]: [
