@@ -1,0 +1,272 @@
+{
+  "id": "canyons",
+  "name": "Canyons",
+  "fullName": "Canyons",
+  "type": "standard",
+  "elevation": 4500,
+  "video": null,
+  "actionId": 41,
+  "sku": null,
+  "buyCourseDescription": "Introducing Canyons, an immersive fantasy golf course designed by the GOLF+ team. Navigate dramatic elevation changes as you face a series of thrilling risk-reward holes, set against a rustic canyon backdrop. Inspired by old western mining towns, each hole presents a new, exhilarating challenge that will test even the most seasoned golfers.",
+  "price": null,
+  "onSaleFrom": null,
+  "isFirm": true,
+  "additionalCourses": null,
+  "courseImage": "images/courses/overview/canyons.avif",
+  "courseBuyImage": "images/courses/overview/canyons.avif",
+  "courseLogo": "images/courses/logos/canyons.avif",
+  "holes": [
+    {
+      "hole": 1,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [965.539, 47.905, 280.391],
+        "medium": [954.444, 48.624, 267.416],
+        "hard": [959.819, 47.932, 285.241]
+      },
+      "teeCoordinates": {
+        "front": [1271.669, 53.615, 264.001],
+        "middle": [1331.469, 56.148, 212.711],
+        "back": [1400.479, 67.265, 252.881]
+      }
+    },
+    {
+      "hole": 2,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [935.556, 127.068, 649.978],
+        "medium": [949.716, 127.053, 634.358],
+        "hard": [945.016, 127.437, 642.588]
+      },
+      "teeCoordinates": {
+        "front": [1056.196, 137.91, 683.988],
+        "middle": [1066.486, 138.001, 576.778],
+        "back": [1046.966, 138.001, 508.888]
+      }
+    },
+    {
+      "hole": 3,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [574.576, 47.15, 737.998],
+        "medium": [561.666, 48.537, 759.458],
+        "hard": [537.656, 49.266, 755.068]
+      },
+      "teeCoordinates": {
+        "front": [922.556, 78.153, 546.758],
+        "middle": [958.476, 83.112, 490.728],
+        "back": [969.946, 81.998, 441.108]
+      }
+    },
+    {
+      "hole": 4,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [531.707, 39.615, 1340.864],
+        "medium": [511.297, 39.798, 1353.874],
+        "hard": [528.107, 39.825, 1328.574]
+      },
+      "teeCoordinates": {
+        "front": [365.727, 44.459, 1047.134],
+        "middle": [438.387, 48.381, 948.544],
+        "back": [471.837, 50.922, 874.314]
+      }
+    },
+    {
+      "hole": 5,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [519.297, 39.789, 926.666],
+        "medium": [502.637, 39.65, 937.966],
+        "hard": [505.901, 40.289, 925.135]
+      },
+      "teeCoordinates": {
+        "front": [324.297, 70.82, 1246.206],
+        "middle": [362.887, 79.404, 1326.016],
+        "back": [410.787, 88.712, 1402.476]
+      }
+    },
+    {
+      "hole": 6,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [1120.41, 76.351, 844.348],
+        "medium": [1112.08, 76.218, 854.098],
+        "hard": [1121.53, 76.856, 862.948]
+      },
+      "teeCoordinates": {
+        "front": [1023.5, 78.877, 833.988],
+        "middle": [985.0, 77.435, 867.128],
+        "back": [954.12, 79.999, 898.868]
+      }
+    },
+    {
+      "hole": 7,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [1278.182, 80.125, 819.733],
+        "medium": [1276.223, 79.945, 832.844],
+        "hard": [1260.193, 79.768, 817.323]
+      },
+      "teeCoordinates": {
+        "front": [903.233, 85.111, 1004.344],
+        "middle": [883.032, 81.998, 1076.563],
+        "back": [823.662, 91.001, 1112.583]
+      }
+    },
+    {
+      "hole": 8,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1280.788, 70.994, 460.367],
+        "medium": [1262.798, 70.187, 467.797],
+        "hard": [1286.636, 70.888, 454.297]
+      },
+      "teeCoordinates": {
+        "front": [1191.358, 78.252, 750.077],
+        "middle": [1141.658, 78.954, 777.767],
+        "back": [1081.678, 86.546, 816.167]
+      }
+    },
+    {
+      "hole": 9,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1092.721, 49.884, 142.466],
+        "medium": [1090.796, 50.547, 127.391],
+        "hard": [1102.926, 50.963, 123.941]
+      },
+      "teeCoordinates": {
+        "front": [1233.896, 68.707, 379.881],
+        "middle": [1349.556, 65.998, 384.701],
+        "back": [1353.356, 65.998, 457.121]
+      }
+    },
+    {
+      "hole": 10,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [886.678, 49.022, 442.744],
+        "medium": [903.17, 47.321, 411.252],
+        "hard": [880.83, 48.624, 412.002]
+      },
+      "teeCoordinates": {
+        "front": [1208.22, 68.203, 112.602],
+        "middle": [1239.71, 82.059, 53.952],
+        "back": [1363.26, 83.417, 83.172]
+      }
+    },
+    {
+      "hole": 11,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [592.117, 84.03, 229.86],
+        "medium": [583.439, 84.352, 229.4],
+        "hard": [580.619, 84.898, 248.32]
+      },
+      "teeCoordinates": {
+        "front": [620.139, 88.4, 365.67],
+        "middle": [666.469, 85.47, 357.45],
+        "back": [722.499, 89.094, 363.54]
+      }
+    },
+    {
+      "hole": 12,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [365.653, 97.098, 221.391],
+        "medium": [348.383, 98.011, 218.922],
+        "hard": [361.523, 97.361, 228.722]
+      },
+      "teeCoordinates": {
+        "front": [609.453, 118.003, 57.002],
+        "middle": [706.143, 111.701, 139.132],
+        "back": [751.283, 124.458, 75.702]
+      }
+    },
+    {
+      "hole": 13,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [604.154, 104.413, 405.738],
+        "medium": [596.224, 104.186, 391.698],
+        "hard": [603.204, 104.544, 398.968]
+      },
+      "teeCoordinates": {
+        "front": [345.184, 105.086, 263.458],
+        "middle": [319.564, 115.905, 166.948],
+        "back": [350.414, 116.668, 123.308]
+      }
+    },
+    {
+      "hole": 14,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [650.033, 49.209, 544.229],
+        "medium": [675.853, 49.25, 509.509],
+        "hard": [663.023, 48.882, 516.739]
+      },
+      "teeCoordinates": {
+        "front": [852.093, 82.502, 925.599],
+        "middle": [894.243, 91.696, 950.079],
+        "back": [875.953, 100.997, 1001.009]
+      }
+    },
+    {
+      "hole": 15,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [857.669, 48.969, 476.809],
+        "medium": [852.509, 48.48, 438.499],
+        "hard": [870.929, 48.973, 454.399]
+      },
+      "teeCoordinates": {
+        "front": [467.619, 73.689, 755.799],
+        "middle": [444.069, 75.391, 807.329],
+        "back": [429.289, 82.647, 848.889]
+      }
+    },
+    {
+      "hole": 16,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [797.408, 117.229, 342.473],
+        "medium": [813.428, 116.771, 333.983],
+        "hard": [791.018, 117.202, 332.073]
+      },
+      "teeCoordinates": {
+        "front": [732.848, 128.433, 211.763],
+        "middle": [883.428, 138.055, 151.323],
+        "back": [971.718, 136.567, 173.333]
+      }
+    },
+    {
+      "hole": 17,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1268.169, 49.283, 201.236],
+        "medium": [1240.029, 48.514, 197.016],
+        "hard": [1252.149, 49.646, 177.226]
+      },
+      "teeCoordinates": {
+        "front": [1040.839, 85.5, 419.586],
+        "middle": [1067.489, 125.993, 471.176],
+        "back": [842.229, 105.002, 304.426]
+      }
+    },
+    {
+      "hole": 18,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1198.943, 57.4, 358.624],
+        "medium": [1202.473, 57.738, 362.964],
+        "hard": [1209.213, 57.344, 371.064]
+      },
+      "teeCoordinates": {
+        "front": [1266.913, 62.801, 139.514],
+        "middle": [1279.263, 76.993, 100.274],
+        "back": [1266.623, 97.479, 47.844]
+      }
+    }
+  ]
+}
