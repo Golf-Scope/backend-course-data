@@ -98,35 +98,37 @@ const getExpectedStrokes = ({ difficulty, greenSpeed, lieType, distance }) => {
 };
 
 const convertLieType = ({ lieType, distanceToHole }) => {
-  let effectiveLieType = lieType;
-
   if (
-    lieType === 'concrete' ||
-    lieType === 'wood' ||
-    lieType === 'bridge' ||
-    lieType === 'ob' ||
-    lieType === 'mulch'
+    [
+      '',
+      'tee',
+      'collar',
+      'fringe',
+      'concrete',
+      'wood',
+      'bridge',
+      'ice',
+      'fairway (1)',
+      'fairway (2)',
+    ].includes(lieType) ||
+    (lieType === 'green' && distanceToHole * METERS_TO_FEET > 99)
   ) {
-    effectiveLieType = 'rough';
+    return 'fairway';
+  }
+
+  if (lieType === 'ob' || lieType === 'mulch') {
+    return 'rough';
+  }
+
+  if (lieType === 'snow') {
+    return 'deep rough';
   }
 
   if (lieType === 'red dirt') {
-    effectiveLieType = 'sand';
+    return 'sand';
   }
 
-  if (
-    lieType === '' ||
-    lieType === 'tee' ||
-    lieType === 'collar' ||
-    lieType === 'fringe' ||
-    lieType === 'fairway (1)' ||
-    lieType === 'fairway (2)' ||
-    (lieType === 'green' && distanceToHole * METERS_TO_FEET > 99)
-  ) {
-    effectiveLieType = 'fairway';
-  }
-
-  return effectiveLieType;
+  return lieType;
 };
 
 const calculateEffectiveDistance = ({ effectiveLieType, distanceToHole }) => {
