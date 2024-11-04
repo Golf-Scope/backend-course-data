@@ -104,7 +104,8 @@ const convertLieType = ({ lieType, distanceToHole }) => {
     lieType === 'concrete' ||
     lieType === 'wood' ||
     lieType === 'bridge' ||
-    lieType === 'ob'
+    lieType === 'ob' ||
+    lieType === 'mulch'
   ) {
     effectiveLieType = 'rough';
   }
