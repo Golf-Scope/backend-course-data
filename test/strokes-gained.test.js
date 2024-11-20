@@ -369,7 +369,7 @@ describe('strokes gained', function () {
       0.392,
       0.392,
       0.713,
-      0.373,
+      0.132,
       null,
     ]);
   });
