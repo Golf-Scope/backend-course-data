@@ -27,6 +27,7 @@ const COURSES = {
   ST_ANDREWS_OLD_REVERSED: 'standrewsoldreversed',
   SWEETENS_COVE: 'sweetenscove',
   TE_ARAI_NORTH: 'tearainorth',
+  TE_ARAI_PUTTING: 'tearaiputting',
   TE_ARAI_SOUTH: 'tearaisouth',
   THE_CRADLE: 'thecradle',
   THE_HAY: 'thehay',
@@ -42,7 +43,7 @@ const COURSES = {
   TOPGOLF: 'topgolf',
 };
 
-const PUTTING_COURSES = [COURSES.THE_HAY_PUTTING];
+const PUTTING_COURSES = [COURSES.THE_HAY_PUTTING, COURSES.TE_ARAI_PUTTING];
 
 const COURSE_HOLE_PARS = {
   [COURSES.ALPINE]: [4, 3, 4, 5, 3, 4, 4, 4, 4, 5, 4, 3, 4, 3, 4, 5, 4, 4],
@@ -100,6 +101,9 @@ const COURSE_HOLE_PARS = {
   ],
   [COURSES.TE_ARAI_NORTH]: [
     4, 3, 4, 4, 4, 4, 3, 4, 5, 4, 5, 3, 4, 5, 3, 4, 3, 5,
+  ],
+  [COURSES.TE_ARAI_PUTTING]: [
+    3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
   ],
   [COURSES.TE_ARAI_SOUTH]: [
     5, 4, 4, 4, 3, 4, 5, 3, 4, 4, 4, 3, 5, 4, 4, 4, 3, 5,
