@@ -18,6 +18,7 @@ const COURSES = {
   MAGNOLIA_PINES: 'magnoliapines',
   MUIRFIELD_VILLAGE: 'muirfieldvillage',
   OLYMPIA_FIELDS: 'olympiafields',
+  PEAKS: 'peaks',
   PEBBLE_BEACH: 'pebblebeach',
   PINEHURST_2: 'pinehurst2',
   QUAIL_HOLLOW: 'quailhollow',
@@ -79,6 +80,7 @@ const COURSE_HOLE_PARS = {
   [COURSES.OLYMPIA_FIELDS]: [
     5, 4, 4, 4, 4, 3, 4, 3, 4, 4, 4, 4, 3, 4, 5, 3, 4, 4,
   ],
+  [COURSES.PEAKS]: [4, 3, 5, 4, 4, 3, 4, 4, 5, 4, 3, 4, 4, 5, 4, 3, 4, 5],
   [COURSES.PEBBLE_BEACH]: [
     4, 5, 4, 4, 3, 5, 3, 4, 4, 4, 4, 3, 4, 5, 4, 4, 3, 5,
   ],
