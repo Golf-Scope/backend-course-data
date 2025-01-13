@@ -1,4 +1,5 @@
-// `pushd scripts && node get-coordinates-from-course-json.js && popd`
+// Because of the placeholder json that gets generated for courses without json, the script has to be run twice in its current form to pick up new json files correctly.
+// `pushd scripts && node get-coordinates-from-course-json.js && node get-coordinates-from-course-json.js && popd`
 
 const { readdir, readFile, writeFile } = require('node:fs/promises');
 const { resolve } = require('node:path');
