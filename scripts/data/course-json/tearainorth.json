@@ -1,0 +1,272 @@
+{
+  "id": "tearainorth",
+  "name": "Te Arai Links - North",
+  "fullName": "Te Arai Links (North Course)",
+  "type": "standard",
+  "elevation": 0,
+  "video": null,
+  "sku": "tearainorth",
+  "buyCourseDescription": "Designed by Tom Doak, the North Course at Te Arai Links offers a distinct contrast to its southern counterpart. While the South Course delivers a more classic links experience, the North Course emphasizes intricate green complexes, strategic shot-making, and sweeping ocean vistas, making it a unique challenge for golfers seeking variety and adventure.",
+  "price": "$9.99",
+  "onSaleFrom": null,
+  "isFirm": true,
+  "additionalCourses": ["tearaiputting"],
+  "courseTile": "images/courses/tiles/tearainorth.avif",
+  "courseImage": "images/courses/overview/tearainorth.avif",
+  "courseBuyImage": "images/courses/overview/tearainorth.avif",
+  "courseLogo": "images/courses/logos/tearai.avif",
+  "holes": [
+    {
+      "hole": 1,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [920.239, 11.806, 3287.141],
+        "medium": [918.929, 12.069, 3275.671],
+        "hard": [933.849, 11.792, 3273.351]
+      },
+      "teeCoordinates": {
+        "front": [964.433, 14.244, 3065.931],
+        "middle": [978.414, 15.263, 3046.843],
+        "back": [991.021, 17.223, 3009.961]
+      }
+    },
+    {
+      "hole": 2,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [809.366, 12.589, 3454.548],
+        "medium": [805.576, 12.589, 3468.278],
+        "hard": [798.636, 12.808, 3464.668]
+      },
+      "teeCoordinates": {
+        "front": [842.191, 11.392, 3309.031],
+        "middle": [863.597, 13.551, 3280.793],
+        "back": [866.706, 15.429, 3251.352]
+      }
+    },
+    {
+      "hole": 3,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [679.565, 20.953, 3208.482],
+        "medium": [676.804, 22.091, 3182.405],
+        "hard": [671.096, 22.216, 3190.946]
+      },
+      "teeCoordinates": {
+        "front": [756.366, 16.689, 3437.812],
+        "middle": [753.751, 16.463, 3478.998],
+        "back": [803.149, 16.034, 3508.601]
+      }
+    },
+    {
+      "hole": 4,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [628.895, 19.353, 2715.219],
+        "medium": [622.286, 19.233, 2712.187],
+        "hard": [607.195, 20.25, 2722.544]
+      },
+      "teeCoordinates": {
+        "front": [698.103, 21.506, 3027.971],
+        "middle": [715.177, 22.257, 3099.957],
+        "back": [717.599, 23.522, 3138.486]
+      }
+    },
+    {
+      "hole": 5,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [192.209, 24.748, 2858.818],
+        "medium": [176.962, 25.356, 2861.743],
+        "hard": [166.552, 25.653, 2868.323]
+      },
+      "teeCoordinates": {
+        "front": [443.672, 20.541, 2753.434],
+        "middle": [503.488, 20.388, 2719.647],
+        "back": [576.445, 21.213, 2722.541]
+      }
+    },
+    {
+      "hole": 6,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [574.283, 20.705, 2639.299],
+        "medium": [556.86, 20.539, 2619.448],
+        "hard": [570.81, 20.1, 2634.368]
+      },
+      "teeCoordinates": {
+        "front": [301.849, 28.942, 2700.31],
+        "middle": [242.836, 29.575, 2772.958],
+        "back": [185.572, 28.027, 2786.869]
+      }
+    },
+    {
+      "hole": 7,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [903.797, 27.3, 2255.664],
+        "medium": [915.766, 27.658, 2238.835],
+        "hard": [917.139, 27.852, 2254.08]
+      },
+      "teeCoordinates": {
+        "front": [725.33, 18.89, 2461.86],
+        "middle": [691.754, 18.972, 2483.563],
+        "back": [632.013, 23.195, 2537.894]
+      }
+    },
+    {
+      "hole": 8,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [1327.299, 32.372, 1820.096],
+        "medium": [1326.603, 31.911, 1839.94],
+        "hard": [1320.121, 31.987, 1832.012]
+      },
+      "teeCoordinates": {
+        "front": [1123.597, 30.313, 2176.696],
+        "middle": [1052.875, 33.605, 2242.491],
+        "back": [1030.39, 35.067, 2257.985]
+      }
+    },
+    {
+      "hole": 9,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [1535.992, 24.102, 1750.051],
+        "medium": [1523.162, 23.929, 1753.868],
+        "hard": [1532.548, 24.099, 1755.441]
+      },
+      "teeCoordinates": {
+        "front": [1402.886, 25.554, 1807.51],
+        "middle": [1381.2, 29.303, 1801.731],
+        "back": [1364.399, 30.549, 1799.766]
+      }
+    },
+    {
+      "hole": 10,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1166.6, 27.088, 1746.532],
+        "medium": [1152.37, 27.057, 1751.772],
+        "hard": [1131.857, 27.6, 1763.702]
+      },
+      "teeCoordinates": {
+        "front": [1459.41, 25.187, 1749.462],
+        "middle": [1545.93, 24.152, 1727.083],
+        "back": [1564.163, 26.486, 1739.512]
+      }
+    },
+    {
+      "hole": 11,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [894.365, 31.18, 2119.475],
+        "medium": [871.617, 31.956, 2133.885],
+        "hard": [885.277, 31.897, 2132.441]
+      },
+      "teeCoordinates": {
+        "front": [1128.303, 27.621, 1896.254],
+        "middle": [1095.191, 25.131, 1832.655],
+        "back": [1114.84, 28.297, 1740.835]
+      }
+    },
+    {
+      "hole": 12,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [991.531, 31.436, 2205.801],
+        "medium": [998.375, 31.075, 2188.988],
+        "hard": [994.741, 32.051, 2222.241]
+      },
+      "teeCoordinates": {
+        "front": [876.437, 30.721, 2198.499],
+        "middle": [860.744, 31.689, 2181.735],
+        "back": [839.758, 32.272, 2167.143]
+      }
+    },
+    {
+      "hole": 13,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1137.364, 20.511, 2594.191],
+        "medium": [1135.068, 20.584, 2601.002],
+        "hard": [1133.504, 20.088, 2615.087]
+      },
+      "teeCoordinates": {
+        "front": [1113.124, 30.502, 2352.056],
+        "middle": [1105.823, 32.363, 2327.006],
+        "back": [1085.295, 33.722, 2304.579]
+      }
+    },
+    {
+      "hole": 14,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [642.263, 19.13, 2578.569],
+        "medium": [656.543, 19.433, 2584.859],
+        "hard": [652.193, 19.5, 2572.259]
+      },
+      "teeCoordinates": {
+        "front": [1001.11, 17.803, 2583.937],
+        "middle": [1057.56, 18.928, 2601.948],
+        "back": [1091.458, 20.311, 2617.417]
+      }
+    },
+    {
+      "hole": 15,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [696.169, 18.264, 2708.999],
+        "medium": [691.629, 18.671, 2722.269],
+        "hard": [674.859, 18.586, 2716.589]
+      },
+      "teeCoordinates": {
+        "front": [649.921, 19.575, 2624.246],
+        "middle": [593.945, 21.639, 2600.45],
+        "back": [603.204, 22.242, 2570.219]
+      }
+    },
+    {
+      "hole": 16,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1171.868, 18.957, 2676.543],
+        "medium": [1150.748, 18.498, 2677.293],
+        "hard": [1157.748, 18.983, 2677.803]
+      },
+      "teeCoordinates": {
+        "front": [898.837, 19.169, 2692.735],
+        "middle": [850.307, 23.886, 2717.302],
+        "back": [812.464, 27.085, 2722.761]
+      }
+    },
+    {
+      "hole": 17,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [1350.866, 16.081, 2646.225],
+        "medium": [1366.594, 16.304, 2636.095],
+        "hard": [1347.721, 16.115, 2652.151]
+      },
+      "teeCoordinates": {
+        "front": [1267.988, 15.525, 2675.533],
+        "middle": [1223.821, 17.765, 2681.824],
+        "back": [1209.926, 17.948, 2684.181]
+      }
+    },
+    {
+      "hole": 18,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [1056.608, 11.2, 3040.802],
+        "medium": [1052.782, 10.993, 3017.907],
+        "hard": [1067.162, 11.302, 3041.875]
+      },
+      "teeCoordinates": {
+        "front": [1190.004, 11.461, 2758.222],
+        "middle": [1280.884, 12.124, 2725.745],
+        "back": [1354.183, 13.966, 2678.899]
+      }
+    }
+  ]
+}

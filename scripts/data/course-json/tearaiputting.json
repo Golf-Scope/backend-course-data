@@ -1,0 +1,272 @@
+{
+  "id": "tearaiputting",
+  "name": "Te Arai Links • Putting Course",
+  "fullName": "Te Arai Links • Putting Course",
+  "type": "putting",
+  "elevation": 0,
+  "video": null,
+  "sku": null,
+  "buyCourseDescription": "Home to the world's largest putting green, The Playground, Te Arai Links offers a two-acre masterpiece perfect for practice, friendly competition, or family fun. Nestled along New Zealand's stunning coastline, it's a premier destination for unforgettable golf experiences.",
+  "price": null,
+  "onSaleFrom": null,
+  "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/tearaiputting.avif",
+  "courseImage": "images/courses/overview/tearaiputting.avif",
+  "courseBuyImage": "images/courses/overview/tearaiputting.avif",
+  "courseLogo": "images/courses/logos/tearai.avif",
+  "holes": [
+    {
+      "hole": 1,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2106.239, 25.162, 1047.301],
+        "medium": [2108.522, 25.23, 1041.792],
+        "hard": [2112.489, 25.23, 1042.741]
+      },
+      "teeCoordinates": {
+        "front": [2106.739, 25.205, 1050.371],
+        "middle": [2100.081, 25.717, 1053.928],
+        "back": [2099.859, 25.246, 1036.911]
+      }
+    },
+    {
+      "hole": 2,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2103.266, 26.139, 1037.388],
+        "medium": [2099.776, 26.156, 1035.588],
+        "hard": [2098.347, 26.156, 1024.796]
+      },
+      "teeCoordinates": {
+        "front": [2102.996, 25.21, 1042.118],
+        "middle": [2106.796, 25.19, 1043.528],
+        "back": [2107.466, 25.209, 1049.818]
+      }
+    },
+    {
+      "hole": 3,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2104.207, 27.347, 1012.698],
+        "medium": [2101.986, 27.312, 1010.138],
+        "hard": [2093.736, 27.312, 1009.318]
+      },
+      "teeCoordinates": {
+        "front": [2106.946, 27.198, 1015.988],
+        "middle": [2110.961, 26.934, 1017.903],
+        "back": [2116.126, 26.893, 1018.118]
+      }
+    },
+    {
+      "hole": 4,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2107.707, 28.62, 991.984],
+        "medium": [2108.217, 28.663, 989.284],
+        "hard": [2112.947, 28.896, 983.284]
+      },
+      "teeCoordinates": {
+        "front": [2102.297, 27.935, 1000.184],
+        "middle": [2099.507, 27.955, 1000.714],
+        "back": [2109.247, 27.815, 1005.114]
+      }
+    },
+    {
+      "hole": 5,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2123.127, 29.312, 976.716],
+        "medium": [2125.447, 29.325, 972.966],
+        "hard": [2127.607, 29.325, 975.016]
+      },
+      "teeCoordinates": {
+        "front": [2113.431, 28.978, 980.201],
+        "middle": [2114.047, 28.913, 983.296],
+        "back": [2110.387, 28.846, 985.546]
+      }
+    },
+    {
+      "hole": 6,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2124.6, 27.907, 1006.998],
+        "medium": [2124.11, 27.884, 1003.858],
+        "hard": [2120.672, 27.884, 1003.952]
+      },
+      "teeCoordinates": {
+        "front": [2127.03, 27.808, 1012.948],
+        "middle": [2132.68, 27.811, 1006.228],
+        "back": [2133.24, 27.895, 994.998]
+      }
+    },
+    {
+      "hole": 7,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2114.212, 26.949, 1017.823],
+        "medium": [2114.552, 26.897, 1020.573],
+        "hard": [2118.022, 26.897, 1022.033]
+      },
+      "teeCoordinates": {
+        "front": [2104.853, 27.325, 1012.023],
+        "middle": [2100.323, 27.34, 1010.094],
+        "back": [2096.752, 27.451, 1010.873]
+      }
+    },
+    {
+      "hole": 8,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2127.148, 24.202, 1054.107],
+        "medium": [2131.148, 24.16, 1055.487],
+        "hard": [2128.428, 24.16, 1063.897]
+      },
+      "teeCoordinates": {
+        "front": [2123.248, 24.494, 1051.837],
+        "middle": [2119.758, 24.366, 1053.877],
+        "back": [2115.694, 24.446, 1058.099]
+      }
+    },
+    {
+      "hole": 9,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2106.076, 24.358, 1066.301],
+        "medium": [2102.667, 24.424, 1071.793],
+        "hard": [2099.826, 24.424, 1076.481]
+      },
+      "teeCoordinates": {
+        "front": [2111.585, 24.492, 1059.751],
+        "middle": [2113.056, 24.506, 1057.401],
+        "back": [2115.506, 24.478, 1055.891]
+      }
+    },
+    {
+      "hole": 10,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2114.24, 23.333, 1077.752],
+        "medium": [2121.87, 23.079, 1078.642],
+        "hard": [2123.771, 23.065, 1081.382]
+      },
+      "teeCoordinates": {
+        "front": [2115.13, 23.458, 1072.842],
+        "middle": [2116.521, 23.507, 1071.932],
+        "back": [2118.64, 23.764, 1067.172]
+      }
+    },
+    {
+      "hole": 11,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2081.269, 24.268, 1087.61],
+        "medium": [2079.43, 24.274, 1087.533],
+        "hard": [2077.209, 24.274, 1087.86]
+      },
+      "teeCoordinates": {
+        "front": [2093.587, 22.869, 1093.42],
+        "middle": [2095.679, 22.754, 1095.49],
+        "back": [2095.959, 22.668, 1099.43]
+      }
+    },
+    {
+      "hole": 12,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2100.273, 22.741, 1104.452],
+        "medium": [2104.263, 22.63, 1103.732],
+        "hard": [2107.573, 22.978, 1111.562]
+      },
+      "teeCoordinates": {
+        "front": [2094.903, 22.707, 1098.062],
+        "middle": [2094.953, 22.841, 1093.532],
+        "back": [2079.39, 24.284, 1086.877]
+      }
+    },
+    {
+      "hole": 13,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2114.844, 22.478, 1093.04],
+        "medium": [2113.804, 22.478, 1094.588],
+        "hard": [2111.424, 22.478, 1101.448]
+      },
+      "teeCoordinates": {
+        "front": [2116.234, 22.605, 1088.248],
+        "middle": [2114.254, 23.308, 1079.588],
+        "back": [2113.814, 23.361, 1075.948]
+      }
+    },
+    {
+      "hole": 14,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2122.933, 22.741, 1098.149],
+        "medium": [2123.934, 22.743, 1102.258],
+        "hard": [2119.854, 22.743, 1106.969]
+      },
+      "teeCoordinates": {
+        "front": [2124.134, 22.919, 1090.879],
+        "middle": [2121.458, 22.874, 1086.079],
+        "back": [2121.803, 23.044, 1080.819]
+      }
+    },
+    {
+      "hole": 15,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2100.769, 22.646, 1103.949],
+        "medium": [2098.601, 22.633, 1101.34],
+        "hard": [2094.829, 22.633, 1097.859]
+      },
+      "teeCoordinates": {
+        "front": [2104.309, 22.654, 1103.839],
+        "middle": [2110.429, 22.43, 1103.449],
+        "back": [2113.059, 22.775, 1112.149]
+      }
+    },
+    {
+      "hole": 16,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2099.038, 22.737, 1099.463],
+        "medium": [2103.828, 22.718, 1103.713],
+        "hard": [2117.482, 22.718, 1110.99]
+      },
+      "teeCoordinates": {
+        "front": [2094.358, 22.709, 1098.643],
+        "middle": [2085.808, 23.249, 1097.893],
+        "back": [2078.506, 24.279, 1088.078]
+      }
+    },
+    {
+      "hole": 17,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2115.069, 22.735, 1112.666],
+        "medium": [2113.609, 22.885, 1123.756],
+        "hard": [2115.121, 22.84, 1132.004]
+      },
+      "teeCoordinates": {
+        "front": [2119.869, 22.809, 1100.966],
+        "middle": [2117.179, 22.548, 1093.857],
+        "back": [2110.109, 22.814, 1085.706]
+      }
+    },
+    {
+      "hole": 18,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2127.093, 24.181, 1062.674],
+        "medium": [2115.243, 22.492, 1092.254],
+        "hard": [2116.13, 22.744, 1117.212]
+      },
+      "teeCoordinates": {
+        "front": [2129.583, 27.805, 1002.874],
+        "middle": [2115.891, 28.52, 992.343],
+        "back": [2125.223, 29.304, 975.924]
+      }
+    }
+  ]
+}
