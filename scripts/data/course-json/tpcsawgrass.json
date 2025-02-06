@@ -2,13 +2,19 @@
   "id": "tpcsawgrass",
   "name": "TPC Sawgrass",
   "fullName": "TPC Sawgrass",
-  "actionId": 6,
+  "type": "standard",
+  "elevation": 0,
+  "video": "https://www.youtube.com/watch?v=v5F5Rg5iXcc",
   "sku": "tpcsawgrass",
-  "par": "72",
   "buyCourseDescription": "Home of THE PLAYERS Championship, located in Ponte Vedra Beach, FL, TPC Sawgrass was designed by world renowned architect Pete Dye. THE PLAYERS Stadium course sports one of the most recognizable and challenging holes on the PGA TOUR with the Par 3, 17th, and its famous island green. The course was built to challenge Tour Professionals like no other golf course had done before.",
   "price": "$9.99",
   "isFirm": false,
   "onSaleFrom": null,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/tpcsawgrass.avif",
+  "courseImage": "images/courses/overview/tpcsawgrass.avif",
+  "courseBuyImage": "images/courses/overview/tpcsawgrass-buy.avif",
+  "courseLogo": "images/courses/logos/tpcsawgrass.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [759.326, 12.687, 462.466]
       }
     }
-  ],
-  "courseImage": "images/course-tpcsawgrass.avif",
-  "courseBuyImage": "images/course-tpcsawgrass-sale.avif",
-  "courseLogo": "images/logo-sawgrass-white.avif",
-  "courseLogoHorizontal": "images/logo-tpcsawgrass-white-horizontal.avif",
-  "status": "paid"
+  ]
 }

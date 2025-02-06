@@ -2,13 +2,19 @@
   "id": "yale",
   "name": "Yale",
   "fullName": "Yale",
-  "actionId": 12,
+  "type": "standard",
+  "elevation": 250,
+  "video": "https://www.youtube.com/watch?v=M9na4WKxJTo",
   "sku": "yale",
-  "par": "70",
   "buyCourseDescription": "Tee off at the Yale Golf Course, an enchanting 18-hole gem located in New Haven, CT, repeatedly hailed as the #1 university golf course in the country by leading golf publications and celebrated as a “national treasure” by golf icon Ben Crenshaw. Embrace the opportunity to forge your own path on this historic course that perfectly combines captivating beauty and challenging play.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/yale.avif",
+  "courseImage": "images/courses/overview/yale.avif",
+  "courseBuyImage": "images/courses/overview/yale.avif",
+  "courseLogo": "images/courses/logos/yale.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [1262.425, 49.741, 333.495]
       }
     }
-  ],
-  "courseImage": "images/course-yale.avif",
-  "courseBuyImage": "images/course-yale.avif",
-  "courseLogo": "images/logo-yale-white.avif",
-  "courseLogoHorizontal": "images/yale-logo-with-text.avif",
-  "status": "paid"
+  ]
 }

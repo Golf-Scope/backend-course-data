@@ -12,13 +12,15 @@ const getCoordinatesFromCourseJson = async () => {
   const courseJsonFiles = await readdir(COURSE_JSON_DIR);
 
   const courseHoleCoordinates = {};
+  const courseElevations = {};
 
   for (const courseJsonFile of courseJsonFiles) {
     const filePath = resolve(`${COURSE_JSON_DIR}/${courseJsonFile}`);
     const contents = await readFile(filePath, { encoding: 'utf8' });
-    const { id: courseId, holes } = JSON.parse(contents);
+    const { id: courseId, holes, elevation } = JSON.parse(contents);
 
     courseHoleCoordinates[courseId] = [];
+    courseElevations[courseId] = elevation;
 
     holes.forEach((h) => {
       courseHoleCoordinates[courseId].push(h);
@@ -40,6 +42,7 @@ const getCoordinatesFromCourseJson = async () => {
         courseHoleCoordinates[course] = courseHoleCoordinates[
           COURSES.VALHALLA
         ].slice(0, COURSE_HOLE_PARS[course].length);
+        courseElevations[course] = 0;
       }
       continue;
     }
@@ -70,6 +73,11 @@ const getCoordinatesFromCourseJson = async () => {
   await writeFile(
     '../src/course-hole-coordinates.js',
     `module.exports = ${JSON.stringify(courseHoleCoordinates, null, 2)}`
+  );
+
+  await writeFile(
+    '../src/course-elevations.js',
+    `module.exports = ${JSON.stringify(courseElevations, null, 2)}`
   );
 
   console.log('\nCourse distances (in yards):\n');

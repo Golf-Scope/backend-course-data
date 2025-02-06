@@ -2,13 +2,19 @@
   "id": "bayhill",
   "name": "Bay Hill",
   "fullName": "Bay Hill",
-  "actionId": 26,
+  "type": "standard",
+  "elevation": 100,
+  "video": "https://www.youtube.com/watch?v=7VCYN884kB8",
   "sku": "bayhill",
-  "par": "72",
   "buyCourseDescription": "Host of the PGA TOUR’s Arnold Palmer Invitational presented by Mastercard, Bay Hill is known for its demanding layout and beautiful scenery. Set amidst Central Florida’s lush rolling hills, the serene yet challenging experience is regarded as one of the harder stops on TOUR, with undulating greens, lengthy par 3s and enticing par 5s. For those who dare to take it on, Bay Hill encourages golfers to think creatively and to play boldly.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/bayhill.avif",
+  "courseImage": "images/courses/overview/bayhill.avif",
+  "courseBuyImage": "images/courses/overview/bayhill.avif",
+  "courseLogo": "images/courses/logos/bayhill.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [-210.757, 29.979, -853.746]
       }
     }
-  ],
-  "courseImage": "images/course-bay-hill.avif",
-  "courseBuyImage": "images/course-bay-hill.avif",
-  "courseLogo": "images/logo-bayhill-white-horizontal.avif",
-  "courseLogoHorizontal": "images/logo-bayhill-white-horizontal.avif",
-  "status": "paid"
+  ]
 }

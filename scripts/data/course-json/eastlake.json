@@ -1,14 +1,20 @@
 {
   "id": "eastlake",
   "name": "East Lake 2023",
-  "fullName": "East Lake Golf Club 2023",
-  "actionId": 21,
+  "fullName": "East Lake 2023",
+  "type": "standard",
+  "elevation": 1050,
+  "video": null,
   "sku": "eastlake",
-  "par": "70",
   "buyCourseDescription": "East Lake Golf Club in Atlanta, Georgia is a par 70 course known for its rich history and challenging layout. Home to golf legend Bobby Jones, it's been the permanent host of the PGA Tour's Tour Championship since 2005. With beautifully manicured fairways and greens, it offers a unique and rewarding experience for golfers of all skill levels.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": ["eastlake2024"],
+  "courseTile": "images/courses/tiles/eastlake.avif",
+  "courseImage": "images/courses/overview/eastlake.avif",
+  "courseBuyImage": "images/courses/overview/eastlake.avif",
+  "courseLogo": "images/courses/logos/eastlake.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [116.392, 42.818, 964.388]
       }
     }
-  ],
-  "courseImage": "images/course-east-lake.avif",
-  "courseBuyImage": "images/course-east-lake.avif",
-  "courseLogo": "images/logo-east-lake.avif",
-  "courseLogoHorizontal": "images/logo-eastlake-locked.avif",
-  "status": "paid"
+  ]
 }

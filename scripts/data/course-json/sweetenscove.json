@@ -2,13 +2,19 @@
   "id": "sweetenscove",
   "name": "Sweetens Cove",
   "fullName": "Sweetens Cove",
-  "actionId": 32,
+  "type": "standard",
+  "elevation": 600,
+  "video": "https://www.youtube.com/watch?v=Ga9zSSJDdOg",
   "sku": "sweetenscove",
-  "par": "72",
   "buyCourseDescription": "Beautiful. Strategic. Fun. Sweetens Cove, a masterpiece crafted by visionary designers Rob Collins and Tad King, epitomizes the essence of modern golf. Nestled in the foothills of Appalachia, just 30 minutes from Chattanooga, Tennessee, its unique nine-hole, 18-pin routing ensures endless variety and challenge for each hole. There’s no lavish clubhouse or driving range—just a trailer, a few carts, and a playground for golfers to unleash their imagination and creativity.",
   "price": "$6.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/sweetenscove.avif",
+  "courseImage": "images/courses/overview/sweetenscove.avif",
+  "courseBuyImage": "images/courses/overview/sweetenscove.avif",
+  "courseLogo": "images/courses/logos/sweetenscove.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [236.387, 2.613, -194.232]
       }
     }
-  ],
-  "courseImage": "images/course-sweetens.avif",
-  "courseBuyImage": "images/course-sweetens.avif",
-  "courseLogo": null,
-  "courseLogoHorizontal": null,
-  "status": "paid"
+  ]
 }

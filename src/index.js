@@ -9,6 +9,7 @@ const {
   COURSE_HOLE_PARS,
   COURSE_MODE_PARS,
 } = require('./course-constants');
+const COURSE_ELEVATIONS = require('./course-elevations');
 const courseHoleCoordinates = require('./course-hole-coordinates');
 
 const getHorizontalDistanceFromCoordinates = (x1, x2, z1, z2) => {
@@ -112,6 +113,7 @@ module.exports = {
   COURSE_HOLE_PARS,
   COURSE_MODE_PARS,
   STROKES_GAINED_CATEGORIES,
+  COURSE_ELEVATIONS,
   convertLieType,
   calculateStrokesGainedForRound,
   calculateStrokesGainedForShot,

@@ -2,13 +2,19 @@
   "id": "harbourtown",
   "name": "Harbour Town",
   "fullName": "Harbour Town",
-  "actionId": 27,
+  "type": "standard",
+  "elevation": 0,
+  "video": "https://www.youtube.com/watch?v=tSwlUKlWh4U",
   "sku": "harbourtown",
-  "par": "71",
   "buyCourseDescription": "Nestled within Hilton Head Island’s Sea Pines Resort, Harbour Town’s lush fairways wind through maritime forest and marsh, offering both beauty and strategic challenge. Known as the crowning achievement of famed designer Pete Dye and design consultant Jack Nicklaus, Harbour Town demands finesse, imagination, and shot making. Each spring, the course plays host to the PGA TOUR’s RBC Heritage featuring one of golf’s most recognizable vistas with the iconic lighthouse-framed 18th hole.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/harbourtown.avif",
+  "courseImage": "images/courses/overview/harbourtown.avif",
+  "courseBuyImage": "images/courses/overview/harbourtown.avif",
+  "courseLogo": "images/courses/logos/harbourtown.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [574.647, 2.776, -296.447]
       }
     }
-  ],
-  "courseImage": "images/course-harbourtown.avif",
-  "courseBuyImage": "images/course-harbourtown.avif",
-  "courseLogo": "images/logo-harbour-town-white.avif",
-  "courseLogoHorizontal": "images/logo-harbour-town-white.avif",
-  "status": "paid"
+  ]
 }

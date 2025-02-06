@@ -2,13 +2,19 @@
   "id": "pebblebeach",
   "name": "Pebble Beach",
   "fullName": "Pebble Beach",
-  "actionId": 4,
+  "type": "standard",
+  "elevation": 0,
+  "video": "https://www.youtube.com/watch?v=4P3tVIZLphc",
   "sku": "pebblebeach",
-  "par": "72",
   "buyCourseDescription": "Known by many as ‘the greatest meeting of land and sea,’ Pebble Beach Golf Links hugs the rugged coastline and has wide open views of Carmel  Bay, opening to the Pacific Ocean on the south side of the Monterey Peninsula. In 2001, it became the first public course to be selected as the No. 1 Golf Course in America by Golf Digest.",
   "price": "$14.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/pebblebeach.avif",
+  "courseImage": "images/courses/overview/pebblebeach.avif",
+  "courseBuyImage": "images/courses/overview/pebblebeach-buy.avif",
+  "courseLogo": "images/courses/logos/pebblebeach.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [520.183, 44.262, 1064.43]
       }
     }
-  ],
-  "courseImage": "images/course-pebble.avif",
-  "courseBuyImage": "images/course-pebble-buy.avif",
-  "courseLogo": "images/logo-pebblebeach-white.avif",
-  "courseLogoHorizontal": null,
-  "status": "paid"
+  ]
 }

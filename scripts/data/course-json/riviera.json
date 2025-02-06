@@ -2,13 +2,19 @@
   "id": "riviera",
   "name": "Riviera",
   "fullName": "The Riviera Country Club",
-  "actionId": 25,
+  "type": "standard",
+  "elevation": 300,
+  "video": "https://www.youtube.com/watch?v=RV-i-oN9EWM",
   "sku": "riviera",
-  "par": "71",
   "buyCourseDescription": "Located in Los Angeles’ Pacific Palisades, The Riviera Country Club has been at the pinnacle of golf for nearly a century. Ranked as one of the top 25 golf courses in the United States, the 18 holes continuously challenge the world's best. Legendary player Hale Irwin attests that \\\"no two holes are alike and the course has been placed, rather than forced, into the land.\\\" Currently home to The Genesis Invitational, Riviera will also host golf's elite in 2028 as the official site of the Olympics golf tournament.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/riviera.avif",
+  "courseImage": "images/courses/overview/riviera.avif",
+  "courseBuyImage": "images/courses/overview/riviera.avif",
+  "courseLogo": "images/courses/logos/riviera.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [764.703, 55.208, 996.874]
       }
     }
-  ],
-  "courseImage": "images/course-riviera.avif",
-  "courseBuyImage": "images/course-riviera.avif",
-  "courseLogo": "images/logo-riviera-white.avif",
-  "courseLogoHorizontal": "images/logo-riviera-white.avif",
-  "status": "paid"
+  ]
 }
