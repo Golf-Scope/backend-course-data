@@ -2,13 +2,19 @@
   "id": "wolf creek",
   "name": "Wolf Creek",
   "fullName": "Wolf Creek",
-  "actionId": 10,
+  "type": "standard",
+  "elevation": 1850,
+  "video": null,
   "sku": "wolfcreek",
-  "par": "72",
   "buyCourseDescription": "Located in Mesquite, Nevada, Wolf Creek tops countless bucket lists for golfers all around the globe. The steep elevation changes and sloped greens make it just as challenging as it is fun. With multiple tee box locations, pin placements, and wind settings to choose from, this course plays completely different every time.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/wolf-creek.avif",
+  "courseImage": "images/courses/overview/wolf-creek.avif",
+  "courseBuyImage": "images/courses/overview/wolf-creek.avif",
+  "courseLogo": "images/courses/logos/wolf-creek.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [-87.136, 69.562, -139.61]
       }
     }
-  ],
-  "courseImage": "images/course-wc.avif",
-  "courseBuyImage": "images/course-wc.avif",
-  "courseLogo": "images/logo-wc.avif",
-  "courseLogoHorizontal": null,
-  "status": "paid"
+  ]
 }

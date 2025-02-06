@@ -2,13 +2,19 @@
   "id": "standrewsoldreversed",
   "name": "St Andrews Reversed",
   "fullName": "St Andrews Links Reversed - Old Course",
-  "actionId": 30,
+  "type": "standard",
+  "elevation": 0,
+  "video": null,
   "sku": null,
-  "par": "72",
   "buyCourseDescription": "Tee off at St Andrews (reversed, The Home of Golf, where the game was first played over 600 years ago. Over the centuries the Old Course has withstood the test of time, hosting 30 Open Championships including the historic 150th Open in 2022. Known for its unique design, the Old Course features wide-open fairways and expansive, undulating greens. Despite its status, the Old Course remains public and open to all.",
   "price": "$14.99",
   "onSaleFrom": null,
   "isFirm": true,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/standrewsoldreversed.avif",
+  "courseImage": "images/courses/overview/standrewsold.avif",
+  "courseBuyImage": "images/courses/overview/standrewsold.avif",
+  "courseLogo": "images/courses/logos/standrewsold.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [1976.949, 9.115, 186.427]
       }
     }
-  ],
-  "courseImage": "images/course-standrewsold.avif",
-  "courseBuyImage": "images/course-standrewsold.avif",
-  "courseLogo": "images/logo-standrewsold-2.avif",
-  "courseLogoHorizontal": "images/logo-standrewsold-2.avif",
-  "status": "free"
+  ]
 }

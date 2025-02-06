@@ -2,21 +2,27 @@
   "id": "spyglasshill",
   "name": "Spyglass Hill",
   "fullName": "Spyglass Hill",
-  "actionId": 33,
+  "type": "standard",
+  "video": null,
+  "elevation": 150,
   "sku": "spyglasshill",
-  "par": "72",
   "buyCourseDescription": "Just a few miles north of the iconic Pebble Beach Golf Links, Spyglass Hill is celebrated as the toughest test on the Monterey Peninsula. Crafted by renowned designer Robert Trent Jones Sr., this course boasts a unique dual personality. The first five holes play along the coastal dunes, offering breathtaking Pacific Ocean views, before transitioning into the serene and challenging Del Monte Forest. Known affectionately as \"Spy,\" this course co-hosts the prestigious AT&T Pebble Beach Pro-Am on the PGA TOUR.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/spyglasshill.avif",
+  "courseImage": "images/courses/overview/spyglasshill.avif",
+  "courseBuyImage": "images/courses/overview/spyglasshill.avif",
+  "courseLogo": "images/courses/logos/spyglasshill.avif",
   "holes": [
     {
       "hole": 1,
       "par": 5,
       "pinCoordinates": {
-        "easy": [-500.311, 38.1, 128.941],
-        "medium": [-480.871, 38.343, 128.671],
-        "hard": [-499.721, 38.293, 119.351]
+        "easy": [-501.031, 38.079, 126.951],
+        "medium": [-478.291, 38.351, 128.621],
+        "hard": [-498.221, 38.383, 116.721]
       },
       "teeCoordinates": {
         "front": [-292.521, 70.217, -209.859],
@@ -28,9 +34,9 @@
       "hole": 2,
       "par": 4,
       "pinCoordinates": {
-        "easy": [-690.384, 51.095, -202.362],
-        "medium": [-701.014, 50.976, -200.562],
-        "hard": [-684.694, 51.165, -201.622]
+        "easy": [-701.314, 50.971, -202.172],
+        "medium": [-694.034, 50.97, -199.852],
+        "hard": [-682.354, 51.256, -204.402]
       },
       "teeCoordinates": {
         "front": [-526.599, 44.658, -66.965],
@@ -42,9 +48,9 @@
       "hole": 3,
       "par": 3,
       "pinCoordinates": {
-        "easy": [-822.605, 39.738, -177.217],
-        "medium": [-830.194, 39.595, -181.102],
-        "hard": [-821.994, 39.95, -188.002]
+        "easy": [-829.054, 39.611, -179.742],
+        "medium": [-821.674, 39.785, -178.492],
+        "hard": [-825.154, 39.811, -186.512]
       },
       "teeCoordinates": {
         "front": [-760.66, 48.665, -228.344],
@@ -56,9 +62,9 @@
       "hole": 4,
       "par": 4,
       "pinCoordinates": {
-        "easy": [-628.153, 30.646, 109.824],
-        "medium": [-621.863, 31.752, 90.314],
-        "hard": [-622.632, 32.538, 73.873]
+        "easy": [-629.243, 30.661, 106.594],
+        "medium": [-622.163, 31.789, 92.474],
+        "hard": [-623.627, 32.521, 73.686]
       },
       "teeCoordinates": {
         "front": [-758.863, 39.651, -112.116],
@@ -70,9 +76,9 @@
       "hole": 5,
       "par": 3,
       "pinCoordinates": {
-        "easy": [-578.143, 35.587, 261.766],
-        "medium": [-563.683, 35.531, 246.776],
-        "hard": [-585.283, 35.656, 255.366]
+        "easy": [-584.913, 35.632, 259.756],
+        "medium": [-574.953, 35.322, 253.106],
+        "hard": [-564.023, 35.505, 246.106]
       },
       "teeCoordinates": {
         "front": [-572.463, 35.151, 183.726],
@@ -84,9 +90,9 @@
       "hole": 6,
       "par": 4,
       "pinCoordinates": {
-        "easy": [-254.73, 51.047, 58.338],
-        "medium": [-241.42, 51.974, 48.758],
-        "hard": [-252.93, 52.055, 39.028]
+        "easy": [-241.51, 51.946, 49.928],
+        "medium": [-255.19, 51.02, 59.118],
+        "hard": [-249.29, 52.22, 36.388]
       },
       "teeCoordinates": {
         "front": [-468.24, 35.004, 233.848],
@@ -98,9 +104,9 @@
       "hole": 7,
       "par": 5,
       "pinCoordinates": {
-        "easy": [133.913, 45.19, 372.033],
-        "medium": [124.842, 44.952, 367.503],
-        "hard": [116.663, 44.756, 361.823]
+        "easy": [117.883, 44.805, 366.223],
+        "medium": [130.543, 45.094, 373.273],
+        "hard": [125.073, 44.954, 368.223]
       },
       "teeCoordinates": {
         "front": [-172.307, 54.75, 70.893],
@@ -112,9 +118,9 @@
       "hole": 8,
       "par": 4,
       "pinCoordinates": {
-        "easy": [-87.742, 65.084, 22.167],
-        "medium": [-91.512, 64.943, 31.447],
-        "hard": [-79.482, 64.338, 35.627]
+        "easy": [-91.432, 64.984, 29.777],
+        "medium": [-84.812, 65.031, 23.177],
+        "hard": [-78.732, 64.355, 34.637]
       },
       "teeCoordinates": {
         "front": [70.968, 48.138, 255.437],
@@ -126,9 +132,9 @@
       "hole": 9,
       "par": 4,
       "pinCoordinates": {
-        "easy": [-159.414, 82.812, -372.149],
-        "medium": [-161.484, 83.585, -393.319],
-        "hard": [-170.214, 83.68, -379.379]
+        "easy": [-167.714, 83.701, -393.399],
+        "medium": [-160.724, 83.595, -394.469],
+        "hard": [-159.914, 83.432, -387.179]
       },
       "teeCoordinates": {
         "front": [-13.244, 70.36, -102.609],
@@ -140,9 +146,9 @@
       "hole": 10,
       "par": 4,
       "pinCoordinates": {
-        "easy": [46.14, 75.353, -155.258],
-        "medium": [45.43, 75.394, -149.068],
-        "hard": [51.74, 75.388, -140.958]
+        "easy": [46.51, 75.411, -146.108],
+        "medium": [42.74, 75.42, -149.988],
+        "hard": [47.01, 75.316, -137.938]
       },
       "teeCoordinates": {
         "front": [-87.45, 83.871, -397.928],
@@ -154,9 +160,9 @@
       "hole": 11,
       "par": 5,
       "pinCoordinates": {
-        "easy": [323.239, 64.435, 136.37],
-        "medium": [313.259, 64.359, 131.73],
-        "hard": [333.409, 64.708, 122.69]
+        "easy": [319.739, 64.393, 136.8],
+        "medium": [316.339, 64.396, 133.34],
+        "hard": [335.429, 64.764, 120.96]
       },
       "teeCoordinates": {
         "front": [104.179, 75.082, -144.52],
@@ -168,9 +174,9 @@
       "hole": 12,
       "par": 3,
       "pinCoordinates": {
-        "easy": [376.733, 58.152, 204.462],
-        "medium": [355.373, 58.153, 222.152],
-        "hard": [365.903, 57.96, 216.332]
+        "easy": [362.723, 57.936, 218.792],
+        "medium": [377.303, 58.148, 206.122],
+        "hard": [373.143, 58.213, 210.242]
       },
       "teeCoordinates": {
         "front": [407.093, 64.636, 134.042],
@@ -182,9 +188,9 @@
       "hole": 13,
       "par": 4,
       "pinCoordinates": {
-        "easy": [765.304, 77.211, 462.608],
-        "medium": [760.534, 76.965, 453.888],
-        "hard": [765.274, 77.658, 473.218]
+        "easy": [763.654, 77.633, 473.428],
+        "medium": [763.074, 77.08, 457.858],
+        "hard": [768.034, 77.981, 465.348]
       },
       "teeCoordinates": {
         "front": [524.773, 66.598, 294.551],
@@ -196,9 +202,9 @@
       "hole": 14,
       "par": 5,
       "pinCoordinates": {
-        "easy": [471.523, 68.292, 116.679],
-        "medium": [450.923, 67.595, 129.559],
-        "hard": [467.453, 67.743, 129.549]
+        "easy": [459.571, 67.673, 129.423],
+        "medium": [444.373, 67.54, 128.939],
+        "hard": [468.213, 68.232, 117.249]
       },
       "teeCoordinates": {
         "front": [795.073, 79.707, 404.829],
@@ -210,9 +216,9 @@
       "hole": 15,
       "par": 3,
       "pinCoordinates": {
-        "easy": [548.349, 67.486, 133.339],
-        "medium": [543.359, 67.332, 126.449],
-        "hard": [561.939, 67.698, 131.529]
+        "easy": [542.399, 67.296, 124.389],
+        "medium": [546.039, 67.433, 131.709],
+        "hard": [562.979, 67.675, 130.409]
       },
       "teeCoordinates": {
         "front": [498.689, 71.513, 74.149],
@@ -224,9 +230,9 @@
       "hole": 16,
       "par": 4,
       "pinCoordinates": {
-        "easy": [353.998, 69.127, -15.337],
-        "medium": [354.168, 69.29, -24.227],
-        "hard": [370.978, 68.564, -14.197]
+        "easy": [367.447, 68.708, -10.829],
+        "medium": [354.965, 69.28, -24.781],
+        "hard": [350.716, 69.252, -13.777]
       },
       "teeCoordinates": {
         "front": [607.598, 74.062, 61.373],
@@ -238,9 +244,9 @@
       "hole": 17,
       "par": 4,
       "pinCoordinates": {
-        "easy": [151.569, 81.693, -254.204],
-        "medium": [159.259, 81.588, -248.784],
-        "hard": [142.059, 81.268, -244.884]
+        "easy": [158.939, 81.582, -247.304],
+        "medium": [152.069, 81.698, -254.394],
+        "hard": [150.408, 81.479, -245.71]
       },
       "teeCoordinates": {
         "front": [253.839, 73.8, -40.084],
@@ -252,9 +258,9 @@
       "hole": 18,
       "par": 4,
       "pinCoordinates": {
-        "easy": [-100.827, 90.39, -469.026],
-        "medium": [-106.067, 90.995, -480.416],
-        "hard": [-112.327, 90.911, -474.256]
+        "easy": [-111.217, 90.901, -472.866],
+        "medium": [-106.337, 90.995, -480.076],
+        "hard": [-117.307, 91.113, -478.906]
       },
       "teeCoordinates": {
         "front": [154.07, 91.593, -322.668],
@@ -262,10 +268,5 @@
         "back": [234.743, 91.235, -283.286]
       }
     }
-  ],
-  "courseImage": "images/course-spyglasshill.avif",
-  "courseBuyImage": "images/course-spyglasshill.avif",
-  "courseLogo": "images/logo-spyglasshill.avif",
-  "courseLogoHorizontal": "images/logo-spyglasshill.avif",
-  "status": "paid"
+  ]
 }

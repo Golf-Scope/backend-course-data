@@ -2,13 +2,19 @@
   "id": "cliffs",
   "name": "Cliffs",
   "fullName": "Cliffs",
-  "actionId": 9,
+  "type": "standard",
+  "elevation": 0,
+  "video": null,
   "sku": null,
-  "par": "71",
   "buyCourseDescription": null,
   "price": null,
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/cliffs.avif",
+  "courseImage": "images/courses/overview/cliffs.avif",
+  "courseBuyImage": "images/courses/overview/cliffs.avif",
+  "courseLogo": null,
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [33.3, 18.15, 304.5]
       }
     }
-  ],
-  "courseImage": "images/course-cliffs.avif",
-  "courseBuyImage": "images/course-cliffs.avif",
-  "courseLogo": null,
-  "courseLogoHorizontal": null,
-  "status": "free"
+  ]
 }

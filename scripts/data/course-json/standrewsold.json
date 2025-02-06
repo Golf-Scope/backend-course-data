@@ -2,13 +2,19 @@
   "id": "standrewsold",
   "name": "St Andrews Links",
   "fullName": "St Andrews Links - Old Course",
-  "actionId": 22,
+  "type": "standard",
+  "elevation": 0,
+  "video": "https://www.youtube.com/watch?v=9YkmCCo9OvI",
   "sku": "standrewsold",
-  "par": "72",
   "buyCourseDescription": "Tee off at St Andrews, The Home of Golf, where the game was first played over 600 years ago. Over the centuries the Old Course has withstood the test of time, hosting 30 Open Championships including the historic 150th Open in 2022. Known for its unique design, the Old Course features wide-open fairways and expansive, undulating greens. Despite its status, the Old Course remains public and open to all.",
   "price": "$14.99",
   "onSaleFrom": null,
   "isFirm": true,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/standrewsold.avif",
+  "courseImage": "images/courses/overview/standrewsold.avif",
+  "courseBuyImage": "images/courses/overview/standrewsold.avif",
+  "courseLogo": "images/courses/logos/standrewsold.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [1941.356, 9.546, 108.085]
       }
     }
-  ],
-  "courseImage": "images/course-standrewsold.avif",
-  "courseBuyImage": "images/course-standrewsold.avif",
-  "courseLogo": "images/logo-standrewsold-2.avif",
-  "courseLogoHorizontal": "images/logo-standrewsold-2.avif",
-  "status": "paid"
+  ]
 }

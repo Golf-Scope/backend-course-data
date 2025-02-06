@@ -2,13 +2,19 @@
   "id": "quailhollow",
   "name": "Quail Hollow",
   "fullName": "Quail Hollow",
-  "actionId": 28,
+  "type": "standard",
+  "elevation": 600,
+  "video": "https://www.youtube.com/watch?v=nY6XVdJ-73k",
   "sku": "quailhollow",
-  "par": "71",
   "buyCourseDescription": "Steeped in golf history, Quail Hollow Club plays host to the PGA TOUR’s Wells Fargo Championship and soon, the 2025 PGA Championship.  Quail Hollow Club also features “The Green Mile”, the three-hole finishing stretch that has become known as one of the most challenging finishes on the PGA TOUR.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/quailhollow.avif",
+  "courseImage": "images/courses/overview/quailhollow.avif",
+  "courseBuyImage": "images/courses/overview/quailhollow.avif",
+  "courseLogo": "images/courses/logos/quailhollow.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [275.907, 184.69, -106.186]
       }
     }
-  ],
-  "courseImage": "images/course-quailhollow.avif",
-  "courseBuyImage": "images/course-quailhollow.avif",
-  "courseLogo": "images/logo-quailhollow-white.avif",
-  "courseLogoHorizontal": "images/logo-quailhollowwhite.avif",
-  "status": "paid"
+  ]
 }

@@ -2,13 +2,19 @@
   "id": "tpcscottsdale",
   "name": "TPC Scottsdale",
   "fullName": "TPC Scottsdale",
-  "actionId": 5,
+  "type": "standard",
+  "elevation": 1500,
+  "video": "https://www.youtube.com/watch?v=lnRZBfUvz5g",
   "sku": "tpcscottsdale",
-  "par": "71",
   "buyCourseDescription": "Home of the largest-attended tournament in the world, the fan-favorite WM Phoenix Open, TPC Scottsdale is a masterful blend of challenge and playability – compelling the sport’s top players and recreational golfers alike. TPC Scottsdale has hosted some of contemporary golf’s greatest moments since opening in 1986.",
   "price": "$9.99",
   "isFirm": false,
   "onSaleFrom": null,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/tpcscottsdale.avif",
+  "courseImage": "images/courses/overview/tpcscottsdale.avif",
+  "courseBuyImage": "images/courses/overview/tpcscottsdale.avif",
+  "courseLogo": "images/courses/logos/tpcscottsdale.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [1368.106, 6.954, 339.195]
       }
     }
-  ],
-  "courseImage": "images/course-tpcscottsdale.avif",
-  "courseBuyImage": "images/course-tpcscottsdale.avif",
-  "courseLogo": "images/logo-tpcscottsdale-white.avif",
-  "courseLogoHorizontal": "images/logo-tpcscottsdale-white-horizontal.avif",
-  "status": "paid"
+  ]
 }

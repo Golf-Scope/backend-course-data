@@ -2,13 +2,19 @@
   "id": "castle links",
   "name": "Castle Links",
   "fullName": "Castle Links",
-  "actionId": 7,
+  "type": "standard",
+  "elevation": 0,
+  "video": "https://www.youtube.com/watch?v=YNenfiaU3_U",
   "sku": null,
-  "par": "72",
   "buyCourseDescription": "",
   "price": null,
   "isFirm": true,
   "onSaleFrom": null,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/castle-links.avif",
+  "courseImage": "images/courses/overview/castle-links.avif",
+  "courseBuyImage": "images/courses/overview/castle-links.avif",
+  "courseLogo": "images/courses/logos/castle-links.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [982.204, 12.203, 1392.034]
       }
     }
-  ],
-  "courseImage": "images/course-castle.avif",
-  "courseBuyImage": "images/course-castle.avif",
-  "courseLogo": null,
-  "courseLogoHorizontal": null,
-  "status": "free"
+  ]
 }

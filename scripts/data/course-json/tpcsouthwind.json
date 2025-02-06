@@ -2,13 +2,19 @@
   "id": "tpcsouthwind",
   "name": "TPC Southwind",
   "fullName": "TPC Southwind",
-  "actionId": 17,
+  "type": "standard",
+  "elevation": 350,
+  "video": "https://www.youtube.com/watch?v=a5z5x-lYfgQ",
   "sku": "tpcsouthwind",
-  "par": "71",
   "buyCourseDescription": "Immerse yourself in the challenge of the PGA Tour’s TPC Southwind. Take on the very same holes that professional golfers conquer in the prestigious FedEx St. Jude Championship. From the breathtaking fairways to the iconic island green of the 11th hole and the infamously tough 18th hole, we have recreated every detail. Experience the exhilaration and relish the challenge of playing golf at TPC Southwind!",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/tpcsouthwind.avif",
+  "courseImage": "images/courses/overview/tpcsouthwind.avif",
+  "courseBuyImage": "images/courses/overview/tpcsouthwind.avif",
+  "courseLogo": "images/courses/logos/tpcsouthwind.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [1610.585, 67.306, 1238.875]
       }
     }
-  ],
-  "courseImage": "images/course-tpcsouthwind.avif",
-  "courseBuyImage": "images/course-tpcsouthwind.avif",
-  "courseLogo": "images/logo-tpcsouthwind-white.avif",
-  "courseLogoHorizontal": "images/logo-tpcsouthwind-white-horizontal.avif",
-  "status": "paid"
+  ]
 }

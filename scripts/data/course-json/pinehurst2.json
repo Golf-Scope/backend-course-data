@@ -2,13 +2,19 @@
   "id": "pinehurst2",
   "name": "Pinehurst No. 2",
   "fullName": "Pinehurst No. 2",
-  "actionId": 2,
+  "type": "standard",
+  "elevation": 500,
+  "video": "https://www.youtube.com/watch?v=1QF65CM5eT0",
   "sku": "pinehurst2",
-  "par": "72",
-  "buyCourseDescription": "Pinehurst No. 2, the centerpiece of the legendary Pinehurst Resort, remains one of the world’s most celebrated golf courses. It has served as the site of more single golf championships than any course in America. As the first U.S. Open Anchor Site, the championship will return to Pinehurst in 2024, 2029, 2035, 2041 and 2047.",
+  "buyCourseDescription": "Pinehurst No. 2, the centerpiece of the legendary Pinehurst Resort, remains one of the world’s most celebrated golf courses. It has served as the site of more single golf championships than any course in America. As the first U.S. Open Anchor Site, the championship will return to Pinehurst in 2029, 2035, 2041 and 2047.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/pinehurst2.avif",
+  "courseImage": "images/courses/overview/pinehurst2.avif",
+  "courseBuyImage": "images/courses/overview/pinehurst2.avif",
+  "courseLogo": "images/courses/logos/pinehurst2.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [836.9, 45.545, 820.3]
       }
     }
-  ],
-  "courseImage": "images/course-pinehurst2.avif",
-  "courseBuyImage": "images/course-pinehurst2.avif",
-  "courseLogo": "images/logo-pinehurst2-white.avif",
-  "courseLogoHorizontal": null,
-  "status": "paid"
+  ]
 }

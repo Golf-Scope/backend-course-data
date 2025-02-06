@@ -2,14 +2,19 @@
   "id": "castlepines",
   "name": "Castle Pines",
   "fullName": "Castle Pines",
+  "type": "standard",
+  "video": "https://www.youtube.com/watch?v=Kz4lDhqndYw",
   "elevation": 6200,
-  "actionId": 36,
   "sku": "castlepines",
-  "par": "72",
   "buyCourseDescription": "The 2024 home of the PGA TOUR's BMW Championship, Castle Pines Golf Club is renowned for its stunning natural beauty and challenging layout. Designed by Jack Nicklaus, this private club is set against the backdrop of the majestic Rocky Mountains. Featuring drastic elevation changes, towering pine trees and native wildlife, Castle Pines is truly one of the most serene and picturesque tracks in America",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/castlepines.avif",
+  "courseImage": "images/courses/overview/castlepines.avif",
+  "courseBuyImage": "images/courses/overview/castlepines.avif",
+  "courseLogo": "images/courses/logos/castlepines.avif",
   "holes": [
     {
       "hole": 1,
@@ -263,10 +268,5 @@
         "back": [-20.017, 104.844, 13.414]
       }
     }
-  ],
-  "courseImage": "images/course-castlepines.avif",
-  "courseBuyImage": "images/course-castlepines.avif",
-  "courseLogo": "images/logo-castlepines.avif",
-  "courseLogoHorizontal": "images/logo-castlepines.avif",
-  "status": "paid"
+  ]
 }

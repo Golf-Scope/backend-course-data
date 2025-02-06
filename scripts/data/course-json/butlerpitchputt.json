@@ -2,13 +2,19 @@
   "id": "butlerpitchputt",
   "name": "Butler Pitch & Putt",
   "fullName": "Butler Pitch & Putt",
-  "actionId": 31,
+  "type": "standard",
+  "elevation": 450,
+  "video": "https://youtu.be/8a_HuySg_eE",
   "sku": "butlerpitchputt",
-  "par": "27",
   "buyCourseDescription": "Butler Pitch and Putt is a historic 9-hole, par-3 golf course which has been a cultural staple in downtown Austin, Texas since 1949. With holes ranging from 60 to 105 yards, Butler operates on a first-come, first-play basis—no tee times, just drop a ball into the chute to claim your spot. Home of the Tito's Shorties Classic and supporting partner of Save Muny and Youth On Course, Butler Pitch and Putt truly embodies the spirit of making golf accessible and enjoyable for all.",
   "price": "$4.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/butlerpitchputt.avif",
+  "courseImage": "images/courses/overview/butlerpitchputt.avif",
+  "courseBuyImage": "images/courses/overview/butlerpitchputt.avif",
+  "courseLogo": "images/courses/logos/butlerpitchputt.avif",
   "holes": [
     {
       "hole": 1,
@@ -136,10 +142,5 @@
         "back": [871.319, 8.809, 850.988]
       }
     }
-  ],
-  "courseImage": "images/course-butlerpitchputt.avif",
-  "courseBuyImage": "images/course-butlerpitchputt.avif",
-  "courseLogo": "images/logo-butlerpitchputt.avif",
-  "courseLogoHorizontal": "images/logo-butlerpitchputt.avif",
-  "status": "paid"
+  ]
 }

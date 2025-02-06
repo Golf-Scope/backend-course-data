@@ -2,13 +2,19 @@
   "id": "alpine",
   "name": "Alpine",
   "fullName": "Alpine",
-  "actionId": 8,
+  "type": "standard",
+  "elevation": 4000,
+  "video": null,
   "sku": null,
-  "par": "71",
   "buyCourseDescription": null,
   "price": null,
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/alpine.avif",
+  "courseImage": "images/courses/overview/alpine.avif",
+  "courseBuyImage": "images/courses/overview/alpine.avif",
+  "courseLogo": null,
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [740.566, 23.763, 288.913]
       }
     }
-  ],
-  "courseImage": "images/course-alpine.avif",
-  "courseBuyImage": "images/course-alpine.avif",
-  "courseLogo": null,
-  "courseLogoHorizontal": null,
-  "status": "free"
+  ]
 }

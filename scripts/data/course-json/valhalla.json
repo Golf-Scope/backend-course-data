@@ -2,13 +2,19 @@
   "id": "valhalla",
   "name": "Valhalla",
   "fullName": "Valhalla",
-  "actionId": 3,
+  "type": "standard",
+  "elevation": 650,
+  "video": null,
   "sku": "valhalla",
-  "par": "72",
-  "buyCourseDescription": "Located in Louisville, Kentucky, this Jack Nicklaus designed course was host to the Ryder Cup and two PGA Championships won by Tiger Woods and Rory McIlroy.",
+  "buyCourseDescription": "Valhalla Golf Club, located in Louisville, Kentucky, is a private golf club designed by Jack Nicklaus and opened in 1986. Valhalla played host to the 2008 Ryder Cup and has also been the site of three PGA Championships. Most recently, Xander Schauffele lifted the Wanamaker Trophy at the 2024 PGA Championship.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/valhalla.avif",
+  "courseImage": "images/courses/overview/valhalla.avif",
+  "courseBuyImage": "images/courses/overview/valhalla.avif",
+  "courseLogo": "images/courses/logos/valhalla.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [496.587, 31.997, 76.464]
       }
     }
-  ],
-  "courseImage": "images/course-valhalla.avif",
-  "courseBuyImage": "images/course-valhalla.avif",
-  "courseLogo": "images/logo-valhalla.avif",
-  "courseLogoHorizontal": null,
-  "status": "free"
+  ]
 }

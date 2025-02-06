@@ -11,6 +11,7 @@
   "onSaleFrom": null,
   "isFirm": false,
   "additionalCourses": null,
+  "courseTile": "images/courses/tiles/peaks.avif",
   "courseImage": "images/courses/overview/peaks.avif",
   "courseBuyImage": "images/courses/overview/peaks.avif",
   "courseLogo": "images/courses/logos/peaks.avif",

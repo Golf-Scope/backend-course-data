@@ -2,13 +2,19 @@
   "id": "kiawah",
   "name": "Kiawah",
   "fullName": "Kiawah",
-  "actionId": 11,
+  "type": "standard",
+  "elevation": 0,
+  "video": null,
   "sku": "kiawah",
-  "par": "72",
   "buyCourseDescription": "Join the ranks of avid golfers who have The Ocean Course at Kiawah Island Golf Resort on their must-play list for a true test of skill. Golf Digest ranked the Ocean Course as the #4 Public Golf Course in the U.S. and 24th among the Top 100 Greatest U.S. Golf Courses.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": true,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/kiawah.avif",
+  "courseImage": "images/courses/overview/kiawah.avif",
+  "courseBuyImage": "images/courses/overview/kiawah.avif",
+  "courseLogo": "images/courses/logos/kiawah.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [1444.444, 17.192, 449.984]
       }
     }
-  ],
-  "courseImage": "images/course-kiawah.avif",
-  "courseBuyImage": "images/course-kiawah.avif",
-  "courseLogo": "images/logo-kiawah-white.avif",
-  "courseLogoHorizontal": null,
-  "status": "paid"
+  ]
 }

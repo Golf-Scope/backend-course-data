@@ -2,13 +2,19 @@
   "id": "kapalua",
   "name": "Kapalua",
   "fullName": "Kapalua",
-  "actionId": 24,
+  "type": "standard",
+  "elevation": 250,
+  "video": "https://www.youtube.com/watch?v=6pv248UCtNA",
   "sku": "kapalua",
-  "par": "73",
   "buyCourseDescription": "Located on the island of Maui, The Plantation Course at Kapalua has been recognized as the best golf course in Hawaii for fifteen consecutive years by Golfweek. Designed by the renowned Ben Crenshaw and Bill Coore, the course offers dramatic ocean views from virtually every hole. For over a quarter century, Kapalua has played host to The Sentry, the PGA TOUR’s season-opening event.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/kapalua.avif",
+  "courseImage": "images/courses/overview/kapalua.avif",
+  "courseBuyImage": "images/courses/overview/kapalua.avif",
+  "courseLogo": "images/courses/logos/kapalua.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [1087.836, 95.659, 752.657]
       }
     }
-  ],
-  "courseImage": "images/course-kapalua.avif",
-  "courseBuyImage": "images/course-kapalua.avif",
-  "courseLogo": "images/logo-kapalua-white.avif",
-  "courseLogoHorizontal": "images/logo-kapalua-white.avif",
-  "status": "paid"
+  ]
 }

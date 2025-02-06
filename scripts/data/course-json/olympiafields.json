@@ -2,13 +2,19 @@
   "id": "olympiafields",
   "name": "Olympia Fields",
   "fullName": "Olympia Fields Country Club",
-  "actionId": 19,
+  "type": "standard",
+  "elevation": 650,
+  "video": "https://www.youtube.com/watch?v=ZY2v9fGkQFE",
   "sku": "olympiafields",
-  "par": "70",
   "buyCourseDescription": "History awaits at Olympia Fields Country Club. The \"Host of Champions\" is one of only eight courses that have hosted the US Open, PGA Championship, US Amateur, and US Senior Open. Conceived in 1914, this gargantuan retreat in the woods below Chicago was the 'world's largest private golf club' and a classic example of Golden Age design. The PGA TOUR returns to Olympia Fields in August '23 for the BMW Championship.",
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": false,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/olympiafields.avif",
+  "courseImage": "images/courses/overview/olympiafields.avif",
+  "courseBuyImage": "images/courses/overview/olympiafields.avif",
+  "courseLogo": "images/courses/logos/olympiafields.avif",
   "holes": [
     {
       "hole": 1,
@@ -262,10 +268,5 @@
         "back": [692.104, 8.156, 664.163]
       }
     }
-  ],
-  "courseImage": "images/course-olympia-fields.avif",
-  "courseBuyImage": "images/course-olympia-fields.avif",
-  "courseLogo": "images/logo-olympia.avif",
-  "courseLogoHorizontal": "images/logo-olympia-locked.avif",
-  "status": "paid"
+  ]
 }

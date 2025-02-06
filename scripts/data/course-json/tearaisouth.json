@@ -10,10 +10,11 @@
   "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": true,
-  "additionalCourses": null,
+  "additionalCourses": ["tearaiputting"],
+  "courseTile": "images/courses/tiles/tearaisouth.avif",
   "courseImage": "images/courses/overview/tearaisouth.avif",
   "courseBuyImage": "images/courses/overview/tearaisouth.avif",
-  "courseLogo": "images/courses/logos/tearaisouth.avif",
+  "courseLogo": "images/courses/logos/tearai.avif",
   "holes": [
     {
       "hole": 1,
