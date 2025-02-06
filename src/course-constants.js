@@ -23,6 +23,7 @@ const COURSES = {
   PINEHURST_2: 'pinehurst2',
   QUAIL_HOLLOW: 'quailhollow',
   RIVIERA: 'riviera',
+  ROYAL_PORTRUSH_DUNLUCE_LINKS: 'royalportrushdunlucelinks',
   SPYGLASS_HILL: 'spyglasshill',
   ST_ANDREWS_OLD: 'standrewsold',
   ST_ANDREWS_OLD_REVERSED: 'standrewsoldreversed',
@@ -89,6 +90,9 @@ const COURSE_HOLE_PARS = {
     4, 4, 4, 3, 4, 3, 5, 4, 4, 5, 4, 4, 3, 4, 5, 4, 3, 4,
   ],
   [COURSES.RIVIERA]: [5, 4, 4, 3, 4, 3, 4, 4, 4, 4, 5, 4, 4, 3, 4, 3, 5, 4],
+  [COURSES.ROYAL_PORTRUSH_DUNLUCE_LINKS]: [
+    4, 5, 3, 4, 4, 3, 5, 4, 4, 4, 5, 5, 3, 4, 4, 3, 4, 4,
+  ],
   [COURSES.SPYGLASS_HILL]: [
     5, 4, 3, 4, 3, 4, 5, 4, 4, 4, 5, 3, 4, 5, 3, 4, 4, 4,
   ],
