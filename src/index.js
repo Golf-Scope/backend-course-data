@@ -24,7 +24,7 @@ const getTotalDistanceFromCoordinates = (x1, x2, y1, y2, z1, z2) => {
   );
 };
 
-const getTeeCoordinates = ({ course, hole, tee }) => {
+const getTeeCoordinates = ({ course, courseVersion, hole, tee }) => {
   if (!['front', 'middle', 'back'].includes(tee)) {
     throw new Error('Tee must be one of front, middle, back');
   }
@@ -38,18 +38,20 @@ const getTeeCoordinates = ({ course, hole, tee }) => {
   }
 
   const teeCoordinates =
-    courseHoleCoordinates[course][hole - 1].teeCoordinates[tee];
+    courseHoleCoordinates[`v${courseVersion}`][course][hole - 1].teeCoordinates[
+      tee
+    ];
 
   if (!teeCoordinates) {
     throw new Error(
-      `No tee coordinates found for ${course}, hole ${hole}, ${tee} tee`
+      `No tee coordinates found for ${course}, version ${courseVersion}, hole ${hole}, ${tee} tee`
     );
   }
 
   return teeCoordinates;
 };
 
-const getPinCoordinates = ({ course, hole, pin }) => {
+const getPinCoordinates = ({ course, courseVersion, hole, pin }) => {
   if (!['easy', 'medium', 'hard'].includes(pin)) {
     throw new Error('Pin must be one of easy, medium, hard');
   }
@@ -63,20 +65,32 @@ const getPinCoordinates = ({ course, hole, pin }) => {
   }
 
   const pinCoordinates =
-    courseHoleCoordinates[course][hole - 1].pinCoordinates[pin];
+    courseHoleCoordinates[`v${courseVersion}`][course][hole - 1].pinCoordinates[
+      pin
+    ];
 
   if (!pinCoordinates) {
     throw new Error(
-      `No pin coordinates found for ${course}, hole ${hole}, ${pin} pin`
+      `No pin coordinates found for ${course}, version ${courseVersion}, hole ${hole}, ${pin} pin`
     );
   }
 
   return pinCoordinates;
 };
 
-const getHoleDistanceTeeToPin = ({ course, hole, tee, pin }) => {
-  const teeCoordinates = getTeeCoordinates({ course, hole, tee });
-  const pinCoordinates = getPinCoordinates({ course, hole, pin });
+const getHoleDistanceTeeToPin = ({ course, courseVersion, hole, tee, pin }) => {
+  const teeCoordinates = getTeeCoordinates({
+    course,
+    courseVersion,
+    hole,
+    tee,
+  });
+  const pinCoordinates = getPinCoordinates({
+    course,
+    courseVersion,
+    hole,
+    pin,
+  });
 
   const [x1, z1] = [teeCoordinates[0], teeCoordinates[2]];
   const [x2, z2] = [pinCoordinates[0], pinCoordinates[2]];
@@ -84,7 +98,13 @@ const getHoleDistanceTeeToPin = ({ course, hole, tee, pin }) => {
   return getHorizontalDistanceFromCoordinates(x1, x2, z1, z2);
 };
 
-const getTotalDistanceForRound = ({ course, roundType, tee, pin }) => {
+const getTotalDistanceForRound = ({
+  course,
+  courseVersion,
+  roundType,
+  tee,
+  pin,
+}) => {
   if (!['18 holes', 'front 9', 'back 9'].includes(roundType)) {
     throw new Error('Round type must be one of 18 holes, front 9, back 9');
   }
@@ -101,7 +121,13 @@ const getTotalDistanceForRound = ({ course, roundType, tee, pin }) => {
 
   let totalDistance = 0;
   holes.forEach((h) => {
-    const holeDistance = getHoleDistanceTeeToPin({ course, hole: h, tee, pin });
+    const holeDistance = getHoleDistanceTeeToPin({
+      course,
+      courseVersion,
+      hole: h,
+      tee,
+      pin,
+    });
     totalDistance += holeDistance;
   });
 
