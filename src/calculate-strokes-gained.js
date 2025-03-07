@@ -319,6 +319,7 @@ const calculateStrokesGainedForRound = ({
       if (
         endEffectiveLie != null &&
         !KNOWN_STROKES_GAINED_LIE_TYPES.includes(endEffectiveLie) &&
+        endEffectiveLie !== 'water' && // water is allowed to be a final lie now
         greenSpeedOverride == null
       ) {
         badLies.push({
