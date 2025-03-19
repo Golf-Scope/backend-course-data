@@ -1,14 +1,18 @@
 const COURSES = {
   ALPINE: 'alpine',
   BAY_HILL: 'bayhill',
+  BETHPAGE_BLACK: 'bethpageblack',
   BUTLER_PITCH_PUTT: 'butlerpitchputt',
   CANYONS: 'canyons',
   CASTLE_LINKS: 'castle links',
   CASTLE_PINES: 'castlepines',
+  CAVES_VALLEY: 'cavesvalley',
   // The 2023 version of eastlake before it was redesigned
   EAST_LAKE: 'eastlake',
   // The 2024 version of eastlake after it was redesigned
   EAST_LAKE_2024: 'eastlake2024',
+  FIELDS_RANCH_EAST: 'fieldsrancheast',
+  FIELDS_RANCH_WEST: 'fieldsranchwest',
   CLIFFS: 'cliffs',
   HARBOUR_TOWN: 'harbourtown',
   JUMEIRAH_EARTH: 'jumeirahearth',
@@ -36,6 +40,7 @@ const COURSES = {
   THE_HAY_PUTTING: 'thehayputting',
   TORREY_PINES_NORTH: 'torreypinesnorth',
   TORREY_PINES_SOUTH: 'torreypinessouth',
+  TPC_RIVER_HIGHLANDS: 'tpcriverhighlands',
   TPC_SAWGRASS: 'tpcsawgrass',
   TPC_SCOTTSDALE: 'tpcscottsdale',
   TPC_SOUTHWIND: 'tpcsouthwind',
@@ -50,6 +55,9 @@ const PUTTING_COURSES = [COURSES.THE_HAY_PUTTING, COURSES.TE_ARAI_PUTTING];
 const COURSE_HOLE_PARS = {
   [COURSES.ALPINE]: [4, 3, 4, 5, 3, 4, 4, 4, 4, 5, 4, 3, 4, 3, 4, 5, 4, 4],
   [COURSES.BAY_HILL]: [4, 3, 4, 5, 4, 5, 3, 4, 4, 4, 4, 5, 4, 3, 4, 5, 3, 4],
+  [COURSES.BETHPAGE_BLACK]: [
+    4, 4, 3, 5, 4, 4, 5, 3, 4, 4, 4, 4, 5, 3, 4, 4, 3, 4,
+  ],
   [COURSES.BUTLER_PITCH_PUTT]: [3, 3, 3, 3, 3, 3, 3, 3, 3],
   [COURSES.CASTLE_LINKS]: [
     4, 5, 3, 4, 4, 4, 3, 4, 5, 4, 4, 5, 4, 3, 4, 4, 3, 5,
@@ -58,10 +66,19 @@ const COURSE_HOLE_PARS = {
     5, 4, 4, 3, 4, 4, 3, 5, 4, 4, 3, 4, 4, 5, 4, 3, 5, 4,
   ],
   [COURSES.CANYONS]: [4, 3, 5, 4, 4, 3, 5, 4, 4, 5, 3, 4, 4, 4, 5, 3, 4, 4],
+  [COURSES.CAVES_VALLEY]: [
+    4, 4, 5, 3, 4, 4, 5, 3, 4, 4, 4, 3, 5, 4, 3, 4, 4, 4,
+  ],
   [COURSES.CLIFFS]: [4, 5, 4, 3, 4, 4, 4, 3, 4, 4, 4, 4, 3, 5, 3, 4, 5, 4],
   [COURSES.EAST_LAKE]: [4, 3, 4, 4, 4, 5, 4, 4, 3, 4, 3, 4, 4, 4, 3, 4, 4, 5],
   [COURSES.EAST_LAKE_2024]: [
     4, 3, 4, 4, 4, 5, 4, 4, 3, 4, 3, 4, 4, 5, 3, 4, 4, 5,
+  ],
+  [COURSES.FIELDS_RANCH_EAST]: [
+    5, 4, 5, 3, 4, 4, 4, 3, 4, 4, 4, 4, 3, 5, 4, 4, 3, 5,
+  ],
+  [COURSES.FIELDS_RANCH_WEST]: [
+    5, 4, 3, 4, 3, 5, 4, 4, 5, 3, 4, 3, 4, 4, 4, 3, 5, 5,
   ],
   [COURSES.HARBOUR_TOWN]: [
     4, 5, 4, 3, 5, 4, 3, 4, 4, 4, 4, 4, 4, 3, 5, 4, 3, 4,
@@ -124,6 +141,9 @@ const COURSE_HOLE_PARS = {
   ],
   [COURSES.TORREY_PINES_SOUTH]: [
     4, 4, 3, 4, 4, 5, 4, 3, 5, 4, 3, 4, 5, 4, 4, 3, 4, 5,
+  ],
+  [COURSES.TPC_RIVER_HIGHLANDS]: [
+    4, 4, 4, 4, 3, 5, 4, 3, 4, 4, 3, 4, 5, 4, 4, 3, 4, 4,
   ],
   [COURSES.TPC_SAWGRASS]: [
     4, 5, 3, 4, 4, 4, 4, 3, 5, 4, 5, 4, 3, 4, 4, 5, 3, 4,
