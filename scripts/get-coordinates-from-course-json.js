@@ -27,14 +27,14 @@ const getCoordinatesFromCourseJson = async () => {
       courseHoleCoordinates[`v${version}`][courseId] = [];
       courseElevations[`v${version}`][courseId] = elevation;
 
-      holes.forEach((h) => {
+      for (const h of holes) {
         courseHoleCoordinates[`v${version}`][courseId].push(h);
-      });
+      }
     }
   }
 
   for (const course of Object.values(COURSES)) {
-    if (courseHoleCoordinates['v1'][course] || course === COURSES.TOPGOLF) {
+    if (courseHoleCoordinates.v1[course] || course === COURSES.TOPGOLF) {
       continue;
     }
 
@@ -46,10 +46,10 @@ const getCoordinatesFromCourseJson = async () => {
       course,
       '- using valhalla hole coordinates as a placeholder'
     );
-    courseHoleCoordinates['v1'][course] = courseHoleCoordinates['v2'][
+    courseHoleCoordinates.v1[course] = courseHoleCoordinates.v2[
       COURSES.VALHALLA
     ].slice(0, COURSE_HOLE_PARS[course].length);
-    courseElevations['v1'][course] = 0;
+    courseElevations.v1[course] = 0;
   }
 
   await writeFile(

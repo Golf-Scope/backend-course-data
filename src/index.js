@@ -120,7 +120,7 @@ const getTotalDistanceForRound = ({
         : [...FRONT_NINE, ...BACK_NINE];
 
   let totalDistance = 0;
-  holes.forEach((h) => {
+  for (const h of holes) {
     const holeDistance = getHoleDistanceTeeToPin({
       course,
       courseVersion,
@@ -128,8 +128,9 @@ const getTotalDistanceForRound = ({
       tee,
       pin,
     });
+    console.log('holeDistance', course, h, holeDistance);
     totalDistance += holeDistance;
-  });
+  }
 
   return totalDistance;
 };
