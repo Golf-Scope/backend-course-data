@@ -4,8 +4,8 @@ const {
 } = require('../src');
 const testRoundJson = require('./data/test-round.json');
 
-describe('strokes gained', function () {
-  it('Should calculate strokes gained correctly for a shot for various lie types', function () {
+describe('strokes gained', () => {
+  it('Should calculate strokes gained correctly for a shot for various lie types', () => {
     const shots = [
       {
         startLie: 'green',
@@ -374,7 +374,7 @@ describe('strokes gained', function () {
     ]);
   });
 
-  it('Should calculate strokes gained correctly for a round', function () {
+  it('Should calculate strokes gained correctly for a round', () => {
     expect(
       calculateStrokesGainedForRound({
         roundJson: testRoundJson,

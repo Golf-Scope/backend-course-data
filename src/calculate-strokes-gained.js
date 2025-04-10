@@ -74,27 +74,25 @@ const getExpectedStrokes = ({ difficulty, greenSpeed, lieType, distance }) => {
         lieType: 'rough',
         distance,
       });
-    } else {
-      return (
-        (2 / 3) *
-          _getExpectedStrokes({
-            difficulty,
-            greenSpeed,
-            lieType: 'rough',
-            distance,
-          }) +
-        (1 / 3) *
-          _getExpectedStrokes({
-            difficulty,
-            greenSpeed,
-            lieType: 'fairway',
-            distance,
-          })
-      );
     }
-  } else {
-    return _getExpectedStrokes({ difficulty, greenSpeed, lieType, distance });
+    return (
+      (2 / 3) *
+        _getExpectedStrokes({
+          difficulty,
+          greenSpeed,
+          lieType: 'rough',
+          distance,
+        }) +
+      (1 / 3) *
+        _getExpectedStrokes({
+          difficulty,
+          greenSpeed,
+          lieType: 'fairway',
+          distance,
+        })
+    );
   }
+  return _getExpectedStrokes({ difficulty, greenSpeed, lieType, distance });
 };
 
 const convertLieType = ({ lieType, distanceToHole }) => {
