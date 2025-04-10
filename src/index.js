@@ -128,7 +128,6 @@ const getTotalDistanceForRound = ({
       tee,
       pin,
     });
-    console.log('holeDistance', course, h, holeDistance);
     totalDistance += holeDistance;
   }
 
