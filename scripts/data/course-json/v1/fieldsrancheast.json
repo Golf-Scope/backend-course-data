@@ -1,0 +1,272 @@
+{
+  "id": "fieldsrancheast",
+  "name": "Fields Ranch East",
+  "fullName": "Fields Ranch East",
+  "type": "standard",
+  "elevation": 600,
+  "video": null,
+  "sku": null,
+  "buyCourseDescription": "Crafted by Gil Hanse, Fields Ranch East in Frisco, Texas is a bold, modern take on championship golf. The new home of the PGA of America and host site for the 2025 KPMG Women's PGA Championship, the East Course offers a challenging yet scenic experience for golfers of all skill levels.",
+  "price": null,
+  "onSaleFrom": null,
+  "isFirm": true,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/fieldsrancheast.avif",
+  "courseImage": "images/courses/overview/fieldsrancheast.avif",
+  "courseBuyImage": "images/courses/overview/fieldsrancheast.avif",
+  "courseLogo": "images/courses/logos/fieldsranch.avif",
+  "holes": [
+    {
+      "hole": 1,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [1297.83, 12.072, 1168.78],
+        "medium": [1306.41, 11.997, 1177.69],
+        "hard": [1313.21, 12.153, 1174.6]
+      },
+      "teeCoordinates": {
+        "front": [1487.477, 10.334, 1569.564],
+        "middle": [1485.22, 11.193, 1623.41],
+        "back": [1486.793, 12.132, 1681.524]
+      }
+    },
+    {
+      "hole": 2,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1005.64, 17.896, 824.75],
+        "medium": [1016.546, 17.442, 839.72],
+        "hard": [999.52, 17.713, 831.97]
+      },
+      "teeCoordinates": {
+        "front": [1223.876, 9.224, 1101.377],
+        "middle": [1245.357, 9.299, 1139.366],
+        "back": [1257.498, 9.417, 1163.347]
+      }
+    },
+    {
+      "hole": 3,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [887.24, 17.143, 325.65],
+        "medium": [897.08, 17.063, 325.54],
+        "hard": [900.84, 16.924, 332.17]
+      },
+      "teeCoordinates": {
+        "front": [919.495, 7.147, 756.222],
+        "middle": [945.547, 12.458, 780.506],
+        "back": [959.846, 14.297, 820.9]
+      }
+    },
+    {
+      "hole": 4,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [1034.58, 15.984, 211.41],
+        "medium": [1022.87, 16.153, 203.67],
+        "hard": [1026.92, 16.568, 193.98]
+      },
+      "teeCoordinates": {
+        "front": [933.836, 15.854, 173.093],
+        "middle": [900.65, 19.852, 245.017],
+        "back": [856.0, 21.609, 297.5]
+      }
+    },
+    {
+      "hole": 5,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1042.41, 9.997, 622.01],
+        "medium": [1036.27, 10.066, 641.58],
+        "hard": [1031.59, 9.893, 623.91]
+      },
+      "teeCoordinates": {
+        "front": [1054.871, 12.745, 277.735],
+        "middle": [1077.572, 14.679, 239.758],
+        "back": [1088.003, 15.414, 214.99]
+      }
+    },
+    {
+      "hole": 6,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1306.04, 11.722, 1051.46],
+        "medium": [1310.25, 11.725, 1061.68],
+        "hard": [1301.509, 11.876, 1072.518]
+      },
+      "teeCoordinates": {
+        "front": [1136.137, 13.145, 705.418],
+        "middle": [1089.577, 13.514, 663.582],
+        "back": [1074.893, 13.417, 647.455]
+      }
+    },
+    {
+      "hole": 7,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1603.225, 11.999, 1246.36],
+        "medium": [1596.324, 12.021, 1239.679],
+        "hard": [1585.437, 11.708, 1251.082]
+      },
+      "teeCoordinates": {
+        "front": [1434.599, 13.594, 1071.927],
+        "middle": [1397.715, 13.284, 1039.898],
+        "back": [1355.97, 12.64, 1046.218]
+      }
+    },
+    {
+      "hole": 8,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [1798.85, 13.192, 1302.57],
+        "medium": [1786.09, 12.989, 1304.93],
+        "hard": [1780.79, 12.914, 1311.55]
+      },
+      "teeCoordinates": {
+        "front": [1692.669, 13.211, 1231.234],
+        "middle": [1651.131, 11.919, 1249.74],
+        "back": [1637.134, 11.289, 1278.189]
+      }
+    },
+    {
+      "hole": 9,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [1588.844, 14.286, 1626.499],
+        "medium": [1598.11, 14.175, 1621.81],
+        "hard": [1590.77, 14.043, 1610.26]
+      },
+      "teeCoordinates": {
+        "front": [1814.271, 12.009, 1327.739],
+        "middle": [1843.348, 12.425, 1314.964],
+        "back": [1855.031, 12.805, 1291.989]
+      }
+    },
+    {
+      "hole": 10,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [2063.19, 14.132, 1539.31],
+        "medium": [2065.09, 14.069, 1528.64],
+        "hard": [2058.11, 13.864, 1522.38]
+      },
+      "teeCoordinates": {
+        "front": [1788.557, 12.45, 1702.147],
+        "middle": [1698.463, 12.593, 1706.49],
+        "back": [1662.29, 13.694, 1705.108]
+      }
+    },
+    {
+      "hole": 11,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [2397.86, 13.224, 1422.38],
+        "medium": [2406.76, 13.411, 1423.46],
+        "hard": [2395.043, 13.158, 1430.564]
+      },
+      "teeCoordinates": {
+        "front": [2136.757, 13.296, 1589.611],
+        "middle": [2098.825, 13.441, 1591.592],
+        "back": [2064.673, 14.685, 1584.859]
+      }
+    },
+    {
+      "hole": 12,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [2842.816, 14.402, 1247.183],
+        "medium": [2853.987, 14.618, 1248.113],
+        "hard": [2852.326, 14.62, 1235.983]
+      },
+      "teeCoordinates": {
+        "front": [2588.289, 13.382, 1395.645],
+        "middle": [2526.44, 13.27, 1423.802],
+        "back": [2469.403, 13.403, 1420.037]
+      }
+    },
+    {
+      "hole": 13,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2737.42, 15.512, 1016.57],
+        "medium": [2724.38, 16.315, 1006.04],
+        "hard": [2731.84, 16.484, 992.41]
+      },
+      "teeCoordinates": {
+        "front": [2820.347, 12.499, 1117.914],
+        "middle": [2857.174, 13.618, 1155.231],
+        "back": [2876.29, 14.271, 1198.77]
+      }
+    },
+    {
+      "hole": 14,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [2202.5, 13.762, 898.29],
+        "medium": [2198.93, 13.739, 902.96],
+        "hard": [2204.95, 13.643, 912.76]
+      },
+      "teeCoordinates": {
+        "front": [2619.972, 13.447, 1094.118],
+        "middle": [2656.398, 13.919, 1085.878],
+        "back": [2697.742, 13.744, 1080.924]
+      }
+    },
+    {
+      "hole": 15,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [2005.487, 24.074, 683.172],
+        "medium": [2014.62, 23.904, 692.62],
+        "hard": [2000.277, 24.085, 692.656]
+      },
+      "teeCoordinates": {
+        "front": [2212.044, 16.23, 784.909],
+        "middle": [2224.965, 15.731, 819.815],
+        "back": [2250.229, 15.769, 864.383]
+      }
+    },
+    {
+      "hole": 16,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [2291.79, 13.262, 1153.57],
+        "medium": [2294.19, 13.386, 1141.42],
+        "hard": [2307.48, 13.319, 1151.98]
+      },
+      "teeCoordinates": {
+        "front": [2035.831, 17.053, 825.609],
+        "middle": [2033.195, 18.38, 785.814],
+        "back": [2030.252, 18.941, 764.811]
+      }
+    },
+    {
+      "hole": 17,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [2112.307, 13.18, 1258.837],
+        "medium": [2118.624, 13.147, 1250.457],
+        "hard": [2115.696, 13.189, 1279.606]
+      },
+      "teeCoordinates": {
+        "front": [2189.768, 12.966, 1211.478],
+        "middle": [2219.681, 12.31, 1225.326],
+        "back": [2241.621, 12.506, 1237.752]
+      }
+    },
+    {
+      "hole": 18,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [1674.521, 12.659, 1631.696],
+        "medium": [1674.531, 12.426, 1622.316],
+        "hard": [1682.705, 12.57, 1644.139]
+      },
+      "teeCoordinates": {
+        "front": [2034.13, 12.418, 1325.457],
+        "middle": [2071.99, 12.924, 1293.68],
+        "back": [2092.744, 12.527, 1280.721]
+      }
+    }
+  ]
+}

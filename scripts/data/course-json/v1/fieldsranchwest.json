@@ -1,0 +1,272 @@
+{
+  "id": "fieldsranchwest",
+  "name": "Fields Ranch West",
+  "fullName": "Fields Ranch West",
+  "type": "standard",
+  "elevation": 600,
+  "video": null,
+  "sku": null,
+  "buyCourseDescription": "Designed by Beau Welling, Fields Ranch West rolls through North Texas prairie with wide fairways, bold elevation changes, and creative greens, offering a fun and strategic round for all players.",
+  "price": null,
+  "onSaleFrom": null,
+  "isFirm": true,
+  "additionalCourses": null,
+  "courseTile": "images/courses/tiles/fieldsranchwest.avif",
+  "courseImage": "images/courses/overview/fieldsranchwest.avif",
+  "courseBuyImage": "images/courses/overview/fieldsranchwest.avif",
+  "courseLogo": "images/courses/logos/fieldsranch.avif",
+  "holes": [
+    {
+      "hole": 1,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [1173.218, 9.448, 1222.537],
+        "medium": [1188.561, 9.739, 1219.058],
+        "hard": [1164.099, 9.843, 1231.745]
+      },
+      "teeCoordinates": {
+        "front": [1408.816, 8.522, 1612.574],
+        "middle": [1429.63, 10.554, 1659.636],
+        "back": [1453.66, 11.683, 1705.673]
+      }
+    },
+    {
+      "hole": 2,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [888.934, 8.66, 952.753],
+        "medium": [892.263, 8.678, 964.127],
+        "hard": [874.496, 8.502, 951.557]
+      },
+      "teeCoordinates": {
+        "front": [1139.403, 9.035, 1101.129],
+        "middle": [1180.996, 9.519, 1151.456],
+        "back": [1204.183, 9.665, 1173.167]
+      }
+    },
+    {
+      "hole": 3,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [800.276, 8.601, 796.566],
+        "medium": [804.8, 8.409, 804.285],
+        "hard": [795.234, 8.829, 783.207]
+      },
+      "teeCoordinates": {
+        "front": [883.943, 7.517, 859.802],
+        "middle": [940.696, 8.954, 909.918],
+        "back": [969.325, 8.999, 925.816]
+      }
+    },
+    {
+      "hole": 4,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [725.215, 18.78, 452.572],
+        "medium": [730.189, 19.262, 439.129],
+        "hard": [739.864, 19.333, 435.464]
+      },
+      "teeCoordinates": {
+        "front": [745.279, 8.439, 797.523],
+        "middle": [738.088, 8.409, 818.884],
+        "back": [725.136, 8.346, 860.59]
+      }
+    },
+    {
+      "hole": 5,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [797.089, 24.364, 233.601],
+        "medium": [830.839, 24.365, 229.783],
+        "hard": [815.797, 24.667, 229.854]
+      },
+      "teeCoordinates": {
+        "front": [789.383, 25.756, 322.188],
+        "middle": [801.524, 25.718, 338.698],
+        "back": [798.661, 25.914, 359.006]
+      }
+    },
+    {
+      "hole": 6,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [284.173, 10.941, 333.41],
+        "medium": [271.888, 10.857, 335.282],
+        "hard": [269.144, 10.704, 326.039]
+      },
+      "teeCoordinates": {
+        "front": [722.205, 26.172, 189.43],
+        "middle": [771.85, 26.774, 191.553],
+        "back": [837.762, 26.89, 204.366]
+      }
+    },
+    {
+      "hole": 7,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [233.111, 7.487, 669.74],
+        "medium": [233.152, 7.387, 663.741],
+        "hard": [238.819, 7.584, 674.098]
+      },
+      "teeCoordinates": {
+        "front": [209.336, 9.365, 369.956],
+        "middle": [201.332, 10.658, 340.275],
+        "back": [209.963, 11.515, 281.859]
+      }
+    },
+    {
+      "hole": 8,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [380.493, 6.987, 970.738],
+        "medium": [393.2, 7.398, 976.382],
+        "hard": [384.528, 7.315, 987.399]
+      },
+      "teeCoordinates": {
+        "front": [255.05, 5.671, 868.356],
+        "middle": [273.397, 5.865, 790.803],
+        "back": [266.366, 6.258, 740.756]
+      }
+    },
+    {
+      "hole": 9,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [430.796, 16.105, 472.696],
+        "medium": [430.855, 16.113, 481.489],
+        "hard": [421.195, 15.872, 480.544]
+      },
+      "teeCoordinates": {
+        "front": [414.477, 5.071, 787.152],
+        "middle": [416.53, 6.139, 866.793],
+        "back": [428.784, 5.735, 948.343]
+      }
+    },
+    {
+      "hole": 10,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [322.027, 11.545, 435.43],
+        "medium": [326.32, 11.664, 443.242],
+        "hard": [313.432, 11.709, 441.477]
+      },
+      "teeCoordinates": {
+        "front": [435.148, 18.594, 404.052],
+        "middle": [470.571, 21.594, 404.511],
+        "back": [491.444, 23.363, 404.041]
+      }
+    },
+    {
+      "hole": 11,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [690.417, 26.143, 297.968],
+        "medium": [704.946, 26.208, 299.931],
+        "hard": [697.888, 25.827, 287.616]
+      },
+      "teeCoordinates": {
+        "front": [368.948, 15.664, 371.461],
+        "middle": [333.773, 15.635, 380.176],
+        "back": [310.972, 15.614, 384.761]
+      }
+    },
+    {
+      "hole": 12,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [551.236, 26.438, 379.0],
+        "medium": [555.124, 26.3, 390.541],
+        "hard": [569.794, 25.793, 384.114]
+      },
+      "teeCoordinates": {
+        "front": [678.963, 25.848, 349.329],
+        "middle": [707.744, 25.829, 358.99],
+        "back": [728.968, 26.171, 360.268]
+      }
+    },
+    {
+      "hole": 13,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [477.198, 7.313, 803.564],
+        "medium": [472.534, 7.516, 810.388],
+        "hard": [480.592, 7.788, 817.987]
+      },
+      "teeCoordinates": {
+        "front": [482.851, 15.738, 527.365],
+        "middle": [501.638, 22.301, 435.626],
+        "back": [512.09, 25.384, 383.541]
+      }
+    },
+    {
+      "hole": 14,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [627.967, 17.495, 464.316],
+        "medium": [623.385, 17.761, 454.627],
+        "hard": [640.49, 17.779, 460.521]
+      },
+      "teeCoordinates": {
+        "front": [539.11, 6.103, 732.2],
+        "middle": [534.604, 6.115, 770.7],
+        "back": [528.912, 7.325, 812.035]
+      }
+    },
+    {
+      "hole": 15,
+      "par": 4,
+      "pinCoordinates": {
+        "easy": [635.449, 8.518, 691.051],
+        "medium": [637.042, 8.461, 679.457],
+        "hard": [631.556, 8.551, 702.396]
+      },
+      "teeCoordinates": {
+        "front": [677.661, 19.369, 452.186],
+        "middle": [677.025, 21.766, 419.752],
+        "back": [681.173, 23.224, 397.789]
+      }
+    },
+    {
+      "hole": 16,
+      "par": 3,
+      "pinCoordinates": {
+        "easy": [513.222, 8.255, 870.172],
+        "medium": [512.734, 7.833, 888.532],
+        "hard": [521.901, 8.24, 868.811]
+      },
+      "teeCoordinates": {
+        "front": [625.53, 7.301, 795.99],
+        "middle": [637.44, 7.285, 787.5],
+        "back": [657.945, 7.612, 777.274]
+      }
+    },
+    {
+      "hole": 17,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [901.037, 9.417, 1276.056],
+        "medium": [888.074, 9.278, 1278.893],
+        "hard": [898.603, 9.514, 1288.385]
+      },
+      "teeCoordinates": {
+        "front": [602.462, 8.053, 1136.672],
+        "middle": [527.09, 8.046, 1078.249],
+        "back": [457.438, 8.379, 1011.383]
+      }
+    },
+    {
+      "hole": 18,
+      "par": 5,
+      "pinCoordinates": {
+        "easy": [1222.455, 10.575, 1449.003],
+        "medium": [1226.944, 10.552, 1435.072],
+        "hard": [1213.956, 10.3, 1431.687]
+      },
+      "teeCoordinates": {
+        "front": [913.737, 9.366, 1122.673],
+        "middle": [881.827, 9.361, 1100.615],
+        "back": [863.627, 9.38, 1088.632]
+      }
+    }
+  ]
+}
