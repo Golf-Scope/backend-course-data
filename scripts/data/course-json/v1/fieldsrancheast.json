@@ -1,13 +1,13 @@
 {
   "id": "fieldsrancheast",
   "name": "Fields Ranch East",
-  "fullName": "Fields Ranch East",
+  "fullName": "Fields Ranch East - Omni PGA Frisco",
   "type": "standard",
   "elevation": 600,
   "video": null,
-  "sku": null,
+  "sku": "fieldsrancheast",
   "buyCourseDescription": "Crafted by Gil Hanse, Fields Ranch East in Frisco, Texas is a bold, modern take on championship golf. The new home of the PGA of America and host site for the 2025 KPMG Women's PGA Championship, the East Course offers a challenging yet scenic experience for golfers of all skill levels.",
-  "price": null,
+  "price": "$9.99",
   "onSaleFrom": null,
   "isFirm": true,
   "additionalCourses": null,
@@ -69,7 +69,7 @@
       "teeCoordinates": {
         "front": [933.836, 15.854, 173.093],
         "middle": [900.65, 19.852, 245.017],
-        "back": [856.0, 21.609, 297.5]
+        "back": [856, 21.609, 297.5]
       }
     },
     {
@@ -97,7 +97,7 @@
       "teeCoordinates": {
         "front": [1136.137, 13.145, 705.418],
         "middle": [1089.577, 13.514, 663.582],
-        "back": [1074.893, 13.417, 647.455]
+        "back": [1076.6, 13.606, 646.93]
       }
     },
     {

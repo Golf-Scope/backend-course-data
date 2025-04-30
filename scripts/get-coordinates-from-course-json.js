@@ -1,4 +1,4 @@
-// `pushd scripts && node get-coordinates-from-course-json.js && node run-course-json-checksums.js && popd`
+// `pushd scripts && node get-coordinates-from-course-json.js && node run-course-json-checksums.js && popd && npm run format`
 
 const { readdir, readFile, writeFile } = require('node:fs/promises');
 const { resolve } = require('node:path');
